@@ -20,5 +20,7 @@ dependencies:
   - xz=5.2.5=haf1e3a3_1
   - zlib=1.2.11=h7795811_1010
   - pip:
+    - beautifulsoup4==4.9.3
     - pymysql==1.0.2
+    - soupsieve==2.2.1
 prefix: /Users/jtorres/anaconda3/envs/calpass
