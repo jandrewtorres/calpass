@@ -1,0 +1,52 @@
+1. List of all potential features/columns:
+
+< college engineering link >
+
+	instructor_name
+	alias
+	title
+	phone
+	office
+	office_hours ? * FILL AS N/A VALUE FOR NOW
+	course_title
+	sect
+	type
+	days
+	start_time
+	end_time
+	location
+
+	< instructor link >
+	
+		course_title
+		sect
+		class_id
+		type
+		GE
+		req
+		days
+		start_time
+		end_time
+		instructor_name ***
+		location ***
+		l_cap
+		e_cap
+		enrl
+		wait
+		drop
+		
+2. Table schemas:
+
+	--------------
+	| instructor |
+	----------------------------------------------------------------------------------
+	PRIMARY_KEY     								  |
+	| alias	|| instructor_name || instructor_title || phone || office || office_hours |
+	__________________________________________________________________________________|
+
+	---------
+	| class |
+	--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	PRIMARY_KEY
+	| class_id || course_title || sect || type || GE || req || days || start_time || end_time || instructor_name || location || l_cap || e_cap || enrl || wait || drop |
+	____________________________________________________________________________________________________________________________________________________________________
