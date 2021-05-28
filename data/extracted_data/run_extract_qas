@@ -1,0 +1,3 @@
+#!/bin/bash
+
+python extract_qas.py > qas.txt

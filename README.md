@@ -20,18 +20,7 @@ Spring 2021
     
 - Hunter Borlik
 
-## Run CalPAss
-
-It's assumed conda is installed.
-
-Load the environment from environment.yml:
-
-`$ conda env create -f environment.yml` 
-
-Export the environment into environment.yml:
-
-`$ conda env export > environment.yml`
-
-Run :
+## Run Cal
 
 `$ calpass`
+
