@@ -1,0 +1,861 @@
+When is [professor] teaching [course_number]
+When is [professor] teaching [course_number]
+What times is the course [course_number] being offered on [day]
+What is [professor] [phone_number]
+Where is [course_number] being taught
+What [day] of the week is [professor] not teaching on
+What [day] of the week is [professor] not teaching on
+In what building is [course_number] being offered
+When is [professor] done teaching on [day]
+When is [professor] done teaching on [day]
+Tell me [professor] office location
+Do you know [professor] office location
+Where can I find [professor] in between classes
+Can you tell me the location of [professor]’s office
+What is [professor] earliest lecture
+Do you know [professor] first lecture
+What is [professor] latest lecture
+Do you know [professor] last lecture on [day]
+Do you know [professor] last lecture on [day]
+How many sections of [course_number] are being taught this quarter
+How many sections of [course_number] are being taught this quarter by [professor]
+How many sections of [course_number] are being taught this quarter on [day]
+How many sections of [course_number] are being taught this quarter in [location]
+How long is the average class in the Statistics department
+How long is the average class in the CSSE department
+What [course_number] has the least amount of hours per week in the CSSE department
+What [course_number] has the most amount of hours per week in the CSSE department
+What is the title of [professor] in the CSSE department
+What is the title of [professor] in the Statistics department
+How many upper division classes is [professor] teaching
+How many upper division classes is [professor] teaching
+How many lower division classes is [professor] teaching
+How many lower division classes is [professor] teaching
+What is the number of professors teaching [course_number] 
+What is the number of professors teaching in the CSSE department
+What is the number of professors teaching in the Statistics department
+Does the [location] have a class in session
+What time is [professor] teaching [course_number]
+Tell me when [professor] is teaching [course_number] 
+When is the course [course_number] being offered on [day]
+What time is [course_number] being offered on [day]
+Can you tell me [professor]’s [phone_number]
+Do you know [professor]’s [phone_number]
+In what room is [course_number] being taught
+Where on campus is [course_number] being taught
+For what days is [professor] not teaching
+Can you tell me the days that [professor] is not teaching
+What building is [course_number] in
+What is the building of [course_number]
+What time is [professor] done teaching on [day]
+On [day] what time is [professor] done teaching
+Where is the office of [professor]
+Where is [professor]’s office
+What is the room number of [professor]’s office
+What time does [professor] start teaching
+What time does [professor] finish teaching
+How many sections of [course_number] are there this quarter
+What is the number of sections of [course_number] this quarter
+Tell me the number of sections of [course_number] this quarter 
+What is the number of sections of [course_number] being taught this quarter by [professor]
+Tell me the number of sections of [course_number] being taught this quarter on [day] 
+What is the number of sections of [course_number] being taught this quarter in [location]
+Can I take [course_number] and [course] together
+What days of the week is [course_number] scheduled for
+How many sections of [course] have openings
+Is [course] being taught in [quarter]-[year]
+Is [course] usually taught in the [quarter] quarter
+What terms is [course] scheduled for
+Who is teaching [course] this quarter
+Will [professor] be teaching [course] this quarter
+Where will [professor] be at [time] on [day]
+Will [professor] be available for [time] on [day]
+Will [professor] be available at [time] on [day]
+How many classes are being offered in [quarter]-[year]
+How many faculty are teaching [course]
+How many sections of [course] have class on [day]
+How many available seats are there in [course_number]
+What type of class is [course_number]
+Is [professor] teaching in [quarter]-[year]
+What are the prerequisites for [course]
+What are the corequisites for [course]
+Does [course] have any prerequisites
+Does [course] have any corequisites
+Is [course] offered in the [time]
+What classes are offered in the [time]
+What [time] classes are there
+Does [course_number] have a lab section
+What time is the lab section for [course_number]
+How many units is [course_number]
+How long is [course_number] including its lab
+How many classes is [professor] teaching in [quarter]-[year]
+Give me the [day] of the week [course_number] is offered
+Do you know what [day] of the week [course_number] is offered
+Do you know which [day] of the week [course_number] is offered
+What [day] of the week is [course_number] offered
+Tell me the [day] of the week [course_number] is offered
+Which [day] of the week is [course_number] offered
+What [day] of the week is [professor] free
+What [day] of the week is [professor] free
+What classes are taught in [location] 
+Tell me the classes that are taught in [location] 
+Can you give me the classes that are taught in [location] 
+Which classes are taught in [location] 
+How many classes are taught in [location] 
+Is [professor] available in the [time] 
+Is [professor] free in the [time] 
+Is [professor] busy in the [time] 
+Is [professor] unavailable in the [time] 
+Is there a [time] section for [course_number] 
+Tell me if there is a [time] section for [course_number] 
+Do you know if there is a [time] section for [course_number] 
+How many units is [course_number] worth
+How many classes does [professor] teach on [day]
+Which classes does [professor] teach on [day]
+What time does [professor] office hours end
+What time does [professor] office hours start
+Are there any sections of [course]
+Is [course] being taught this quarter
+Is [course] offered this quarter
+Can I take [course] this quarter
+Is [course] available
+How many sections of [course] are there
+Who is [course] being taught by
+Who is teaching [course] this quarter
+What professors are teaching [course] this quarter
+Who can I take [course] with
+What days is [course]-[section] being taught
+What days of the week is [course]-[section]
+When is [course]-[section] being taught
+What time is [course]-[section] being taught
+What time of day is [course]-[section] being taught
+Who is [course]-[section] taught by
+How many sections does [professor] teach
+What classes does [professor] teach
+Does [professor] teach [course]
+What sections does [professor] teach
+Does [professor] teach [course]-[section]
+Where is [professor]'s office
+What is [professor]'s phone number
+What type of class is [course]-[section]
+What is [professor]'s alias
+What time is [professor] office hours
+When are [professor] office hours
+Does [professor] have afternoon office hours
+Does [professor] have morning office hours
+Where and when are [professor] office hours
+What building are [professor] office hours
+What building is [course][section] in
+When is [course] in [location]
+Is [course] MWF
+Is [course] TR
+Is [course] MTRF
+Is [course] MTWR
+Does [professor] have office hours [day]
+Does [professor] have office hours today
+Does [professor] have office hours tomorrow
+What time is [course][section]
+Who teaches [course][section]
+Who is [alias]
+What is the capacity for [course][section]
+What is the capacity for [course]
+What college is [alias] affiliated with
+What college is [professor] affiliated with
+What college is professor [professor] affiliated with
+What college is Dr. [professor] affiliated with
+What day is [course] offered on
+Is [course][section] offered on [day]
+Does [course] have a lab
+How long has [professor] taught
+Are there any teachers with first name [professor]
+Are there any teachers with last name [professor]
+Are there are [course] being taught on [day]
+What day does [quarter] start
+What day does [quarter] end
+Is [professor] a Professor
+What [section] has the highest enrollment for [course]
+What [section] has the lowest enrollment for [course]
+What is the average class size for [professor]
+Which teacher teaches the most sections for [course]
+Which teacher teaches the least sections for [course]
+What is the latest start time for [course]
+What is the earliest start time for [course]
+Which teacher has [phone_number]
+Which teacher has [alias]
+What is the first name of [professor]
+Which teacher teaches the most classes in [department]
+Which teacher teaches the least classes in [department]
+Which teacher is at [location]
+Which [quarter] in [year] had the most sections for [course]
+Which [quarter] in [year] had the least sections for [course]
+Is [location] Available after [time]
+Is [location] Available before [time]
+Who is using [location] [time]
+What's the capacity of [location]
+What's the enrollment capacity of [location]
+Which classes are being taight in [location]
+Is [professor] teaching any in person classes
+When is [professor] available
+Can I visit [professor] [time]
+Who is teaching [course]
+Can I still enroll [course]
+What's the enrollment capacity of [course]
+What [professor]'s email address
+What 's the phone number of [professor]
+When is the office hour of [professor]
+Where is [professor]'s [course]
+What's this [phone_number] belongs to
+Which [professor] doesn't teach this quarter
+Is [course] virtual or in person
+Is [course] gonna be virtual
+Which in person class is available [time]
+Which virtual class is available [time]
+How to contact [professor]
+Is [professor] teaching [course]
+Does [professor] teach 500 level class
+Does [professor] teach 300 level class
+What is [professor]’s Alias
+What’s [professor]’s username
+What is [professor]’s email
+How can I contact [professor]
+What is [professor]’s title
+What’s [professor]’s phone number
+Do you have the phone number for [professor]
+How can I contact [professor]
+What’s [professor]'s title
+Where is [professor]’s office
+What is the room number of [professor]’s office
+Where can I find [professor]
+When does [professor] hold office hours today
+When does [professor] hold office hours
+What days does [professor] hold office hours
+When are [professor]’s office hours today
+When can I go to [professor]’s office hours today
+Does [professor] have hours today
+When are [professor]’s office hours today
+When are [professor]’s office hours
+What classes does [professor] teach
+What courses does [professor] teach
+What classes does [professor] teach
+Which classes are taught by [professor]
+What course does [professor] teach
+What does [professor] teach
+Does [professor] teach [course]
+Where does [professor] teach [course]
+When does [professor] teach [course]
+How many people can take [professor]'s section of [course]
+What is the location capacity of [professor]'s section of [course]
+What are the professors for [course]
+Who teaches [course]
+Who is [course] taught by
+What is the schedule for [course] [course]
+What time is [course] [course]
+What day is [course] [course]
+When is [course] [course]
+What days is [course] [course] taught
+What times is [course] [course] taught
+What is the name of [course]
+What is [course] called
+What is [course]
+What class is [course]
+What is the course number of [course]
+What class is [course]
+What is the course code of [course]
+How many sections of [course] are there
+When does [course] start today
+When does [course] start today
+How many sections of [course]
+What is [course] called
+Are there prerequisites for [course]
+Tell me the course number for [course]
+When is [course] [course] taught
+How many students can take [course]
+When would I get out of [course][course]
+Does [course][course] conflict with [course][course]
+How many courses does [department] offer
+How many classes does [department] offer
+What courses does [department] offer
+What [department] courses are offered
+What [department] classes are offered in the Fall
+What [department] classes are there
+What sections of [course] are offered
+What is the enrollment cap of [course]
+How many spots are there in [course]
+How many seats are there in [course]
+How many available seats are there in [course]
+How many open spots does [course] have
+Can I enroll in [course]
+Does [course] have open seats
+How long is the waitlist for [course]
+How many people are waiting in [course]
+Is there a waitlist for [course]
+What classes use [location]
+Who teaches in [location]
+When is [location] in use on [day]
+Is [location] available at [time] on [day]
+How many people can fit in [location]
+What is [location] called
+Is [course] taught in [location]
+Does [professor] use [location]
+Are there any [ge] courses in [location]
+Can I find [professor] in [location]
+What GE areas does [course] satisfy
+Which GE area does [course] satisfy
+What are the GE areas for [course]
+How many [course] sections are there
+What GE requirement is fulfilled by taking [course]
+What is the description for [course]
+Which course is [course]
+What is the enrollment cap for [course]
+What courses are taught by [professor]
+What is [professor]'s weekly schedule
+What times is [professor] available on [day]
+Where can I find [professor]'s office
+Which professor works in office [location]
+Which sections of [course] are taught by [professor]
+What is [professor]'s phone number
+Is [professor] a lecturer
+What is [professor]'s job title
+How many sections of independent study are advised by [professor]
+In which classroom is secion [course] of course [course] taught
+What courses are being taught in [location]
+What is the weekly schedule for [course] section [course]
+What is [professor]'s Cal Poly username
+How can I contact [professor]
+How many sections of independent study does [professor] advise
+How can I fulfill GE requirement [ge]
+How busy is [professor]
+What is [professor]'s email address
+Which professors teach [course]
+Who teaches section [course] of [course]
+Who are the [department] professors
+What are the courses offered by [department]
+Is [course] being offered
+Will [course] be offered
+How many courses is [professor] teaching
+How many classes is [professor] teaching
+Which professors are teaching [course]
+Who is teaching [course]
+Who will be teaching [course]
+Which professors are teaching [course]
+Who is teaching [course]
+Who will be teaching [course]
+Which [major] classes are being offered
+What [major] classes are being offered
+Which classes will [professor] be teaching
+When will [course] be offered
+When will [course] be offered
+What days is [course] on
+Where will [course] be located
+Where is [course] going to be
+Where will [course] be
+Where will [course] be taught
+What days will [course] be taught
+Which days will [course] be taught
+How many professors are teaching [course]
+Where is [professor]’s office
+Where is [professor] located
+Where is [professor]’s office hours
+What is [professor]’s contact
+What is [professor]’s phone number
+How do I contact [professor]
+What is the name for class [course]
+What is [course]
+Which classes fall under GE [ge]
+Which classes count for GE [ge]
+How many sections of [course] will be offered
+Which sections of [course] will be offered
+What is the enrollment capacity for [course]
+How many people have enrolled in [course]
+How many people are there in [course]
+How many people have waitlisted in [course]
+How many people are on the waitlist for [course]
+Which [major] [course_level] level classes are being offered
+What [course_level] level [major] classes are being offered
+Which [course_level] level classes are being offered by [professor]
+Can you search for class [course]
+Is there a lab for [course]
+Does [course] have a lab
+Is there a lab for [course]
+Does [course] have a lab
+What pre-reqs does [course] have
+How many pre-reqs does [course] have
+Does [course] have any pre-reqs
+What do I need to take before [course]
+What is the class number for [course]
+What is the class code for [course]
+What is [course]’s class number
+What is [course]’s class code
+Which class has the most sections
+Which [major] class has the most sections
+Which classes are offered on [day]
+Which [major] classes are offered on [day]
+Which classes are offered between [time] and [time]
+Which [major] classes are offered between [time] and [time]
+Which sections for [course] are offered between [time] and [time]
+What is [professor]’s alias
+What is [professor]’s Cal Poly username
+What is [professor]’s email
+What is the email for [professor]
+Can I take [course] with [course]
+Can I take both [course] and [course] at the same time
+Can I attend [professor]’s office hours and [professor]’s office hours
+Can I take [course] without having classes on [day]
+Can I take [course] without any classes on [day]
+Can I take [course] with only classes on [day]
+What is the total number of seats available for [course]
+What is the total number of seats available for [professor]’s [course]
+How many seats does [course] have
+How many seats of [course] are taught by [professor]
+How many students is [professor] teaching
+How many seats does [professor] have available
+Will [professor] have office hours at [time]
+Will [professor] have class at [time]
+Does [professor] have office hours on [day]
+Does [professor] have class on [day]
+Can I take a class with [professor] with less than [ecap] people
+Can I take [course] with less than [ecap] people
+Is there a class taught by [professor] that has less than [ecap] students
+Is there a section of [course] that has less than [ecap] students
+Does [professor] teach [major] classes
+Does [professor] teach any non-[major] classes
+How many [major] classes does [professor] teach
+How many non-[major] classes does [professor] teach
+Is [professor] teaching [course]
+Can I take [course] and attend [professor]’s office hours
+Can I take a class taught by [professor] and [professor]
+Can I take a [major] class taught by [professor] and a [major] class taught by [professor]
+What [course_level] classes is [professor] teaching
+What [course_level] classes are offered [day]
+How many [course_level] classes are being offered
+How many [major] [course_level] courses are offered
+How many [ecap] classe are being offered
+How many instructors are in the [department]
+How many lecturers are in the [department]
+What is [professor]'s email
+How many sections does [professor] teach
+How many different classes are offered this term
+Which professors teach [course]
+What room is [course]-[course] taught in
+How many students can enroll in [course]
+Who teaches class number [course_number]
+What days is [course_number] scheduled for
+What time does [course_number] start
+What section of [course] starts the latest
+What section of [course] starts the earliest
+Do all classes have a lab component
+What is the ratio of students to faculty in [department]
+What is the most popular building for [department] classes
+What is the most popular classroom for [department] classes
+Where am I most likely to spend time as a [department] major
+Where is the lab for [course_number] located
+When is [professor] free at the end of the day
+How many sections of [course] are offered next quarter
+What is the most popular class in [department]
+What class is [course_number]
+Can I take both [course]-[course] and [course]-[course]
+Which sections of [course] are still open
+How long is the waitlist for [course]-[course]
+Is there a waitlist for [course]-[section]
+How many people are on the waitlist for [course]-[course]
+What [course_level] classes are still open
+How many professors teach [course]
+Which professors still have open sections of [course]
+Is [course] offered next quarter
+Is [professor] a lecturer
+What type of teacher is [professor]
+Who is teaching the most [department] classes next quarter
+What is the least popular class in [department]
+Which professor is teaching the fewest hours of class
+What [course_level] classes can I take to have no class on [day]s
+How many hours of class does [professor] teach
+Are there any sections of [course] open
+Which professor teaches [course]-[course]
+Will [professor] teach [course] next quarter
+Which section of [course] is the most popular
+What times can I take [course] next quarter
+How many 500 level classes does [professor] teach
+What days can I take [course] on
+What [course_level] classes can I take to have no class on [day]s
+Where are most [department] classes held
+How many students are enrolled so far in [department] classes
+Is statistics or computer science a more popular department
+What is the name of class number [course_number]
+Is class [course] a GE
+Is class [course]-[course] a lecture or lab
+Is [course_number] a lecture or lab
+How many students have dropped [course]-[course]
+How many students have dropped [course_number]
+How many students have withdrawn from [course]-[course]
+How many students have withdrawn from [course_number]
+How many classes does [professor] teach
+How many sections of [course] does [professor] teach
+Where is [course]-[course] located
+Where is [course_number] located
+What type of class is [course]-[course]
+What type of class is [course_number]
+How many labs are in [department]
+How many lectures are in [department]
+How many 400 level classes are in [department]
+How many 300 level classes are in [department]
+How many 200 level classes are in [department]
+How many 100 level classes are in [department]
+How many 400 level classes does [professor] teach
+How many 300 level classes does [professor] teach
+How many 200 level classes does [professor] teach
+How many 100 level classes does [professor] teach
+How many open seats does [course] have
+How many open seats does [course]-[course] have
+How many open seats does [course_number] have
+How many GEs are in [department]
+Is there a class that satisfies [ge] GE in [department]
+What classes satisfy GE [ge] in [department]
+Does class satisfy GE [ge]
+Is [course] offered in [quarter]
+How many sections of [course] is offered in [quarter]
+Is professor [professor] teaching in [quarter]
+What is the date range for [quarter]
+When does [quarter] start and end
+What dates does [course]-[course] start and end
+What dates does [course_number] start and end
+How long is [course]-[course]
+How long is [course_number]
+How many classes are offered in [quarter]
+How many lecturers are offered in [quarter]
+What are the prereqs for [course]
+What are the prereqs for [course_number]
+How many classes does [professor] teach
+How many labs does [professor] teach
+Which professor teaches the most classes
+Which professor teaches the most sections of [course]
+Which professor has the most open seats in [course]
+Which professor has the most drops
+Which professor has the longest waitlist
+What is [professor]’s Cal Poly alias
+What is [professor]’s job title
+What is [professor]’s phone number
+Where is [professor]’s office
+When are [professor]’s office hours
+Does [alias] teach [course] in [quarter]
+What is [alias]’s full name
+What is [alias]’s job title
+What is [alias]’s phone number
+Where is [alias]’s office
+When are [alias]’s office hours
+Who is the department chair of [department]
+How many sections of [course] are being offered in [term]
+Is [course] being offered in [term]
+How many sections of [course] are being taught by [professor] in [term]
+When is [course] [section num]
+Does [course] have a lab section
+Where is [course] [section num]
+What class is [course]
+What class type is [course]
+Are there any prerequisites for [course]
+What are the prerequisites for [course]
+What’s the enrollment limit of [course]
+How many students are enrolled in [course]
+How many students are waitlisted for [course]
+How many distinct students are waitlisted for [course]
+How many waitlisted students are unaccommodated for [course]
+How many students have dropped [course]
+How many students have withdrawn from [course]
+What class number is [course]
+What class type is [course]
+Are there any prerequisites for [course]
+What are the prerequisites for [course]
+What’s the enrollment limit of [course]
+How many students are enrolled in [course]
+How many students are waitlisted for [course]
+How many distinct students are waitlisted for [course]
+How many waitlisted students are unaccommodated for [course]
+How many students have dropped [course]
+How many students have withdrawn from [course]
+Where are [professor] office hours
+Where is [professor] office
+Where is [professor] at [time]
+When are [professor] office hours
+What class is [professor] teaching at [time]
+What is [professor] schedule
+When is [professor] instructing [course]
+Does [professor] have office hours on [day]
+Does [professor] teach [course]
+Does [professor] instruct [course]
+Does [course] interfere with [course]
+Does [course] have a scheduling conflict with [course]
+Does [course] interfere with [course] or [course]
+Are there office hours for [course]
+Who has office hours in [location]
+Who has office hours in [location] at [time]
+Who has office hours in [location] on [day] at [time]
+Who has office hours on [day] at [time]
+Which office hours are in [location]
+What is the alias for [professor]
+What is the username for [professor]
+What is the email for [professor]
+What is [professor] email
+Which professor has email [alias]
+Give me [professor] email.
+Give me [professor] phone number.
+Which classes are in [location]
+Which classes are located in [location]
+Which classes are in [location] at [time] on [day]
+Which classes are in [location] at [time]
+Where are the office hours for [course]
+Where are the office hours for [professor]
+Where is [course] located
+Where is [course] located on [day]
+When are the office hours for [course]
+When does [course] start
+When does [course] end
+Is [course] lecture or lab
+Is [course] a lecture
+Is [course] a lab
+Does [course] have a lab section
+What is the lab section for [course]
+What is the lab for [course]
+What is the activity section for [course]
+What is the lecture section for [course]
+What is the lecture for [course]
+What type is [course]
+What term is [course] offered
+What quarter is [course] offered
+Is [course] offered [term]
+How many classes is [professor] teaching [term] quarter
+Which classes are [professor] instructing this quarter
+Which professors are teaching [course]
+Who is teaching [course]
+Which professor is instructing [course]
+What are the sections of [course]
+Which sections of [course] are on [day]
+Which sections of [course] are on [day] at [time]
+Which sections of [course] are between [time] and [time]
+Which sections of [course] are between [time] and [time] on [day]
+How many people are in [course]
+How many people are enrolled in [course]
+How many students are enrolled in [course]
+How many students have dropped [course]
+How many students dropped [course]
+How many seats are left in [course]
+How many seats are remaining in [course]
+How many open seats are there in [course]
+What is the remaining capacity of [course]
+What is the capacity of [course]
+What is the enrollment cap of [course]
+What is the location cap of [course]
+What is the class number for [course]
+What is the class number of [course]
+Which class has number [course_number]
+Which class is [course_number]
+Which class is [course]
+Which classes have fewer than [integer] students
+Which classes have fewer than [integer] [enrollment_status]
+Which classes have no students [enrollment_status]
+Which classes satisfy [ge]
+Which classes taught by [professor] satisfy [ge]
+Which classes start before [time] and satisfy[ge]
+Which professors instruct classes that satisfy [ge]
+Which classes on [day] start before [time]
+Which classes satisfy [ge] and end before [time]
+Which classes in [location] start before [time] on [day]
+Which rooms have a class that starts after [time]
+Does [course] satisfy [ge]
+What are the requirements for [course]
+What is [professor]’s number
+What is the number of [professor]
+How can I call [professor]
+How can I talk to [professor]
+What is [professor]’s email
+What is the email of [professor]
+How can I email [professor]
+How can I message [professor]
+How do I contact [professor]
+How can I reach [professor]
+How can I get in touch [professor]
+What is the best way to reach [professor]
+What is the alias of [professor]
+What is [professor]’s alias
+Is [alias] [professor]
+What courses does [professor] teach
+What is [professor] teaching this [quarter]
+What courses are [professor] teaching in [quarter]
+Did [professor] teach [course] in [quarter]
+Is [professor] teaching [course] in [quarter]
+Is [professor] teaching in the [quarter]
+Is [professor] teaching this [quarter]
+Would [professor] be teaching [course] in [quarter]
+Who is the instructor for [course]
+Who is the professor for [course]
+Who is the teacher for [course]
+Who is teaching [course]
+Who teaches [course]
+Who might teach [course]
+Which professor teaches [course]
+Which person teaches [course]
+When is [course] offered
+When can I take [course]
+What quarters can I take [course]
+What courses are offered in [quarter]
+Is [course] offered in [quarter]
+Can I take [course] in [quarter]
+Is [course] available in [quarter]
+What are the section numbers of [course] in [quarter]
+How many sections of [course] are available in [quarter]
+What part of the day are the lectures offered for [course] in [quarter] by [professor]
+What time are the lectures for [course] in [quarter] by [professor]
+What are the lecture times for [course] in [quarter] by [professor]
+What part of the day are the labs offered for [course] in [quarter] by [professor]
+What time are the labs for [course] in [quarter] by [professor]
+What are the lab times for [course] in [quarter] by [professor]
+Where is [course] [section]located
+Where can I find [course] [section]
+Where is [course] [section] classroom
+What building is [course] in
+Is [integer] the largest enrollment cap for [course]
+Where can I see [professor]
+Where is [professor]’s office
+Where is [professor]’s office located
+Where are [professor]’s office hours
+Where can I find [professor] on campus for office hours
+Is [location] [professor]’s office
+Is [location] [professor]’s office hours
+Will I find [professor] at [location]
+How many sections are there for [course]
+What is the capacity for [location]
+What is the size of [location]
+What is the class number for [course] [section]
+Who is the department chair of [department]
+On what days is [professor] in office
+On what days is [professor] out of the office
+When are [professor] office hours
+When can I meet with [professor]
+When is the best time to meet with [professor]
+How can I see [professor]
+Does [professor] have office hours on [day]
+Is [professor] available on [day]
+Is [professor] in the office on [day]
+Is [professor] out of the office on [day]
+Is [professor] out on [day]
+What is the largest enrollment cap for [course]
+What is the maximum amount of students allowed for [course]
+How many students can be enrolled in [course]
+What is the enrollment cap for [course] that [professor] teaches
+What is the enrollment cap for [course]
+What is the cap for [course] that [professor] teaches
+What is the max enrollment for [course] that [professor] teaches
+What is the enrollment cap for [course] [section]
+How many students can be enrolled in [course] [section]
+What is [professor]’s department
+Which department does [professor] work under
+Is [professor] in [department]
+Tell me the professors from [department]
+Does [course] have labs
+Are there labs for [course]
+Do I need to take a lab for [course]
+What days is [course] [section] on
+What type of class is [course] [section]
+Is [course] a [type]
+What is the title of [professor]
+Who is [professor]
+What does [professor] do
+Who is using [location] in [quarter]
+Is [location] used in [quarter]
+Who is the current Computer Science department chair
+Who is the current Administrative Support Coordinator for the Computer Science department
+Does Cal Poly offer a Blended Bachelors and Masters program in Computer Science
+Are there prerequisites for CSC123
+What is the total number of units required for a Bachelors in Computer Science
+What is the total number of units required for a Masters in Computer Science
+What are the prerequisites for [course]
+How many concentrations does the Computer Science department offer
+What concentrations does the Computer Science department offer
+Does Cal Poly offer a Cross Disciplinary Studies Minor in Data Science
+What minors does the Computer Science department offer
+What requirements does a student need to meet to be qualified for the Computer Science Blended Program
+How many total students are currently in the Computer Science program
+Approximately how many undergrad students are in the Computer Science program
+Approximately how many graduate students are in the Computer Science program
+What is the Computer Science department’s email
+What is the Computer Science department’s phone number
+How many faculty members are in the Computer Science department
+How many affiliate faculty members are in the Computer Science department
+How many active emeriti members are in the Computer Science department
+How many staff members are in the Computer Science department
+Is [professor] teaching [course] this quarter
+What classes is [professor] teaching [quarter]
+What is the building number for the Computer Science building
+What are the two series options to complete the Physical Science Support Electives
+How many units of free electives are allowed in the Computer Science curriculum
+What is the Computer Science department’s Instagram page
+What are the hours for the Computer Science Department
+Is [course] being offered in [quarter]
+What courses in the Computer Science curriculum don’t require any prerequisites 
+Is the Computer Science office currently open
+Is [course] an approved technical elective
+Is double-counting allowed between Science Support Electives
+How do I contact [professor] 
+What is [professor] ‘s phone number
+Where is [professor]’s office
+Who is teaching STAT 302 this quarter
+Do you offer the STAT 302 course on [day] and [day] this quarter
+How many sections do you offer the STAT 302 course this quarter
+What is [professor] ‘s title
+Does [course] have a lab
+What classes are [professor] teaching this quarter
+Who is in [location]
+Who is the current Statistics department chair
+What are the prerequisites for [course]
+What is the building number for the Math and Statistics building 
+Where do I look for [quarter] schedule
+How many units is [course] 
+Is [course] 4 units
+Is [professor] the current Computer Science department chair
+Where can I find [professor]’s office
+What time does [course][section] start on [day]
+I am looking for [course] on [day] 
+I am looking for [course] on [day] after [time]
+Where can I find the Computer Science building
+Where can I find the Math and Statistics building
+How many people drop [course][course] in [quarter]
+Are there a lot of people dropping [course][section] in [quarter]
+Do you offer [course] this quarter
+Where do I look for the Statistic class schedule this quarter
+Where do I look for the CSSE class schedule this quarter
+Does the Computer Science department offer classes on the weekend
+Is [professor] teaching [course] this quarter
+Is [professor] teaching [course] this quarter
+How do I contact [professor]
+Is [professor]’s office [location]
+Is [course] offered in Fall 2021
+Can I take [course] this quarter
+Do I need to take [course] after [course]
+Can I take [course] as a tech elective
+Does [course] count as a technical elective for Computer Science major
+Does [course] have a lab
+Whose office is in [location]
+What stats classes are offered in [quarter]
+Can you tell me all stats classes offered in [quarter]
+Is [course] waitlisted
+is [professor] teaching [course]
+Who is teaching [course]
+What do I need to get into Computer Science blended program
+How many units do I need to take to get my Bachelors degree in CS
+Does the computer science department have an instagram page
+Can I take any free electives as a computer science major
+Can a computer science major have any free electives
+How many units do I need to get a Master degree in computer science
+Can I take [course] as a pre-req to [course]
+Is [course] a pre-req to [course]
+Is [course] required for [course]
+Is the computer science department open during the weekend
+Is [professor] still the department chair of Computer Science
+What time does [course] section [course] starts
+What’s the earliest section for [course]
+What’s the latest section for [course]
+Are there any CSC courses offered before [time]
+Are there any CSC courses offered after [time]
+Are there any CSC courses offered after [time] but before [time] 
+What time does [course] section [section] starts
+What time does [course] section [section] ends
+Where is the computer science building
+Where is the statistics building
