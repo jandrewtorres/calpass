@@ -1,0 +1,515 @@
+{
+    "akeen": {
+        "classes_href": "person_akeen_curr.htm",
+        "personAlias": "akeen",
+        "personLocation": "014-0228",
+        "personName": "Keen, Aaron",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.2926",
+        "personTitle": "Instr Fac AY"
+    },
+    "amigler": {
+        "classes_href": "person_amigler_curr.htm",
+        "personAlias": "amigler",
+        "personLocation": "052-E031",
+        "personName": "Migler, Andrew",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.2053",
+        "personTitle": "Lecturer AY"
+    },
+    "ayaank": {
+        "classes_href": "person_ayaank_curr.htm",
+        "personAlias": "ayaank",
+        "personLocation": "014-0254A",
+        "personName": "Kazerouni, Ayaan",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.2824",
+        "personTitle": "Instr Fac AY"
+    },
+    "bcdasilv": {
+        "classes_href": "person_bcdasilv_curr.htm",
+        "personAlias": "bcdasilv",
+        "personLocation": "014-0223",
+        "personName": "da Silva, Bruno",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.5541",
+        "personTitle": "Instr Fac AY"
+    },
+    "bdebruhl": {
+        "classes_href": "person_bdebruhl_curr.htm",
+        "personAlias": "bdebruhl",
+        "personLocation": "014-0214",
+        "personName": "DeBruhl, Bruce",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.1392",
+        "personTitle": "Instr Fac AY"
+    },
+    "bellardo": {
+        "classes_href": "person_bellardo_curr.htm",
+        "personAlias": "bellardo",
+        "personLocation": "014-0235D",
+        "personName": "Bellardo, John",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.7256",
+        "personTitle": "Instr Fac AY"
+    },
+    "bklingen": {
+        "classes_href": "person_bklingen_curr.htm",
+        "personAlias": "bklingen",
+        "personLocation": " ",
+        "personName": "Klingenberg, BJ",
+        "personOfficeHours": " ",
+        "personPhone": "",
+        "personTitle": "Lecturer AY"
+    },
+    "cesiu": {
+        "classes_href": "person_cesiu_curr.htm",
+        "personAlias": "cesiu",
+        "personLocation": "014-0254A",
+        "personName": "Siu, Christopher",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.2824",
+        "personTitle": "Lecturer AY"
+    },
+    "clements": {
+        "classes_href": "person_clements_curr.htm",
+        "personAlias": "clements",
+        "personLocation": "014-0208",
+        "personName": "Clements, John",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.6528",
+        "personTitle": "Instr Fac AY"
+    },
+    "clupo": {
+        "classes_href": "person_clupo_curr.htm",
+        "personAlias": "clupo",
+        "personLocation": "014-0254B",
+        "personName": "Lupo, Christopher",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.5659",
+        "personTitle": "Dept Chair Comp Sci & Soft Eng"
+    },
+    "csturner": {
+        "classes_href": "person_csturner_curr.htm",
+        "personAlias": "csturner",
+        "personLocation": "014-0219",
+        "personName": "Turner, Clark",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.6133",
+        "personTitle": "Instr Fac AY"
+    },
+    "dekhtyar": {
+        "classes_href": "person_dekhtyar_curr.htm",
+        "personAlias": "dekhtyar",
+        "personLocation": "014-0210",
+        "personName": "Dekhtyar, Alexander",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.2387",
+        "personTitle": "Instr Fac AY"
+    },
+    "djanzen": {
+        "classes_href": "person_djanzen_curr.htm",
+        "personAlias": "djanzen",
+        "personLocation": "014-0212",
+        "personName": "Janzen, David",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.2929",
+        "personTitle": "Instr Fac AY"
+    },
+    "dkauffma": {
+        "classes_href": "person_dkauffma_curr.htm",
+        "personAlias": "dkauffma",
+        "personLocation": "014-0254A",
+        "personName": "Kauffman, Daniel",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.2824",
+        "personTitle": "Lecturer AY"
+    },
+    "dofang": {
+        "classes_href": "person_dofang_curr.htm",
+        "personAlias": "dofang",
+        "personLocation": "014-0207",
+        "personName": "Fang, Dongfeng",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.7083",
+        "personTitle": "Instr Fac AY"
+    },
+    "dsparkin": {
+        "classes_href": "person_dsparkin_curr.htm",
+        "personAlias": "dsparkin",
+        "personLocation": "014-0254A",
+        "personName": "Parkinson, Dave",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.2824",
+        "personTitle": "Lecturer AY"
+    },
+    "dwilso27": {
+        "classes_href": null,
+        "personAlias": "dwilso27",
+        "personLocation": "014-0235C",
+        "personName": "Wilson, Diana",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.7184",
+        "personTitle": "Operating Sys Analyst 12 Mo"
+    },
+    "easheets": {
+        "classes_href": "person_easheets_curr.htm",
+        "personAlias": "easheets",
+        "personLocation": "014-0254A",
+        "personName": "Sheets, Erin",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.2824",
+        "personTitle": "Lecturer AY"
+    },
+    "eckhardt": {
+        "classes_href": "person_eckhardt_curr.htm",
+        "personAlias": "eckhardt",
+        "personLocation": "014-0221",
+        "personName": "Eckhardt, Christian",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.2416",
+        "personTitle": "Instr Fac AY"
+    },
+    "fkurfess": {
+        "classes_href": "person_fkurfess_curr.htm",
+        "personAlias": "fkurfess",
+        "personLocation": "014-0203",
+        "personName": "Kurfess, Franz",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.7179",
+        "personTitle": "Instr Fac AY"
+    },
+    "foaad": {
+        "classes_href": "person_foaad_curr.htm",
+        "personAlias": "foaad",
+        "personLocation": "014-0213",
+        "personName": "Khosmood, Foaad",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.2911",
+        "personTitle": "Instr Fac AY"
+    },
+    "hghariby": {
+        "classes_href": "person_hghariby_curr.htm",
+        "personAlias": "hghariby",
+        "personLocation": "014-0203",
+        "personName": "Gharibyan, Hasmik",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.7068",
+        "personTitle": "Instr Fac AY"
+    },
+    "husmith": {
+        "classes_href": "person_husmith_curr.htm",
+        "personAlias": "husmith",
+        "personLocation": "014-0216",
+        "personName": "Smith, Hugh",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.2801",
+        "personTitle": "Instr Fac AY"
+    },
+    "ihumer": {
+        "classes_href": "person_ihumer_curr.htm",
+        "personAlias": "ihumer",
+        "personLocation": "014-0254",
+        "personName": "Humer, Irene",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.2825",
+        "personTitle": "Lecturer AY"
+    },
+    "ikohler": {
+        "classes_href": "person_ikohler_curr.htm",
+        "personAlias": "ikohler",
+        "personLocation": "014-0254A",
+        "personName": "Kohler, Iris",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.2824",
+        "personTitle": "Teaching Associate AY"
+    },
+    "ivakalis": {
+        "classes_href": "person_ivakalis_curr.htm",
+        "personAlias": "ivakalis",
+        "personLocation": "014-0217",
+        "personName": "Vakalis, Ignatios",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.6285",
+        "personTitle": "Instr Fac AY"
+    },
+    "jakahn": {
+        "classes_href": "person_jakahn_curr.htm",
+        "personAlias": "jakahn",
+        "personLocation": "014-0254A",
+        "personName": "Kahn, Jasper",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.2824",
+        "personTitle": "Teaching Associate AY"
+    },
+    "jgrimes": {
+        "classes_href": "person_jgrimes_curr.htm",
+        "personAlias": "jgrimes",
+        "personLocation": "035-0319",
+        "personName": "Grimes, Joe",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.7002",
+        "personTitle": "Lecturer AY"
+    },
+    "jjohn163": {
+        "classes_href": "person_jjohn163_curr.htm",
+        "personAlias": "jjohn163",
+        "personLocation": " ",
+        "personName": "Johnson, Joseph",
+        "personOfficeHours": " ",
+        "personPhone": "+1.408.334.5107",
+        "personTitle": "Teaching Associate AY"
+    },
+    "jmukherj": {
+        "classes_href": null,
+        "personAlias": "jmukherj",
+        "personLocation": "014-0254A",
+        "personName": "Mukherjee, Joydeep",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.2824",
+        "personTitle": "Instr Fac AY"
+    },
+    "jplanck": {
+        "classes_href": "person_jplanck_curr.htm",
+        "personAlias": "jplanck",
+        "personLocation": "020A-0200",
+        "personName": "Planck, John",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.2781",
+        "personTitle": "Lecturer AY"
+    },
+    "jseng": {
+        "classes_href": "person_jseng_curr.htm",
+        "personAlias": "jseng",
+        "personLocation": "014-0231",
+        "personName": "Seng, John",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.5536",
+        "personTitle": "Instr Fac AY"
+    },
+    "jventu09": {
+        "classes_href": "person_jventu09_curr.htm",
+        "personAlias": "jventu09",
+        "personLocation": "014-0227",
+        "personName": "Ventura, Jonathan",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.5624",
+        "personTitle": "Instr Fac AY"
+    },
+    "jworkman": {
+        "classes_href": "person_jworkman_curr.htm",
+        "personAlias": "jworkman",
+        "personLocation": "014-0206",
+        "personName": "Workman, Julie",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.6168",
+        "personTitle": "Lecturer AY"
+    },
+    "klmork": {
+        "classes_href": "person_klmork_curr.htm",
+        "personAlias": "klmork",
+        "personLocation": "014-0254A",
+        "personName": "Mork, Kirsten",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.2824",
+        "personTitle": "Lecturer AY"
+    },
+    "kmammen": {
+        "classes_href": "person_kmammen_curr.htm",
+        "personAlias": "kmammen",
+        "personLocation": "014-0206",
+        "personName": "Mammen, Kurt",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.1332",
+        "personTitle": "Lecturer AY"
+    },
+    "kvoelker": {
+        "classes_href": "person_kvoelker_curr.htm",
+        "personAlias": "kvoelker",
+        "personLocation": "014-0202",
+        "personName": "Voelker, Kurt",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.7186",
+        "personTitle": "Lecturer AY"
+    },
+    "lfiorent": {
+        "classes_href": null,
+        "personAlias": "lfiorent",
+        "personLocation": "014-0254",
+        "personName": "Fiorentino, Leanne",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.2825",
+        "personTitle": "Admin Support Coord 12 Mo"
+    },
+    "lstanche": {
+        "classes_href": "person_lstanche_curr.htm",
+        "personAlias": "lstanche",
+        "personLocation": "014-0230",
+        "personName": "Stanchev, Lubomir",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.2958",
+        "personTitle": "Instr Fac AY"
+    },
+    "mhaungs": {
+        "classes_href": "person_mhaungs_curr.htm",
+        "personAlias": "mhaungs",
+        "personLocation": "014-0228",
+        "personName": "Haungs, Michael",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.5531",
+        "personTitle": "Instr Fac AY"
+    },
+    "mpanto01": {
+        "classes_href": "person_mpanto01_curr.htm",
+        "personAlias": "mpanto01",
+        "personLocation": "014-0211",
+        "personName": "Pantoja, Maria",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.1330",
+        "personTitle": "Instr Fac AY"
+    },
+    "mreyno28": {
+        "classes_href": "person_mreyno28_curr.htm",
+        "personAlias": "mreyno28",
+        "personLocation": "014-0254A",
+        "personName": "Reynosa, Michael",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.2824",
+        "personTitle": "Lecturer AY"
+    },
+    "mvandeva": {
+        "classes_href": "person_mvandeva_curr.htm",
+        "personAlias": "mvandeva",
+        "personLocation": "014-0254A",
+        "personName": "Van De Vanter, Michael",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.2824",
+        "personTitle": "Lecturer AY"
+    },
+    "neisty": {
+        "classes_href": "person_neisty_curr.htm",
+        "personAlias": "neisty",
+        "personLocation": "014-0254A",
+        "personName": "Eisty, Nasir",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.2824",
+        "personTitle": "Instr Fac AY"
+    },
+    "pander14": {
+        "classes_href": "person_pander14_curr.htm",
+        "personAlias": "pander14",
+        "personLocation": "014-0222",
+        "personName": "Anderson, Paul",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.7178",
+        "personTitle": "Instr Fac AY"
+    },
+    "phatalsk": {
+        "classes_href": "person_phatalsk_curr.htm",
+        "personAlias": "phatalsk",
+        "personLocation": "014-0203",
+        "personName": "Hatalsky, Paul",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.2921",
+        "personTitle": "Lecturer AY"
+    },
+    "pnico": {
+        "classes_href": "person_pnico_curr.htm",
+        "personAlias": "pnico",
+        "personLocation": "014-0205",
+        "personName": "Nico, Phillip",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.7124",
+        "personTitle": "Instr Fac AY"
+    },
+    "seinakia": {
+        "classes_href": "person_seinakia_curr.htm",
+        "personAlias": "seinakia",
+        "personLocation": "014-0254A",
+        "personName": "Einakian, Sussan",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.2824",
+        "personTitle": "Lecturer AY"
+    },
+    "srbeard": {
+        "classes_href": "person_srbeard_curr.htm",
+        "personAlias": "srbeard",
+        "personLocation": " ",
+        "personName": "Beard, Stephen",
+        "personOfficeHours": " ",
+        "personPhone": "",
+        "personTitle": "Instr Fac AY"
+    },
+    "takdag": {
+        "classes_href": null,
+        "personAlias": "takdag",
+        "personLocation": "014-0235B",
+        "personName": "Akdag, Tedd",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.7185",
+        "personTitle": "Operating Sys Analyst 12 Mo"
+    },
+    "tkearns": {
+        "classes_href": "person_tkearns_curr.htm",
+        "personAlias": "tkearns",
+        "personLocation": "014-0254A",
+        "personName": "Kearns, Timothy",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.2824",
+        "personTitle": "Instr Fac AY"
+    },
+    "tkuboi": {
+        "classes_href": "person_tkuboi_curr.htm",
+        "personAlias": "tkuboi",
+        "personLocation": "014-0254A",
+        "personName": "Kuboi, Toshihiro",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.2824",
+        "personTitle": "Lecturer AY"
+    },
+    "tlmedran": {
+        "classes_href": null,
+        "personAlias": "tlmedran",
+        "personLocation": "014-0254",
+        "personName": "Medrano, Teresa",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.7229",
+        "personTitle": "Admin Analyst/Spclst 12 Mo"
+    },
+    "tmigler": {
+        "classes_href": "person_tmigler_curr.htm",
+        "personAlias": "tmigler",
+        "personLocation": "014-0245",
+        "personName": "Migler, Theresa",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.2735",
+        "personTitle": "Instr Fac AY"
+    },
+    "valizade": {
+        "classes_href": null,
+        "personAlias": "valizade",
+        "personLocation": "014-0254A",
+        "personName": "Alizadeh, Vahid",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.2824",
+        "personTitle": "Instr Fac AY"
+    },
+    "znjp": {
+        "classes_href": "person_znjp_curr.htm",
+        "personAlias": "znjp",
+        "personLocation": "014-0215",
+        "personName": "Peterson, Zachary",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.2088",
+        "personTitle": "Instr Fac AY"
+    },
+    "zwood": {
+        "classes_href": "person_zwood_curr.htm",
+        "personAlias": "zwood",
+        "personLocation": "014-0209",
+        "personName": "Wood, Zoe",
+        "personOfficeHours": " ",
+        "personPhone": "+1.805.756.5540",
+        "personTitle": "Instr Fac AY"
+    }
+}

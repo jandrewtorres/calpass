@@ -24,3 +24,12 @@ Spring 2021
 
 `$ calpass`
 
+## Dev notes
+
+To export env:
+
+`$ conda env export --name calpass > calpass_env.yml`
+
+To create env from YAML file:
+
+`conda env create --file calpass_env.yml`
