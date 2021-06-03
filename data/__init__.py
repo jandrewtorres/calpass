@@ -1,0 +1,1 @@
+from .extracted_data.normal_qustion_parser import *
