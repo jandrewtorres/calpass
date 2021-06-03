@@ -3,12 +3,12 @@ import pathlib
 import re
 import json
 
-def parse_file(file, var_map=None, replace=None):
-    question_answer_pattern = re.compile(r"^[\w\s]*\|\s*([^?|]*)(?:[?\s|.]*)\s*(.*)")
-    variable_pattern = re.compile(r"\[([^\[\]]*)\]")
+question_answer_pattern = re.compile(r"^[\w\s]*\|\s*([^?|]*)(?:[?\s|.]*)\s*(.*)")
+variable_pattern = re.compile(r"\[([^\[\]]*)\]")
 
-    day_pattern = re.compile(r"(monday|tuesday|wednesday|thursday|friday|saturday|sunday)", re.IGNORECASE)
+day_pattern = re.compile(r"(monday|tuesday|wednesday|thursday|friday|saturday|sunday)", re.IGNORECASE)
 
+def parse_example_question_file(file, var_map=None, replace=None):
     variables = set()
     questions = []
     replace = {} if replace is None else replace
@@ -91,7 +91,7 @@ def main():
                 print(f'invalid var_map file {e}')
 
 
-    var, questions = parse_file(file, var_map["map"], var_map["replace"])
+    var, questions = parse_example_question_file(file, var_map["map"], var_map["replace"])
 
     if args.varfile and not varfile.exists():
         if var_map is None:

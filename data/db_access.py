@@ -39,13 +39,7 @@ calpass_professor_properties = ClosedNamespace(
     ]
 )
 
-def load_db(path):
-    pass
-
-def get_object_names():
-    pass
-
-def build_db(courses, profs, dbpath):
+def load_db(dbpath):
     g = Graph(store="Sleepycat", identifier='mygraph')
 
     rt = g.open(dbpath, create=False)
@@ -55,13 +49,23 @@ def build_db(courses, profs, dbpath):
     else:
         assert rt == VALID_STORE, "The underlying store is corrupt"
 
+    return g
+
+def get_object_names():
+    pass
+
+def build_db(courses, profs, dbpath):
+    g = load_db(dbpath)
+
     for alias, properties in profs.items():
         node = BNode(alias)
+        g.set((node, calpass_namespace.type, calpass_namespace.Person))
         for p, v in properties.items():
             g.set((node, calpass_professor_properties.term(p), Literal(v)))
 
     for course in courses:
         node = BNode(course['course_name'])
+        g.set((node, calpass_namespace.type, calpass_namespace.Course))
         for p, v in course.items():
             if p not in ['personName', 'prof_alias']:
                 g.set((node, calpass_course_properties.term(p), Literal(v)))

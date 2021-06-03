@@ -1,2 +1,5 @@
 .idea
 db.ini
+
+**/__pycache__/**
+course_database/**
