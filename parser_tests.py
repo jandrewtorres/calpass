@@ -2,15 +2,19 @@ import re
 from nltk.corpus import wordnet
 from parser.question import *
 
-# parse_question('Where is the lab for CSC 456 located?')
-# parse_question('Will Foaad teach csc-456 next quarter?')
-# parse_question('Where are office hours for professor Foaad?')
-# parse_question('Where are Foaad\'s office hours?')
-# parse_question('Who is teaching CSC-456 next quarter?')
-# parse_question('How many 500 level classes does Foaad teach?')
-# parse_question('Can I visit Foaad at 12:00?')
+parser = QuestionParser()
 
-def question_cleaning():
+parser.entity_extraction_tokenizer('Where is the lab for CSC 456 located?')
+parser.entity_extraction_tokenizer('Will Foaad teach csc-456 next quarter?')
+parser.entity_extraction_tokenizer('Can I visit Foaad at 12:00?')
+
+parser.entity_extraction_tokenizer('Where are office hours for professor Foaad?')
+parser.entity_extraction_tokenizer('Where are Foaad\'s office hours?')
+parser.entity_extraction_tokenizer('Who is teaching CSC-456 next quarter?')
+parser.entity_extraction_tokenizer('How many 500 level classes does Foaad teach?')
+parser.entity_extraction_tokenizer('What time does CSC 456 start on Monday?')
+
+def example_question_cleaning():
     questions = []
     with open('data/extracted_data/questions.txt', mode='r') as qfile:
         for line in qfile:
@@ -39,4 +43,4 @@ def syn(word):
             list_synonyms.append(lemm.name())
     return sorted(list(set(list_synonyms)))
 
-print(syn("teach"))
+# print(syn("teach"))

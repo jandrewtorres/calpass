@@ -52,7 +52,7 @@ object_name_map = {
     ('course name', 'title', 'course title', 'course') : calpass_course_properties.course_name,
     ('req', 'requirements', 'require', 'prereq', 'prerequisite') : calpass_course_properties.course_req,
     ('section', 'section number') : calpass_course_properties.course_section,
-    ('students', 'people', 'number', 'drop') : calpass_course_properties.dropped,
+    ('students', 'people', 'number', 'drop', 'withdrawn') : calpass_course_properties.dropped,
     ('students', 'people', 'number', 'enrollment capacity', 'capacity', 'seats') : calpass_course_properties.ecap,
     ('time', 'end', 'finish') : calpass_course_properties.end_time,
     ('students', 'people', 'number', 'enroll', 'maximum', 'max') : calpass_course_properties.enrolled,
@@ -68,7 +68,7 @@ object_name_map = {
     ('email', 'alias', 'username', 'contact') : calpass_professor_properties.personAlias,
     ('location', 'office hour', 'office') : calpass_professor_properties.personLocation,
     ('name') : calpass_professor_properties.personName,
-    ('time', 'office hour', 'available', 'free', 'schedule') : calpass_professor_properties.personOfficeHours,
+    ('time', 'office hour', 'available', 'free', 'schedule', 'visit') : calpass_professor_properties.personOfficeHours,
     ('phone number', 'number', 'contact') : calpass_professor_properties.personPhone,
     ('title', 'job') : calpass_professor_properties.personTitle,
     ('course', 'teach', 'instruct') : calpass_professor_properties.teaches

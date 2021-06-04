@@ -25,5 +25,17 @@ qres = g.query('SELECT * WHERE { ?p ns:type ns:Person }', initNs={ 'ns' : dba.ca
 for row in qres:
     print(row)
 
+qres = g.query(
+    """SELECT DISTINCT ?object ?type
+       WHERE {
+            ?object ns:type ?type .
+       }""", initNs={
+           'ns' : dba.calpass_namespace,
+           'pns' : dba.calpass_professor_properties,
+           'cns' : dba.calpass_course_properties
+           })
+
+for row in qres:
+    print(row)
 
 print(dba.object_name_associations['time'])
