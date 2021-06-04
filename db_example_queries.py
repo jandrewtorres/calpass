@@ -5,7 +5,7 @@ g = dba.load_db('course_database')
 print(f"loaded database of {len(g)} entries")
 
 qres = g.query(
-    """SELECT ?prof ?cname
+    """SELECT DISTINCT ?prof ?cname
        WHERE {
             ?prof ns:type ns:Person .
             ?prof pns:teaches ?b .
@@ -24,3 +24,6 @@ qres = g.query('SELECT * WHERE { ?p ns:type ns:Person }', initNs={ 'ns' : dba.ca
 
 for row in qres:
     print(row)
+
+
+print(dba.object_name_associations['time'])
