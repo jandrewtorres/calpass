@@ -20,8 +20,6 @@ class QuestionParser:
     def entity_extraction_tokenizer(self, text):
         tokens = []
         text = self.class_pattern.sub(r' \1-\2-\3 ', text)
-        times = self.time_pattern.search(text)
-        names = None
         words = nltk.word_tokenize(text)
 
         for word in words:
