@@ -3,14 +3,14 @@
         "When is [professor] teaching [course_number]",
         [
             "List of [day]",
-            null
+            "value"
         ]
     ],
     [
         "When is [professor] teaching [course_number]",
         [
             "List of [day]",
-            null
+            "value"
         ]
     ],
     [
@@ -35,17 +35,17 @@
         ]
     ],
     [
-        "What [day] of the week is [professor] [bool]t teaching on",
+        "What [day] of the week is [professor] not teaching on",
         [
             "List of [day]",
-            null
+            "value"
         ]
     ],
     [
-        "What [day] of the week is [professor] [bool]t teaching on",
+        "What [day] of the week is [professor] not teaching on",
         [
             "List of [day]",
-            null
+            "value"
         ]
     ],
     [
@@ -77,7 +77,7 @@
         ]
     ],
     [
-        "Do you k[bool]w [professor] office location",
+        "Do you know [professor] office location",
         [
             "[location]",
             "value"
@@ -105,7 +105,7 @@
         ]
     ],
     [
-        "Do you k[bool]w [professor] first lecture",
+        "Do you know [professor] first lecture",
         [
             "[start-time]",
             "value"
@@ -119,14 +119,14 @@
         ]
     ],
     [
-        "Do you k[bool]w [professor] last lecture on [day]",
+        "Do you know [professor] last lecture on [day]",
         [
             "[end-time]",
             "value"
         ]
     ],
     [
-        "Do you k[bool]w [professor] last lecture on [day]",
+        "Do you know [professor] last lecture on [day]",
         [
             "[end-time]",
             "value"
@@ -254,7 +254,7 @@
     [
         "Does the [location] have a class in session",
         [
-            "[[bool]|[bool]]",
+            "[[bool]No]",
             "value"
         ]
     ],
@@ -269,7 +269,7 @@
         "Tell me when [professor] is teaching [course_number] ",
         [
             "List of [day]",
-            null
+            "value"
         ]
     ],
     [
@@ -294,7 +294,7 @@
         ]
     ],
     [
-        "Do you k[bool]w [professor]\u2019s [phone_number]",
+        "Do you know [professor]\u2019s [phone_number]",
         [
             "[phone_number]",
             "value"
@@ -315,17 +315,17 @@
         ]
     ],
     [
-        "For what days is [professor] [bool]t teaching",
+        "For what days is [professor] not teaching",
         [
             "[day]",
-            null
+            "value"
         ]
     ],
     [
-        "Can you tell me the days that [professor] is [bool]t teaching",
+        "Can you tell me the days that [professor] is not teaching",
         [
             "[day]",
-            null
+            "value"
         ]
     ],
     [
@@ -444,7 +444,7 @@
         "What days of the week is [course_number] scheduled for",
         [
             "List of [day]",
-            null
+            "value"
         ]
     ],
     [
@@ -640,56 +640,56 @@
         "Give me the [day] of the week [course_number] is offered",
         [
             "List of [day]\u2019",
-            null
+            "value"
         ]
     ],
     [
-        "Do you k[bool]w what [day] of the week [course_number] is offered",
+        "Do you know what [day] of the week [course_number] is offered",
         [
             "List of [day]\u2019",
-            null
+            "value"
         ]
     ],
     [
-        "Do you k[bool]w which [day] of the week [course_number] is offered",
+        "Do you know which [day] of the week [course_number] is offered",
         [
             "List of [day]\u2019",
-            null
+            "value"
         ]
     ],
     [
         "What [day] of the week is [course_number] offered",
         [
             "List of [day]\u2019",
-            null
+            "value"
         ]
     ],
     [
         "Tell me the [day] of the week [course_number] is offered",
         [
             "List of [day]\u2019",
-            null
+            "value"
         ]
     ],
     [
         "Which [day] of the week is [course_number] offered",
         [
             "List of [day]\u2019",
-            null
+            "value"
         ]
     ],
     [
         "What [day] of the week is [professor] free",
         [
             "List of [day]",
-            null
+            "value"
         ]
     ],
     [
         "What [day] of the week is [professor] free",
         [
             "List of [day]\u2019",
-            null
+            "value"
         ]
     ],
     [
@@ -770,7 +770,7 @@
         ]
     ],
     [
-        "Do you k[bool]w if there is a [time] section for [course_number] ",
+        "Do you know if there is a [time] section for [course_number] ",
         [
             "[bool]",
             "value"
@@ -1001,17 +1001,17 @@
         ]
     ],
     [
-        "Does [professor] have after[bool]on office hours",
+        "Does [professor] have afternoon office hours",
         [
-            "[bool]",
-            "value"
+            "Yes",
+            null
         ]
     ],
     [
         "Does [professor] have morning office hours",
         [
-            "[bool]",
-            "value"
+            "No",
+            null
         ]
     ],
     [
@@ -1045,49 +1045,49 @@
     [
         "Is [course] MWF",
         [
-            "[bool]",
-            "value"
+            "Yes",
+            null
         ]
     ],
     [
         "Is [course] TR",
         [
-            "[bool], it is [day]",
+            "No, it is [day]",
             "value"
         ]
     ],
     [
         "Is [course] MTRF",
         [
-            "[bool], it is [day]",
+            "No, it is [day]",
             "value"
         ]
     ],
     [
         "Is [course] MTWR",
         [
-            "[bool], it is [day]",
+            "No, it is [day]",
             "value"
         ]
     ],
     [
         "Does [professor] have office hours [day]",
         [
-            "[bool], they are at [time] [day]",
+            "Yes, they are at [time] [day]",
             "value"
         ]
     ],
     [
         "Does [professor] have office hours today",
         [
-            "[bool]",
-            "value"
+            "No",
+            null
         ]
     ],
     [
         "Does [professor] have office hours tomorrow",
         [
-            "[bool], they are at [time] [day]",
+            "Yes, they are at [time] [day]",
             "value"
         ]
     ],
@@ -1123,7 +1123,7 @@
         "What is the capacity for [course]",
         [
             "The max capacity for Section [section] is [Capacity[ students",
-            null
+            "value"
         ]
     ],
     [
@@ -1164,15 +1164,15 @@
     [
         "Is [course][section] offered on [day]",
         [
-            "[bool], [course] [section] is offered on [day]",
+            "Yes, [course] [section] is offered on [day]",
             "value"
         ]
     ],
     [
         "Does [course] have a lab",
         [
-            "[bool]/[bool]",
-            "value"
+            "Yes/No",
+            null
         ]
     ],
     [
@@ -1185,21 +1185,21 @@
     [
         "Are there any teachers with first name [professor]",
         [
-            "[bool] [professor], [professor], ...",
+            "[bool][professor], [professor], ...",
             "value"
         ]
     ],
     [
         "Are there any teachers with last name [professor]",
         [
-            "[bool] [professor], [professor], ...",
+            "[bool][professor], [professor], ...",
             "value"
         ]
     ],
     [
         "Are there are [course] being taught on [day]",
         [
-            "[bool] the classes are [course], [course], ...",
+            "[bool]the classes are [course], [course], ...",
             "value"
         ]
     ],
@@ -1220,22 +1220,22 @@
     [
         "Is [professor] a Professor",
         [
-            "[bool]/[bool]",
-            "value"
+            "Yes/No",
+            null
         ]
     ],
     [
         "What [section] has the highest enrollment for [course]",
         [
             "[section]",
-            null
+            "value"
         ]
     ],
     [
         "What [section] has the lowest enrollment for [course]",
         [
             "[section]",
-            null
+            "value"
         ]
     ],
     [
@@ -1332,15 +1332,15 @@
     [
         "Is [location] Available after [time]",
         [
-            "[bool]",
-            "value"
+            "Yes",
+            null
         ]
     ],
     [
         "Is [location] Available before [time]",
         [
-            "[bool]",
-            "value"
+            "No",
+            null
         ]
     ],
     [
@@ -1374,8 +1374,8 @@
     [
         "Is [professor] teaching any in person classes",
         [
-            "[bool]",
-            "value"
+            "Yes",
+            null
         ]
     ],
     [
@@ -1388,8 +1388,8 @@
     [
         "Can I visit [professor] [time]",
         [
-            "[bool]",
-            "value"
+            "No",
+            null
         ]
     ],
     [
@@ -1402,8 +1402,8 @@
     [
         "Can I still enroll [course]",
         [
-            "[bool]",
-            "value"
+            "Yes",
+            null
         ]
     ],
     [
@@ -1465,8 +1465,8 @@
     [
         "Is [course] gonna be virtual",
         [
-            "[bool]",
-            "value"
+            "No",
+            null
         ]
     ],
     [
@@ -1493,22 +1493,22 @@
     [
         "Is [professor] teaching [course]",
         [
-            "[bool]",
-            "value"
+            "No",
+            null
         ]
     ],
     [
         "Does [professor] teach 500 level class",
         [
-            "[bool]",
-            "value"
+            "No",
+            null
         ]
     ],
     [
         "Does [professor] teach 300 level class",
         [
-            "[bool]",
-            "value"
+            "No",
+            null
         ]
     ],
     [
@@ -1556,7 +1556,7 @@
     [
         "Do you have the phone number for [professor]",
         [
-            "[bool], you can reach [professor] at [phonenumber].",
+            "Yes, you can reach [professor] at [phonenumber].",
             "value"
         ]
     ],
@@ -1696,7 +1696,7 @@
     [
         "Does [professor] teach [course]",
         [
-            "[bool], [professor] teaches [course] section [course].",
+            "Yes, [professor] teaches [course] section [course].",
             "value"
         ]
     ],
@@ -1871,7 +1871,7 @@
     [
         "What is [course] called",
         [
-            "[course] is k[bool]wn as [course].",
+            "[course] is known as [course].",
             "value"
         ]
     ],
@@ -2074,7 +2074,7 @@
     [
         "What is [location] called",
         [
-            "[location] is k[bool]wn as [roomname].",
+            "[location] is known as [roomname].",
             "value"
         ]
     ],
@@ -2326,15 +2326,15 @@
     [
         "Is [course] being offered",
         [
-            "[[bool][bool]]",
-            "value"
+            "[yesno]",
+            "bool"
         ]
     ],
     [
         "Will [course] be offered",
         [
-            "[[bool][bool]]",
-            "value"
+            "[yesno]",
+            "bool"
         ]
     ],
     [
@@ -2634,29 +2634,29 @@
     [
         "Is there a lab for [course]",
         [
-            "[[bool][bool]]",
-            "value"
+            "[yesno]",
+            "bool"
         ]
     ],
     [
         "Does [course] have a lab",
         [
-            "[[bool][bool]]",
-            "value"
+            "[yesno]",
+            "bool"
         ]
     ],
     [
         "Is there a lab for [course]",
         [
-            "[[bool][bool]]",
-            "value"
+            "[yesno]",
+            "bool"
         ]
     ],
     [
         "Does [course] have a lab",
         [
-            "[[bool][bool]]",
-            "value"
+            "[yesno]",
+            "bool"
         ]
     ],
     [
@@ -2795,43 +2795,43 @@
     [
         "Can I take [course] with [course]",
         [
-            "[[bool][bool]]",
-            "value"
+            "[yesno]",
+            "bool"
         ]
     ],
     [
         "Can I take both [course] and [course] at the same time",
         [
-            "[[bool][bool]]",
-            "value"
+            "[yesno]",
+            "bool"
         ]
     ],
     [
         "Can I attend [professor]\u2019s office hours and [professor]\u2019s office hours",
         [
-            "[[bool][bool]]",
-            "value"
+            "[yesno]",
+            "bool"
         ]
     ],
     [
         "Can I take [course] without having classes on [day]",
         [
-            "[[bool][bool]]",
-            "value"
+            "[yesno]",
+            "bool"
         ]
     ],
     [
         "Can I take [course] without any classes on [day]",
         [
-            "[[bool][bool]]",
-            "value"
+            "[yesno]",
+            "bool"
         ]
     ],
     [
         "Can I take [course] with only classes on [day]",
         [
-            "[[bool][bool]]",
-            "value"
+            "[yesno]",
+            "bool"
         ]
     ],
     [
@@ -2879,71 +2879,71 @@
     [
         "Will [professor] have office hours at [time]",
         [
-            "[[bool][bool]]",
-            "value"
+            "[yesno]",
+            "bool"
         ]
     ],
     [
         "Will [professor] have class at [time]",
         [
-            "[[bool][bool]]",
-            "value"
+            "[yesno]",
+            "bool"
         ]
     ],
     [
         "Does [professor] have office hours on [day]",
         [
-            "[[bool][bool]]",
-            "value"
+            "[yesno]",
+            "bool"
         ]
     ],
     [
         "Does [professor] have class on [day]",
         [
-            "[[bool][bool]]",
-            "value"
+            "[yesno]",
+            "bool"
         ]
     ],
     [
         "Can I take a class with [professor] with less than [ecap] people",
         [
-            "[[bool][bool]]",
-            "value"
+            "[yesno]",
+            "bool"
         ]
     ],
     [
         "Can I take [course] with less than [ecap] people",
         [
-            "[[bool][bool]]",
-            "value"
+            "[yesno]",
+            "bool"
         ]
     ],
     [
         "Is there a class taught by [professor] that has less than [ecap] students",
         [
-            "[[bool][bool]]",
-            "value"
+            "[yesno]",
+            "bool"
         ]
     ],
     [
         "Is there a section of [course] that has less than [ecap] students",
         [
-            "[[bool][bool]]",
-            "value"
+            "[yesno]",
+            "bool"
         ]
     ],
     [
         "Does [professor] teach [major] classes",
         [
-            "[[bool][bool]]",
-            "value"
+            "[yesno]",
+            "bool"
         ]
     ],
     [
-        "Does [professor] teach any [bool]n-[major] classes",
+        "Does [professor] teach any non-[major] classes",
         [
-            "[[bool][bool]]",
-            "value"
+            "[yesno]",
+            "bool"
         ]
     ],
     [
@@ -2954,7 +2954,7 @@
         ]
     ],
     [
-        "How many [bool]n-[major] classes does [professor] teach",
+        "How many non-[major] classes does [professor] teach",
         [
             "[num-courses-major]",
             "count"
@@ -2963,29 +2963,29 @@
     [
         "Is [professor] teaching [course]",
         [
-            "[[bool][bool]]",
-            "value"
+            "[yesno]",
+            "bool"
         ]
     ],
     [
         "Can I take [course] and attend [professor]\u2019s office hours",
         [
-            "[[bool][bool]]",
-            "value"
+            "[yesno]",
+            "bool"
         ]
     ],
     [
         "Can I take a class taught by [professor] and [professor]",
         [
-            "[[bool][bool]]",
-            "value"
+            "[yesno]",
+            "bool"
         ]
     ],
     [
         "Can I take a [major] class taught by [professor] and a [major] class taught by [professor]",
         [
-            "[[bool][bool]]",
-            "value"
+            "[yesno]",
+            "bool"
         ]
     ],
     [
@@ -3117,8 +3117,8 @@
     [
         "Do all classes have a lab component",
         [
-            "[bool]",
-            "value"
+            "No",
+            null
         ]
     ],
     [
@@ -3187,8 +3187,8 @@
     [
         "Can I take both [course]-[course] and [course]-[course]",
         [
-            "There [is [bool]t|is] a conflict between [course]-[course] and [course]-[course]",
-            "value"
+            "There [is not|is]|[is not|is] a conflict between [course]-[course] and [course]-[course]",
+            "bool"
         ]
     ],
     [
@@ -3243,14 +3243,14 @@
     [
         "Is [course] offered next quarter",
         [
-            "[course] [is|is [bool]t] offered next quarter.",
+            "[course] [is|is not]|[is|is not] offered next quarter.",
             "value"
         ]
     ],
     [
         "Is [professor] a lecturer",
         [
-            "[professor] [is|is [bool]t] a lecturer.",
+            "[professor] [is|is not]|[is|is not] a lecturer.",
             "value"
         ]
     ],
@@ -3283,7 +3283,7 @@
         ]
     ],
     [
-        "What [course_level] classes can I take to have [bool] class on [day]s",
+        "What [course_level] classes can I take to have [bool]class on [day]s",
         [
             "[class...] have sections without class on [day]s.",
             "list"
@@ -3313,7 +3313,7 @@
     [
         "Will [professor] teach [course] next quarter",
         [
-            "[professor] [will|will [bool]t] teach [course] next quarter.",
+            "[professor] [will|will not]|[will|will not] teach [course] next quarter.",
             "value"
         ]
     ],
@@ -3346,7 +3346,7 @@
         ]
     ],
     [
-        "What [course_level] classes can I take to have [bool] class on [day]s",
+        "What [course_level] classes can I take to have [bool]class on [day]s",
         [
             "[class...] have sections without class on [day]s.",
             "list"
@@ -3768,8 +3768,8 @@
     [
         "Does [alias] teach [course] in [quarter]",
         [
-            "[[bool]/[bool]]",
-            "value"
+            "[yes/no]",
+            "bool"
         ]
     ],
     [
@@ -3824,8 +3824,8 @@
     [
         "Is [course] being offered in [term]",
         [
-            "[[bool]/[bool]]",
-            "value"
+            "[yes/no]",
+            "bool"
         ]
     ],
     [
@@ -3845,8 +3845,8 @@
     [
         "Does [course] have a lab section",
         [
-            "[[bool]/[bool]]",
-            "value"
+            "[yes/no]",
+            "bool"
         ]
     ],
     [
@@ -3873,8 +3873,8 @@
     [
         "Are there any prerequisites for [course]",
         [
-            "[[bool]/[bool]]",
-            "value"
+            "[yes/no]",
+            "bool"
         ]
     ],
     [
@@ -3950,8 +3950,8 @@
     [
         "Are there any prerequisites for [course]",
         [
-            "[[bool]/[bool]]",
-            "value"
+            "[yes/no]",
+            "bool"
         ]
     ],
     [
@@ -4062,8 +4062,8 @@
     [
         "Does [professor] have office hours on [day]",
         [
-            "[[bool]/[bool]]. [professor] has office hours in [location] on [days and times].",
-            "value"
+            "[yes/no]. [professor] has office hours in [location] on [days and times].",
+            "bool"
         ]
     ],
     [
@@ -4083,29 +4083,29 @@
     [
         "Does [course] interfere with [course]",
         [
-            "[[bool]/[bool]], [days and times]",
-            "value"
+            "[yes/no], [days and times]",
+            "bool"
         ]
     ],
     [
         "Does [course] have a scheduling conflict with [course]",
         [
-            "[[bool]/[bool]], [days and times]",
-            "value"
+            "[yes/no], [days and times]",
+            "bool"
         ]
     ],
     [
         "Does [course] interfere with [course] or [course]",
         [
-            "[[bool]/[bool]], [days and times]",
-            "value"
+            "[yes/no], [days and times]",
+            "bool"
         ]
     ],
     [
         "Are there office hours for [course]",
         [
-            "[[bool]/[bool]]. [professor] has office hours for [course] in [location] on [days and times].",
-            "value"
+            "[yes/no]. [professor] has office hours for [course] in [location] on [days and times].",
+            "bool"
         ]
     ],
     [
@@ -4279,22 +4279,22 @@
     [
         "Is [course] a lecture",
         [
-            "[[bool]/[bool]]",
-            "value"
+            "[yes/no]",
+            "bool"
         ]
     ],
     [
         "Is [course] a lab",
         [
-            "[[bool]/[bool]]",
-            "value"
+            "[yes/no]",
+            "bool"
         ]
     ],
     [
         "Does [course] have a lab section",
         [
-            "[[bool]/[bool]]",
-            "value"
+            "[yes/no]",
+            "bool"
         ]
     ],
     [
@@ -4356,8 +4356,8 @@
     [
         "Is [course] offered [term]",
         [
-            "[[bool]/[bool]]",
-            "value"
+            "[yes/no]",
+            "bool"
         ]
     ],
     [
@@ -4564,7 +4564,7 @@
         ]
     ],
     [
-        "Which classes have [bool] students [enrollment_status]",
+        "Which classes have [bool]students [enrollment_status]",
         [
             "[list_of(COURSE CODE)]",
             null
@@ -4629,8 +4629,8 @@
     [
         "Does [course] satisfy [ge]",
         [
-            "[[bool]/[bool]], [course] satisfies [ge]",
-            "value"
+            "[yes/no], [course] satisfies [ge]",
+            "bool"
         ]
     ],
     [
@@ -5092,42 +5092,42 @@
         "On what days is [professor] in office",
         [
             "[day]",
-            null
+            "value"
         ]
     ],
     [
         "On what days is [professor] out of the office",
         [
             "[day]",
-            null
+            "value"
         ]
     ],
     [
         "When are [professor] office hours",
         [
             "[day] [times]",
-            "list"
+            "value"
         ]
     ],
     [
         "When can I meet with [professor]",
         [
             "[day] [times]",
-            "list"
+            "value"
         ]
     ],
     [
         "When is the best time to meet with [professor]",
         [
             "[day] [times]",
-            "list"
+            "value"
         ]
     ],
     [
         "How can I see [professor]",
         [
             "[day] [times]",
-            "list"
+            "value"
         ]
     ],
     [
@@ -5281,7 +5281,7 @@
         "What days is [course] [section] on",
         [
             "[day]",
-            null
+            "value"
         ]
     ],
     [
@@ -5350,15 +5350,15 @@
     [
         "Does Cal Poly offer a Blended Bachelors and Masters program in Computer Science",
         [
-            "[bool]",
-            "value"
+            "yes",
+            null
         ]
     ],
     [
         "Are there prerequisites for CSC123",
         [
-            "[bool]",
-            "value"
+            "no",
+            null
         ]
     ],
     [
@@ -5397,17 +5397,17 @@
         ]
     ],
     [
-        "Does Cal Poly offer a Cross Disciplinary Studies Mi[bool]r in Data Science",
+        "Does Cal Poly offer a Cross Disciplinary Studies Minor in Data Science",
         [
-            "[bool]",
-            "value"
+            "yes",
+            null
         ]
     ],
     [
-        "What mi[bool]rs does the Computer Science department offer",
+        "What minors does the Computer Science department offer",
         [
-            "[CSSE-Mi[bool]rs]",
-            "value"
+            "[csse-minors]",
+            "list"
         ]
     ],
     [
@@ -5526,7 +5526,7 @@
         "What are the hours for the Computer Science Department",
         [
             "9:00am-12:00pm and 1:00pm-4:00pm, [day] to [day]",
-            null
+            "value"
         ]
     ],
     [
@@ -5546,8 +5546,8 @@
     [
         "Is the Computer Science office currently open",
         [
-            "[bool]",
-            "value"
+            "no",
+            null
         ]
     ],
     [
@@ -5560,8 +5560,8 @@
     [
         "Is double-counting allowed between Science Support Electives",
         [
-            "[bool]",
-            "value"
+            "no",
+            null
         ]
     ],
     [
@@ -5693,21 +5693,21 @@
     [
         "What time does [course][section] start on [day]",
         [
-            "[csse-course-time-start] or There is [bool] class on [day]",
+            "[csse-course-time-start] or There is [bool]class on [day]",
             "value"
         ]
     ],
     [
         "I am looking for [course] on [day] ",
         [
-            "[course][course] or There is [bool] class that is offered on [day]",
+            "[course][course] or There is [bool]class that is offered on [day]",
             "value"
         ]
     ],
     [
         "I am looking for [course] on [day] after [time]",
         [
-            "[course][course] or There is [bool] class that is offered on [day] after [time]",
+            "[course][course] or There is [bool]class that is offered on [day] after [time]",
             "value"
         ]
     ],
@@ -5763,8 +5763,8 @@
     [
         "Does the Computer Science department offer classes on the weekend",
         [
-            "[bool]",
-            "value"
+            "No",
+            null
         ]
     ],
     [
@@ -5896,22 +5896,22 @@
     [
         "Does the computer science department have an instagram page",
         [
-            "[bool], it\u2019s @cpcscandse",
-            "value"
+            "Yes, it\u2019s @cpcscandse",
+            null
         ]
     ],
     [
         "Can I take any free electives as a computer science major",
         [
-            "[bool]",
-            "value"
+            "No",
+            null
         ]
     ],
     [
         "Can a computer science major have any free electives",
         [
-            "[bool]",
-            "value"
+            "No",
+            null
         ]
     ],
     [
@@ -5945,15 +5945,15 @@
     [
         "Is the computer science department open during the weekend",
         [
-            "[bool], they are available 9:00am-12:00pm and 1:00pm-4:00pm, [day] to [day]",
+            "No, they are available 9:00am-12:00pm and 1:00pm-4:00pm, [day] to [day]",
             "value"
         ]
     ],
     [
         "Is [professor] still the department chair of Computer Science",
         [
-            "[bool]",
-            "value"
+            "Yes",
+            null
         ]
     ],
     [
@@ -5967,14 +5967,14 @@
         "What\u2019s the earliest section for [course]",
         [
             "The earliest section is [section] taught by CSSE-Faculty] that starts at [csse-course-time-start]",
-            null
+            "value"
         ]
     ],
     [
         "What\u2019s the latest section for [course]",
         [
             "The latest section is [section] taught by CSSE-Faculty] that starts at [csse-course-time-start]",
-            null
+            "value"
         ]
     ],
     [

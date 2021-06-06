@@ -146,7 +146,7 @@
         "waitlist_length": "value",
         "number_of(course code)": "count",
         "csse-course-time-start": "value",
-        "section": null,
+        "section": "value",
         "dayandtime": "value",
         "is|is not": "bool",
         "time slot": "value",
@@ -156,7 +156,10 @@
         "days of week": "value",
         "class ...": "list",
         "class-name": "value",
-        "start_time": "value"
+        "start_time": "value",
+        "day": "value",
+        "section num": "value",
+        "term": "value"
     },
     "map": {
         "room": "[location]",
@@ -395,7 +398,7 @@
         "yes/ no": "[bool]",
         "yes / no": "[bool]",
         "yes or no": "[bool]",
-        "Yes": "[bool]",
-        "No": "[bool]"
+        "Yes[.|\\s]": "[bool]",
+        "No[.|\\s]": "[bool]"
     }
 }

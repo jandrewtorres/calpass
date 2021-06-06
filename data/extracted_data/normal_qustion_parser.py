@@ -27,7 +27,7 @@ def type_str_from_answer(text, types):
             raise Exception('no match')
     except Exception as e:
         print(f'failed to type variable for \'{text}\': {str(e)}')
-        return None
+    return None
     
 
 def parse_example_question_file(file, var_map=None, replace=None, types=None):
@@ -71,6 +71,7 @@ def parse_example_question_file(file, var_map=None, replace=None, types=None):
                     return string, va
                 question, var_q = var_replacer(question)
                 answer, var_a = var_replacer(answer)
+                # print(answer)
                 # print(question)
                 # print(f'{groups[0]} -> {question}')
                 questions.append(question)
