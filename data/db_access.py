@@ -1,5 +1,4 @@
 import json
-from collections import defaultdict
 from rdflib import Graph, Literal, RDF, URIRef, BNode
 from rdflib.store import NO_STORE, VALID_STORE
 from rdflib.namespace import ClosedNamespace, Namespace
@@ -73,23 +72,6 @@ object_name_map = {
     ('title', 'job') : calpass_professor_properties.personTitle,
     ('course', 'teach', 'instruct') : calpass_professor_properties.teaches
 }
-
-def iterfy(iterable):
-    if isinstance(iterable, str):
-        yield iterable
-    else:
-        try:
-            # need "iter()" here to force TypeError on non-iterable
-            # as e.g. "yield from 1" doesn't throw until "next()"
-            yield from iter(iterable)
-        except TypeError:
-            yield iterable
-
-# one to many name map
-object_name_associations = defaultdict(list)
-for k, v in object_name_map.items():
-    for key in iterfy(k):
-        object_name_associations[key].append(v)
 
 def load_db(dbpath):
     g = Graph(store="Sleepycat", identifier='mygraph')

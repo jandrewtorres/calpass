@@ -4,12 +4,10 @@ import spacy
 import numpy as np
 
 from data import variable_pattern, day_pattern
-
-nlp = spacy.load('en_core_web_lg')
+from .knowledge_model import nlp, STOP_WORDS
 
 class QuestionParser:
     def __init__(self, department_codes=['csc','cpe','stat','ee','laes','data'], names=['Foaad']):
-        self.STOP_WORDS = nltk.corpus.stopwords.words()
         self.words_pattern = re.compile(r'([^\s\w]|_)+')
         self.class_pattern = re.compile(r'({depa})(?:-|\s)?(\d{{3}})(?:-|\s)?(\d{{2}})?'.format(depa='|'.join(department_codes)), re.IGNORECASE)
         self.time_pattern = re.compile(r'(\d{1,2})(?=pm|am|:)(?::(\d{2}))?(am|pm)?')
@@ -45,7 +43,7 @@ class QuestionParser:
                 continue
 
             word = self.words_pattern.sub('', word)
-            if len(word) > 0 and word not in self.STOP_WORDS:
+            if len(word) > 0 and word not in STOP_WORDS:
                 tokens.append((nlp(word)[0].lemma_))
         print(tokens)
         return tokens
