@@ -1,0 +1,6029 @@
+[
+    [
+        "When is [professor] teaching [course_number]",
+        [
+            "List of [day]",
+            null
+        ]
+    ],
+    [
+        "When is [professor] teaching [course_number]",
+        [
+            "List of [day]",
+            null
+        ]
+    ],
+    [
+        "What times is the course [course_number] being offered on [day]",
+        [
+            "[start-time] for [course_number]",
+            "value"
+        ]
+    ],
+    [
+        "What is [professor] [phone_number]",
+        [
+            "[phone_number]",
+            "value"
+        ]
+    ],
+    [
+        "Where is [course_number] being taught",
+        [
+            "List of [location]",
+            "value"
+        ]
+    ],
+    [
+        "What [day] of the week is [professor] [bool]t teaching on",
+        [
+            "List of [day]",
+            null
+        ]
+    ],
+    [
+        "What [day] of the week is [professor] [bool]t teaching on",
+        [
+            "List of [day]",
+            null
+        ]
+    ],
+    [
+        "In what building is [course_number] being offered",
+        [
+            "[location]",
+            "value"
+        ]
+    ],
+    [
+        "When is [professor] done teaching on [day]",
+        [
+            "[end-time]",
+            "value"
+        ]
+    ],
+    [
+        "When is [professor] done teaching on [day]",
+        [
+            "[end-time]",
+            "value"
+        ]
+    ],
+    [
+        "Tell me [professor] office location",
+        [
+            "[location]",
+            "value"
+        ]
+    ],
+    [
+        "Do you k[bool]w [professor] office location",
+        [
+            "[location]",
+            "value"
+        ]
+    ],
+    [
+        "Where can I find [professor] in between classes",
+        [
+            "[location]",
+            "value"
+        ]
+    ],
+    [
+        "Can you tell me the location of [professor]\u2019s office",
+        [
+            "[location]",
+            "value"
+        ]
+    ],
+    [
+        "What is [professor] earliest lecture",
+        [
+            "[start-time]",
+            "value"
+        ]
+    ],
+    [
+        "Do you k[bool]w [professor] first lecture",
+        [
+            "[start-time]",
+            "value"
+        ]
+    ],
+    [
+        "What is [professor] latest lecture",
+        [
+            "[end-time]",
+            "value"
+        ]
+    ],
+    [
+        "Do you k[bool]w [professor] last lecture on [day]",
+        [
+            "[end-time]",
+            "value"
+        ]
+    ],
+    [
+        "Do you k[bool]w [professor] last lecture on [day]",
+        [
+            "[end-time]",
+            "value"
+        ]
+    ],
+    [
+        "How many sections of [course_number] are being taught this quarter",
+        [
+            "Number of Classes",
+            null
+        ]
+    ],
+    [
+        "How many sections of [course_number] are being taught this quarter by [professor]",
+        [
+            "Number of Classes",
+            null
+        ]
+    ],
+    [
+        "How many sections of [course_number] are being taught this quarter on [day]",
+        [
+            "Number of Classes",
+            null
+        ]
+    ],
+    [
+        "How many sections of [course_number] are being taught this quarter in [location]",
+        [
+            "Number of Classes",
+            null
+        ]
+    ],
+    [
+        "How long is the average class in the Statistics department",
+        [
+            "AVG([start_time] - [end-time])",
+            "value"
+        ]
+    ],
+    [
+        "How long is the average class in the CSSE department",
+        [
+            "AVG([start_time] - [end-time])",
+            "value"
+        ]
+    ],
+    [
+        "What [course_number] has the least amount of hours per week in the CSSE department",
+        [
+            "MIN([start_time] - [end-time])",
+            "value"
+        ]
+    ],
+    [
+        "What [course_number] has the most amount of hours per week in the CSSE department",
+        [
+            "MAX([start_time] - [end-time])",
+            "value"
+        ]
+    ],
+    [
+        "What is the title of [professor] in the CSSE department",
+        [
+            "[title]",
+            "value"
+        ]
+    ],
+    [
+        "What is the title of [professor] in the Statistics department",
+        [
+            "[title]",
+            "value"
+        ]
+    ],
+    [
+        "How many upper division classes is [professor] teaching",
+        [
+            "Number of classes",
+            null
+        ]
+    ],
+    [
+        "How many upper division classes is [professor] teaching",
+        [
+            "Number of classes",
+            null
+        ]
+    ],
+    [
+        "How many lower division classes is [professor] teaching",
+        [
+            "Number of classes",
+            null
+        ]
+    ],
+    [
+        "How many lower division classes is [professor] teaching",
+        [
+            "Number of classes",
+            null
+        ]
+    ],
+    [
+        "What is the number of professors teaching [course_number] ",
+        [
+            "Number of professors",
+            null
+        ]
+    ],
+    [
+        "What is the number of professors teaching in the CSSE department",
+        [
+            "Number of professors",
+            null
+        ]
+    ],
+    [
+        "What is the number of professors teaching in the Statistics department",
+        [
+            "Number of professors",
+            null
+        ]
+    ],
+    [
+        "Does the [location] have a class in session",
+        [
+            "[[bool]|[bool]]",
+            "value"
+        ]
+    ],
+    [
+        "What time is [professor] teaching [course_number]",
+        [
+            "[start-time]",
+            "value"
+        ]
+    ],
+    [
+        "Tell me when [professor] is teaching [course_number] ",
+        [
+            "List of [day]",
+            null
+        ]
+    ],
+    [
+        "When is the course [course_number] being offered on [day]",
+        [
+            "[start-time]",
+            "value"
+        ]
+    ],
+    [
+        "What time is [course_number] being offered on [day]",
+        [
+            "[start-time]",
+            "value"
+        ]
+    ],
+    [
+        "Can you tell me [professor]\u2019s [phone_number]",
+        [
+            "[phone_number]",
+            "value"
+        ]
+    ],
+    [
+        "Do you k[bool]w [professor]\u2019s [phone_number]",
+        [
+            "[phone_number]",
+            "value"
+        ]
+    ],
+    [
+        "In what room is [course_number] being taught",
+        [
+            "[location]",
+            "value"
+        ]
+    ],
+    [
+        "Where on campus is [course_number] being taught",
+        [
+            "[location]",
+            "value"
+        ]
+    ],
+    [
+        "For what days is [professor] [bool]t teaching",
+        [
+            "[day]",
+            null
+        ]
+    ],
+    [
+        "Can you tell me the days that [professor] is [bool]t teaching",
+        [
+            "[day]",
+            null
+        ]
+    ],
+    [
+        "What building is [course_number] in",
+        [
+            "[location]",
+            "value"
+        ]
+    ],
+    [
+        "What is the building of [course_number]",
+        [
+            "[location]",
+            "value"
+        ]
+    ],
+    [
+        "What time is [professor] done teaching on [day]",
+        [
+            "[end-time]",
+            "value"
+        ]
+    ],
+    [
+        "On [day] what time is [professor] done teaching",
+        [
+            "[end-time]",
+            "value"
+        ]
+    ],
+    [
+        "Where is the office of [professor]",
+        [
+            "[location]",
+            "value"
+        ]
+    ],
+    [
+        "Where is [professor]\u2019s office",
+        [
+            "[location]",
+            "value"
+        ]
+    ],
+    [
+        "What is the room number of [professor]\u2019s office",
+        [
+            "[location]",
+            "value"
+        ]
+    ],
+    [
+        "What time does [professor] start teaching",
+        [
+            "[start-time]",
+            "value"
+        ]
+    ],
+    [
+        "What time does [professor] finish teaching",
+        [
+            "[end-time]",
+            "value"
+        ]
+    ],
+    [
+        "How many sections of [course_number] are there this quarter",
+        [
+            "Number of sections",
+            null
+        ]
+    ],
+    [
+        "What is the number of sections of [course_number] this quarter",
+        [
+            "Number of sections",
+            null
+        ]
+    ],
+    [
+        "Tell me the number of sections of [course_number] this quarter ",
+        [
+            "Number of sections",
+            null
+        ]
+    ],
+    [
+        "What is the number of sections of [course_number] being taught this quarter by [professor]",
+        [
+            "Number of sections",
+            null
+        ]
+    ],
+    [
+        "Tell me the number of sections of [course_number] being taught this quarter on [day] ",
+        [
+            "Number of sections",
+            null
+        ]
+    ],
+    [
+        "What is the number of sections of [course_number] being taught this quarter in [location]",
+        [
+            "Number of sections",
+            null
+        ]
+    ],
+    [
+        "Can I take [course_number] and [course] together",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "What days of the week is [course_number] scheduled for",
+        [
+            "List of [day]",
+            null
+        ]
+    ],
+    [
+        "How many sections of [course] have openings",
+        [
+            "Number",
+            null
+        ]
+    ],
+    [
+        "Is [course] being taught in [quarter]-[year]",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Is [course] usually taught in the [quarter] quarter",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "What terms is [course] scheduled for",
+        [
+            "List of [quarter]-[year]",
+            "value"
+        ]
+    ],
+    [
+        "Who is teaching [course] this quarter",
+        [
+            "List of [professor]",
+            "value"
+        ]
+    ],
+    [
+        "Will [professor] be teaching [course] this quarter",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Where will [professor] be at [time] on [day]",
+        [
+            "[location]",
+            "value"
+        ]
+    ],
+    [
+        "Will [professor] be available for [time] on [day]",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Will [professor] be available at [time] on [day]",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "How many classes are being offered in [quarter]-[year]",
+        [
+            "Number",
+            null
+        ]
+    ],
+    [
+        "How many faculty are teaching [course]",
+        [
+            "Number",
+            null
+        ]
+    ],
+    [
+        "How many sections of [course] have class on [day]",
+        [
+            "Number",
+            null
+        ]
+    ],
+    [
+        "How many available seats are there in [course_number]",
+        [
+            "Number",
+            null
+        ]
+    ],
+    [
+        "What type of class is [course_number]",
+        [
+            "[course_level]",
+            "value"
+        ]
+    ],
+    [
+        "Is [professor] teaching in [quarter]-[year]",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "What are the prerequisites for [course]",
+        [
+            "List of [course]",
+            "value"
+        ]
+    ],
+    [
+        "What are the corequisites for [course]",
+        [
+            "List of [course]",
+            "value"
+        ]
+    ],
+    [
+        "Does [course] have any prerequisites",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Does [course] have any corequisites",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Is [course] offered in the [time]",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "What classes are offered in the [time]",
+        [
+            "List of [course]",
+            "value"
+        ]
+    ],
+    [
+        "What [time] classes are there",
+        [
+            "List of [course_number]",
+            "value"
+        ]
+    ],
+    [
+        "Does [course_number] have a lab section",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "What time is the lab section for [course_number]",
+        [
+            "[time]",
+            "value"
+        ]
+    ],
+    [
+        "How many units is [course_number]",
+        [
+            "Number",
+            null
+        ]
+    ],
+    [
+        "How long is [course_number] including its lab",
+        [
+            "[time]",
+            "value"
+        ]
+    ],
+    [
+        "How many classes is [professor] teaching in [quarter]-[year]",
+        [
+            "Number",
+            null
+        ]
+    ],
+    [
+        "Give me the [day] of the week [course_number] is offered",
+        [
+            "List of [day]\u2019",
+            null
+        ]
+    ],
+    [
+        "Do you k[bool]w what [day] of the week [course_number] is offered",
+        [
+            "List of [day]\u2019",
+            null
+        ]
+    ],
+    [
+        "Do you k[bool]w which [day] of the week [course_number] is offered",
+        [
+            "List of [day]\u2019",
+            null
+        ]
+    ],
+    [
+        "What [day] of the week is [course_number] offered",
+        [
+            "List of [day]\u2019",
+            null
+        ]
+    ],
+    [
+        "Tell me the [day] of the week [course_number] is offered",
+        [
+            "List of [day]\u2019",
+            null
+        ]
+    ],
+    [
+        "Which [day] of the week is [course_number] offered",
+        [
+            "List of [day]\u2019",
+            null
+        ]
+    ],
+    [
+        "What [day] of the week is [professor] free",
+        [
+            "List of [day]",
+            null
+        ]
+    ],
+    [
+        "What [day] of the week is [professor] free",
+        [
+            "List of [day]\u2019",
+            null
+        ]
+    ],
+    [
+        "What classes are taught in [location] ",
+        [
+            "List of [course_number]\u2019",
+            "value"
+        ]
+    ],
+    [
+        "Tell me the classes that are taught in [location] ",
+        [
+            "List of [course_number]\u2019",
+            "value"
+        ]
+    ],
+    [
+        "Can you give me the classes that are taught in [location] ",
+        [
+            "List of [course_number]\u2019",
+            "value"
+        ]
+    ],
+    [
+        "Which classes are taught in [location] ",
+        [
+            "List of [course_number]\u2019",
+            "value"
+        ]
+    ],
+    [
+        "How many classes are taught in [location] ",
+        [
+            "Number of classes",
+            null
+        ]
+    ],
+    [
+        "Is [professor] available in the [time] ",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Is [professor] free in the [time] ",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Is [professor] busy in the [time] ",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Is [professor] unavailable in the [time] ",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Is there a [time] section for [course_number] ",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Tell me if there is a [time] section for [course_number] ",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Do you k[bool]w if there is a [time] section for [course_number] ",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "How many units is [course_number] worth",
+        [
+            "Number",
+            null
+        ]
+    ],
+    [
+        "How many classes does [professor] teach on [day]",
+        [
+            "Number",
+            null
+        ]
+    ],
+    [
+        "Which classes does [professor] teach on [day]",
+        [
+            "List of [course_number]",
+            "value"
+        ]
+    ],
+    [
+        "What time does [professor] office hours end",
+        [
+            "End-Time",
+            null
+        ]
+    ],
+    [
+        "What time does [professor] office hours start",
+        [
+            "Start-Time",
+            null
+        ]
+    ],
+    [
+        "Are there any sections of [course]",
+        [
+            "There are [num_sections] sections of [course].",
+            "count"
+        ]
+    ],
+    [
+        "Is [course] being taught this quarter",
+        [
+            "There are [num_sections] sections of [course].",
+            "count"
+        ]
+    ],
+    [
+        "Is [course] offered this quarter",
+        [
+            "There are [num_sections] sections of [course].",
+            "count"
+        ]
+    ],
+    [
+        "Can I take [course] this quarter",
+        [
+            "There are [num_sections] sections of [course].",
+            "count"
+        ]
+    ],
+    [
+        "Is [course] available",
+        [
+            "There are [num_sections] sections of [course].",
+            "count"
+        ]
+    ],
+    [
+        "How many sections of [course] are there",
+        [
+            "There are [num_sections] sections of [course].",
+            "count"
+        ]
+    ],
+    [
+        "Who is [course] being taught by",
+        [
+            "[course] is being taught by [teachers].",
+            "value"
+        ]
+    ],
+    [
+        "Who is teaching [course] this quarter",
+        [
+            "[course] is being taught by [teachers].",
+            "value"
+        ]
+    ],
+    [
+        "What professors are teaching [course] this quarter",
+        [
+            "[course] is being taught by [teachers].",
+            "value"
+        ]
+    ],
+    [
+        "Who can I take [course] with",
+        [
+            "[course] is being taught by [teachers].",
+            "value"
+        ]
+    ],
+    [
+        "What days is [course]-[section] being taught",
+        [
+            "[course]-[section] is taught on [day].",
+            "value"
+        ]
+    ],
+    [
+        "What days of the week is [course]-[section]",
+        [
+            "[course]-[section] is taught on [day].",
+            "value"
+        ]
+    ],
+    [
+        "When is [course]-[section] being taught",
+        [
+            "[course]-[section] is taught on [day].",
+            "value"
+        ]
+    ],
+    [
+        "What time is [course]-[section] being taught",
+        [
+            "[course]-[section] is taught at [time].",
+            "value"
+        ]
+    ],
+    [
+        "What time of day is [course]-[section] being taught",
+        [
+            "[course]-[section] is taught at [time].",
+            "value"
+        ]
+    ],
+    [
+        "Who is [course]-[section] taught by",
+        [
+            "[course]-[section] is taught by [professor].",
+            "value"
+        ]
+    ],
+    [
+        "How many sections does [professor] teach",
+        [
+            "[professor] teaches [integer] sections.",
+            "value"
+        ]
+    ],
+    [
+        "What classes does [professor] teach",
+        [
+            "[professor] teaches [classes].",
+            "value"
+        ]
+    ],
+    [
+        "Does [professor] teach [course]",
+        [
+            "[professor] teaches [classes].",
+            "value"
+        ]
+    ],
+    [
+        "What sections does [professor] teach",
+        [
+            "[professor] teaches [class_sections].",
+            "value"
+        ]
+    ],
+    [
+        "Does [professor] teach [course]-[section]",
+        [
+            "[professor] teaches [class_sections].",
+            "value"
+        ]
+    ],
+    [
+        "Where is [professor]'s office",
+        [
+            "[professor]'s office is at Building building, Room [location].",
+            "value"
+        ]
+    ],
+    [
+        "What is [professor]'s phone number",
+        [
+            "[professor]'s phone number is [phone_number].",
+            "value"
+        ]
+    ],
+    [
+        "What type of class is [course]-[section]",
+        [
+            "[course]-[section] is a [type].",
+            "value"
+        ]
+    ],
+    [
+        "What is [professor]'s alias",
+        [
+            "[professor]'s alias is [alias].",
+            "value"
+        ]
+    ],
+    [
+        "What time is [professor] office hours",
+        [
+            "They are at [time] [day].",
+            "value"
+        ]
+    ],
+    [
+        "When are [professor] office hours",
+        [
+            "They are at [time] [day].",
+            "value"
+        ]
+    ],
+    [
+        "Does [professor] have after[bool]on office hours",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Does [professor] have morning office hours",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Where and when are [professor] office hours",
+        [
+            "They are at [time][day] in building[location]",
+            "value"
+        ]
+    ],
+    [
+        "What building are [professor] office hours",
+        [
+            "Building building, Room [location]",
+            "value"
+        ]
+    ],
+    [
+        "What building is [course][section] in",
+        [
+            "Building building, Room [location]",
+            "value"
+        ]
+    ],
+    [
+        "When is [course] in [location]",
+        [
+            "[time] [day]",
+            "value"
+        ]
+    ],
+    [
+        "Is [course] MWF",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Is [course] TR",
+        [
+            "[bool], it is [day]",
+            "value"
+        ]
+    ],
+    [
+        "Is [course] MTRF",
+        [
+            "[bool], it is [day]",
+            "value"
+        ]
+    ],
+    [
+        "Is [course] MTWR",
+        [
+            "[bool], it is [day]",
+            "value"
+        ]
+    ],
+    [
+        "Does [professor] have office hours [day]",
+        [
+            "[bool], they are at [time] [day]",
+            "value"
+        ]
+    ],
+    [
+        "Does [professor] have office hours today",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Does [professor] have office hours tomorrow",
+        [
+            "[bool], they are at [time] [day]",
+            "value"
+        ]
+    ],
+    [
+        "What time is [course][section]",
+        [
+            "[time] [day]",
+            "value"
+        ]
+    ],
+    [
+        "Who teaches [course][section]",
+        [
+            "[professor]",
+            "value"
+        ]
+    ],
+    [
+        "Who is [alias]",
+        [
+            "[professor]",
+            "value"
+        ]
+    ],
+    [
+        "What is the capacity for [course][section]",
+        [
+            "The capacity is [capacity] students.",
+            "value"
+        ]
+    ],
+    [
+        "What is the capacity for [course]",
+        [
+            "The max capacity for Section [section] is [Capacity[ students",
+            null
+        ]
+    ],
+    [
+        "What college is [alias] affiliated with",
+        [
+            "[college]",
+            null
+        ]
+    ],
+    [
+        "What college is [professor] affiliated with",
+        [
+            "[college]",
+            null
+        ]
+    ],
+    [
+        "What college is professor [professor] affiliated with",
+        [
+            "[college]",
+            null
+        ]
+    ],
+    [
+        "What college is Dr. [professor] affiliated with",
+        [
+            "[college]",
+            null
+        ]
+    ],
+    [
+        "What day is [course] offered on",
+        [
+            "[course] [section] is [day]",
+            "value"
+        ]
+    ],
+    [
+        "Is [course][section] offered on [day]",
+        [
+            "[bool], [course] [section] is offered on [day]",
+            "value"
+        ]
+    ],
+    [
+        "Does [course] have a lab",
+        [
+            "[bool]/[bool]",
+            "value"
+        ]
+    ],
+    [
+        "How long has [professor] taught",
+        [
+            "[integer] Years",
+            "value"
+        ]
+    ],
+    [
+        "Are there any teachers with first name [professor]",
+        [
+            "[bool] [professor], [professor], ...",
+            "value"
+        ]
+    ],
+    [
+        "Are there any teachers with last name [professor]",
+        [
+            "[bool] [professor], [professor], ...",
+            "value"
+        ]
+    ],
+    [
+        "Are there are [course] being taught on [day]",
+        [
+            "[bool] the classes are [course], [course], ...",
+            "value"
+        ]
+    ],
+    [
+        "What day does [quarter] start",
+        [
+            "[month] [day]",
+            "value"
+        ]
+    ],
+    [
+        "What day does [quarter] end",
+        [
+            "[month] [day]",
+            "value"
+        ]
+    ],
+    [
+        "Is [professor] a Professor",
+        [
+            "[bool]/[bool]",
+            "value"
+        ]
+    ],
+    [
+        "What [section] has the highest enrollment for [course]",
+        [
+            "[section]",
+            null
+        ]
+    ],
+    [
+        "What [section] has the lowest enrollment for [course]",
+        [
+            "[section]",
+            null
+        ]
+    ],
+    [
+        "What is the average class size for [professor]",
+        [
+            "[integer]",
+            "value"
+        ]
+    ],
+    [
+        "Which teacher teaches the most sections for [course]",
+        [
+            "[professor]",
+            "value"
+        ]
+    ],
+    [
+        "Which teacher teaches the least sections for [course]",
+        [
+            "[professor]",
+            "value"
+        ]
+    ],
+    [
+        "What is the latest start time for [course]",
+        [
+            "[time]",
+            "value"
+        ]
+    ],
+    [
+        "What is the earliest start time for [course]",
+        [
+            "[time]",
+            "value"
+        ]
+    ],
+    [
+        "Which teacher has [phone_number]",
+        [
+            "[professor]",
+            "value"
+        ]
+    ],
+    [
+        "Which teacher has [alias]",
+        [
+            "[professor]",
+            "value"
+        ]
+    ],
+    [
+        "What is the first name of [professor]",
+        [
+            "[first name]",
+            "value"
+        ]
+    ],
+    [
+        "Which teacher teaches the most classes in [department]",
+        [
+            "[professor]",
+            "value"
+        ]
+    ],
+    [
+        "Which teacher teaches the least classes in [department]",
+        [
+            "[professor]",
+            "value"
+        ]
+    ],
+    [
+        "Which teacher is at [location]",
+        [
+            "[professor]",
+            "value"
+        ]
+    ],
+    [
+        "Which [quarter] in [year] had the most sections for [course]",
+        [
+            "[quarter]",
+            "value"
+        ]
+    ],
+    [
+        "Which [quarter] in [year] had the least sections for [course]",
+        [
+            "[quarter]",
+            "value"
+        ]
+    ],
+    [
+        "Is [location] Available after [time]",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Is [location] Available before [time]",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Who is using [location] [time]",
+        [
+            "[professor] is using [location] [time]",
+            "value"
+        ]
+    ],
+    [
+        "What's the capacity of [location]",
+        [
+            "The capacity of [location] is 28",
+            "value"
+        ]
+    ],
+    [
+        "What's the enrollment capacity of [location]",
+        [
+            "The enrollment capacity of [location] is 40",
+            "value"
+        ]
+    ],
+    [
+        "Which classes are being taight in [location]",
+        [
+            "[course] is being taught in [location]",
+            "value"
+        ]
+    ],
+    [
+        "Is [professor] teaching any in person classes",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "When is [professor] available",
+        [
+            "[professor] is available [time]",
+            "value"
+        ]
+    ],
+    [
+        "Can I visit [professor] [time]",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Who is teaching [course]",
+        [
+            "[professor] is teaching [course]",
+            "value"
+        ]
+    ],
+    [
+        "Can I still enroll [course]",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "What's the enrollment capacity of [course]",
+        [
+            "The enrollment capacity of [course] is 40",
+            "value"
+        ]
+    ],
+    [
+        "What [professor]'s email address",
+        [
+            "[professor]'s email address is [email]",
+            "value"
+        ]
+    ],
+    [
+        "What 's the phone number of [professor]",
+        [
+            "It is [phone_number]",
+            "value"
+        ]
+    ],
+    [
+        "When is the office hour of [professor]",
+        [
+            "It is [time]",
+            "value"
+        ]
+    ],
+    [
+        "Where is [professor]'s [course]",
+        [
+            "It's at [location]",
+            "value"
+        ]
+    ],
+    [
+        "What's this [phone_number] belongs to",
+        [
+            "It belongs to [professor]",
+            "value"
+        ]
+    ],
+    [
+        "Which [professor] doesn't teach this quarter",
+        [
+            "[professor] doesn't teach this quarter,",
+            "value"
+        ]
+    ],
+    [
+        "Is [course] virtual or in person",
+        [
+            "It's virtual",
+            null
+        ]
+    ],
+    [
+        "Is [course] gonna be virtual",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Which in person class is available [time]",
+        [
+            "[course] are available [time]",
+            "value"
+        ]
+    ],
+    [
+        "Which virtual class is available [time]",
+        [
+            "[course] are available [time]",
+            "value"
+        ]
+    ],
+    [
+        "How to contact [professor]",
+        [
+            "[professor] email is [email]",
+            "value"
+        ]
+    ],
+    [
+        "Is [professor] teaching [course]",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Does [professor] teach 500 level class",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Does [professor] teach 300 level class",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "What is [professor]\u2019s Alias",
+        [
+            "[professor]\u2019s Alias is [alias].",
+            "value"
+        ]
+    ],
+    [
+        "What\u2019s [professor]\u2019s username",
+        [
+            "[professor]\u2019s username is [alias]",
+            "value"
+        ]
+    ],
+    [
+        "What is [professor]\u2019s email",
+        [
+            "[professor]\u2019s email is [alias]@calpoly.edu",
+            "value"
+        ]
+    ],
+    [
+        "How can I contact [professor]",
+        [
+            "[professor]\u2019s email is [alias]@calpoly.edu",
+            "value"
+        ]
+    ],
+    [
+        "What is [professor]\u2019s title",
+        [
+            "[professor]\u2019s title is [teachertitle]",
+            "value"
+        ]
+    ],
+    [
+        "What\u2019s [professor]\u2019s phone number",
+        [
+            "[professor]\u2019s phone number is [phonenumber]",
+            "value"
+        ]
+    ],
+    [
+        "Do you have the phone number for [professor]",
+        [
+            "[bool], you can reach [professor] at [phonenumber].",
+            "value"
+        ]
+    ],
+    [
+        "How can I contact [professor]",
+        [
+            "Here is the contact information for [professor], phone: [phonenumber], email: [alias]@calpoly.edu office: [location].",
+            "value"
+        ]
+    ],
+    [
+        "What\u2019s [professor]'s title",
+        [
+            "[professor]'s title is [teachertitle].",
+            "value"
+        ]
+    ],
+    [
+        "Where is [professor]\u2019s office",
+        [
+            "[professor]\u2019s office is [location]",
+            "value"
+        ]
+    ],
+    [
+        "What is the room number of [professor]\u2019s office",
+        [
+            "[professor]\u2019s office is [location]",
+            "value"
+        ]
+    ],
+    [
+        "Where can I find [professor]",
+        [
+            "[professor] has office hours at [location] on [day] - [time].",
+            "value"
+        ]
+    ],
+    [
+        "When does [professor] hold office hours today",
+        [
+            "[professor] holds office hours at [time]",
+            "value"
+        ]
+    ],
+    [
+        "When does [professor] hold office hours",
+        [
+            "[professor] holds office hours at [dayandtime]",
+            "value"
+        ]
+    ],
+    [
+        "What days does [professor] hold office hours",
+        [
+            "[professor] holds office hours at [day]",
+            "value"
+        ]
+    ],
+    [
+        "When are [professor]\u2019s office hours today",
+        [
+            "[professor] holds office hours at [time]",
+            "value"
+        ]
+    ],
+    [
+        "When can I go to [professor]\u2019s office hours today",
+        [
+            "[professor] holds office hours at [time]",
+            "value"
+        ]
+    ],
+    [
+        "Does [professor] have hours today",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "When are [professor]\u2019s office hours today",
+        [
+            "[professor] holds office hours at [time]",
+            "value"
+        ]
+    ],
+    [
+        "When are [professor]\u2019s office hours",
+        [
+            "[professor] holds office hours at [dayandtime]",
+            "value"
+        ]
+    ],
+    [
+        "What classes does [professor] teach",
+        [
+            "[professor] teaches these classes: [course]",
+            "value"
+        ]
+    ],
+    [
+        "What courses does [professor] teach",
+        [
+            "[professor] teaches these classes: [course]",
+            "value"
+        ]
+    ],
+    [
+        "What classes does [professor] teach",
+        [
+            "[professor] teaches these classes: [course]",
+            "value"
+        ]
+    ],
+    [
+        "Which classes are taught by [professor]",
+        [
+            "[professor] teaches these classes: [course]",
+            "value"
+        ]
+    ],
+    [
+        "What course does [professor] teach",
+        [
+            "[professor] teaches these classes: [course]",
+            "value"
+        ]
+    ],
+    [
+        "What does [professor] teach",
+        [
+            "[professor] teaches these classes: [course]",
+            "value"
+        ]
+    ],
+    [
+        "Does [professor] teach [course]",
+        [
+            "[bool], [professor] teaches [course] section [course].",
+            "value"
+        ]
+    ],
+    [
+        "Where does [professor] teach [course]",
+        [
+            "[professor] teaches [course] at [location].",
+            "value"
+        ]
+    ],
+    [
+        "When does [professor] teach [course]",
+        [
+            "[professor] teaches [course] at [time] on [day].",
+            "value"
+        ]
+    ],
+    [
+        "How many people can take [professor]'s section of [course]",
+        [
+            "[professor]'s section of [course] has an enrollment capacity of [enrollmentcap].",
+            "value"
+        ]
+    ],
+    [
+        "What is the location capacity of [professor]'s section of [course]",
+        [
+            "[professor]'s section of [course] has a location capacity of [locationcap].",
+            "value"
+        ]
+    ],
+    [
+        "What are the professors for [course]",
+        [
+            "The professors for [course] are: [teachernamelist].",
+            "value"
+        ]
+    ],
+    [
+        "Who teaches [course]",
+        [
+            "[course] is taught by: [professor]",
+            "value"
+        ]
+    ],
+    [
+        "Who is [course] taught by",
+        [
+            "[course] is taught by: [professor]",
+            "value"
+        ]
+    ],
+    [
+        "What is the schedule for [course] [course]",
+        [
+            "[course] [course] is offered [day] at [time]",
+            "value"
+        ]
+    ],
+    [
+        "What time is [course] [course]",
+        [
+            "[course] [course] is offered [day] at [time]",
+            "value"
+        ]
+    ],
+    [
+        "What day is [course] [course]",
+        [
+            "[course] [course] is offered [day] at [time]",
+            "value"
+        ]
+    ],
+    [
+        "When is [course] [course]",
+        [
+            "[course] [course] is offered [day] at [time]",
+            "value"
+        ]
+    ],
+    [
+        "What days is [course] [course] taught",
+        [
+            "[course] [course] is offered [day] at [time]",
+            "value"
+        ]
+    ],
+    [
+        "What times is [course] [course] taught",
+        [
+            "[course] [course] is offered [day] at [time]",
+            "value"
+        ]
+    ],
+    [
+        "What is the name of [course]",
+        [
+            "[course]: [course]",
+            "value"
+        ]
+    ],
+    [
+        "What is [course] called",
+        [
+            "[course]: [course]",
+            "value"
+        ]
+    ],
+    [
+        "What is [course]",
+        [
+            "[course]: [course]",
+            "value"
+        ]
+    ],
+    [
+        "What class is [course]",
+        [
+            "[course]: [course]",
+            "value"
+        ]
+    ],
+    [
+        "What is the course number of [course]",
+        [
+            "[course]: [course]",
+            "value"
+        ]
+    ],
+    [
+        "What class is [course]",
+        [
+            "[course]: [course]",
+            "value"
+        ]
+    ],
+    [
+        "What is the course code of [course]",
+        [
+            "[course]: [course]",
+            "value"
+        ]
+    ],
+    [
+        "How many sections of [course] are there",
+        [
+            "[numberofsections]",
+            "count"
+        ]
+    ],
+    [
+        "When does [course] start today",
+        [
+            "[course] is offered at [time]",
+            "value"
+        ]
+    ],
+    [
+        "When does [course] start today",
+        [
+            "[course] is offered at [time]",
+            "value"
+        ]
+    ],
+    [
+        "How many sections of [course]",
+        [
+            "There are [numberofsections] sections of [course].",
+            "count"
+        ]
+    ],
+    [
+        "What is [course] called",
+        [
+            "[course] is k[bool]wn as [course].",
+            "value"
+        ]
+    ],
+    [
+        "Are there prerequisites for [course]",
+        [
+            "The prerequisites for [course] are: [courserequisites].",
+            "value"
+        ]
+    ],
+    [
+        "Tell me the course number for [course]",
+        [
+            "The course number for [course] [course] is [course].",
+            "value"
+        ]
+    ],
+    [
+        "When is [course] [course] taught",
+        [
+            "[course] is taught at [time] on [day].",
+            "value"
+        ]
+    ],
+    [
+        "How many students can take [course]",
+        [
+            "The enrollment capacity for [course] section [course] is [enrollmentcap].",
+            "value"
+        ]
+    ],
+    [
+        "When would I get out of [course][course]",
+        [
+            "[course] section [course] ends at [dayandtime].",
+            "value"
+        ]
+    ],
+    [
+        "Does [course][course] conflict with [course][course]",
+        [
+            "[bool].",
+            "value"
+        ]
+    ],
+    [
+        "How many courses does [department] offer",
+        [
+            "[department] offers [numberofcourses]",
+            "value"
+        ]
+    ],
+    [
+        "How many classes does [department] offer",
+        [
+            "[department] offers [numberofcourses]",
+            "value"
+        ]
+    ],
+    [
+        "What courses does [department] offer",
+        [
+            "[department] offers [course]:[course]",
+            "value"
+        ]
+    ],
+    [
+        "What [department] courses are offered",
+        [
+            "[department] offers [course]:[course]",
+            "value"
+        ]
+    ],
+    [
+        "What [department] classes are offered in the Fall",
+        [
+            "[department] offers [course]:[course]",
+            "value"
+        ]
+    ],
+    [
+        "What [department] classes are there",
+        [
+            "[department] offers [course]:[course]",
+            "value"
+        ]
+    ],
+    [
+        "What sections of [course] are offered",
+        [
+            "",
+            null
+        ]
+    ],
+    [
+        "What is the enrollment cap of [course]",
+        [
+            "[enrollmentcap] total seats in [course]",
+            "value"
+        ]
+    ],
+    [
+        "How many spots are there in [course]",
+        [
+            "[enrollmentcap] total seats in [course]",
+            "value"
+        ]
+    ],
+    [
+        "How many seats are there in [course]",
+        [
+            "[enrollmentcap] total seats in [course]",
+            "value"
+        ]
+    ],
+    [
+        "How many available seats are there in [course]",
+        [
+            "[enr]/[enrollmentcap] seats available in [course]",
+            "value"
+        ]
+    ],
+    [
+        "How many open spots does [course] have",
+        [
+            "[enr]/[enrollmentcap] seats available in [course]",
+            "value"
+        ]
+    ],
+    [
+        "Can I enroll in [course]",
+        [
+            "[enr]/[enrollmentcap] seats available in [course]",
+            "value"
+        ]
+    ],
+    [
+        "Does [course] have open seats",
+        [
+            "[enr]/[enrollmentcap] seats available in [course]",
+            "value"
+        ]
+    ],
+    [
+        "How long is the waitlist for [course]",
+        [
+            "[waitlist] people on the waitlist for [course]",
+            "value"
+        ]
+    ],
+    [
+        "How many people are waiting in [course]",
+        [
+            "[waitlist] people on the waitlist for [course]",
+            "value"
+        ]
+    ],
+    [
+        "Is there a waitlist for [course]",
+        [
+            "[waitlist] people on the waitlist for [course]",
+            "value"
+        ]
+    ],
+    [
+        "What classes use [location]",
+        [
+            "[courselist] are taught in [location].",
+            "list"
+        ]
+    ],
+    [
+        "Who teaches in [location]",
+        [
+            "[teachernamelist] uses [location].",
+            "list"
+        ]
+    ],
+    [
+        "When is [location] in use on [day]",
+        [
+            "[location] is used during [time] on day.",
+            "value"
+        ]
+    ],
+    [
+        "Is [location] available at [time] on [day]",
+        [
+            "[bool].",
+            "value"
+        ]
+    ],
+    [
+        "How many people can fit in [location]",
+        [
+            "[locationcap] people can fit in [location].",
+            "value"
+        ]
+    ],
+    [
+        "What is [location] called",
+        [
+            "[location] is k[bool]wn as [roomname].",
+            "value"
+        ]
+    ],
+    [
+        "Is [course] taught in [location]",
+        [
+            "[bool].",
+            "value"
+        ]
+    ],
+    [
+        "Does [professor] use [location]",
+        [
+            "[bool].",
+            "value"
+        ]
+    ],
+    [
+        "Are there any [ge] courses in [location]",
+        [
+            "[bool].",
+            "value"
+        ]
+    ],
+    [
+        "Can I find [professor] in [location]",
+        [
+            "[bool].",
+            "value"
+        ]
+    ],
+    [
+        "What GE areas does [course] satisfy",
+        [
+            "[course] satisfies [ge]",
+            "value"
+        ]
+    ],
+    [
+        "Which GE area does [course] satisfy",
+        [
+            "[course] satisfies [ge]",
+            "value"
+        ]
+    ],
+    [
+        "What are the GE areas for [course]",
+        [
+            "[course] satisfies [ge]",
+            "value"
+        ]
+    ],
+    [
+        "How many [course] sections are there",
+        [
+            "There are [numberofsections] sections of [course].",
+            "count"
+        ]
+    ],
+    [
+        "What GE requirement is fulfilled by taking [course]",
+        [
+            "[course] fulfulls GE Requirement [ge].",
+            "value"
+        ]
+    ],
+    [
+        "What is the description for [course]",
+        [
+            "[course]'s description is [course].",
+            "value"
+        ]
+    ],
+    [
+        "Which course is [course]",
+        [
+            "[course]'s course number is [course].",
+            "value"
+        ]
+    ],
+    [
+        "What is the enrollment cap for [course]",
+        [
+            "There can be a maximum of [enrollmentcap] students in a section of [course].",
+            "value"
+        ]
+    ],
+    [
+        "What courses are taught by [professor]",
+        [
+            "[professor] teaches [courselist].",
+            "value"
+        ]
+    ],
+    [
+        "What is [professor]'s weekly schedule",
+        [
+            "[professor] is busy [dayandtime].",
+            "value"
+        ]
+    ],
+    [
+        "What times is [professor] available on [day]",
+        [
+            "[professor] is busy [time].",
+            "value"
+        ]
+    ],
+    [
+        "Where can I find [professor]'s office",
+        [
+            "[professor]'s office is [location].",
+            "value"
+        ]
+    ],
+    [
+        "Which professor works in office [location]",
+        [
+            "[professor] works in [location].",
+            "value"
+        ]
+    ],
+    [
+        "Which sections of [course] are taught by [professor]",
+        [
+            "[professor] teaches sections [sectionlist].",
+            "value"
+        ]
+    ],
+    [
+        "What is [professor]'s phone number",
+        [
+            "You can reach [professor] at [phonenumber].",
+            "value"
+        ]
+    ],
+    [
+        "Is [professor] a lecturer",
+        [
+            "[bool], [professor] [isisnt] as lecturer.",
+            "value"
+        ]
+    ],
+    [
+        "What is [professor]'s job title",
+        [
+            "[professor] is a [teachertitle].",
+            "value"
+        ]
+    ],
+    [
+        "How many sections of independent study are advised by [professor]",
+        [
+            "[professor] advises [numberofsections] sections.",
+            "value"
+        ]
+    ],
+    [
+        "In which classroom is secion [course] of course [course] taught",
+        [
+            "[course] section [course] [location]",
+            "value"
+        ]
+    ],
+    [
+        "What courses are being taught in [location]",
+        [
+            "[courselist] are all taught in [location].",
+            "list"
+        ]
+    ],
+    [
+        "What is the weekly schedule for [course] section [course]",
+        [
+            "Section [course] of [course] is taught [dayandtime].",
+            "value"
+        ]
+    ],
+    [
+        "What is [professor]'s Cal Poly username",
+        [
+            "[professor]'s username is [alias].",
+            "value"
+        ]
+    ],
+    [
+        "How can I contact [professor]",
+        [
+            "[professor]'s phone number is [phonenumber], and [professor]'s office is [location].",
+            "value"
+        ]
+    ],
+    [
+        "How many sections of independent study does [professor] advise",
+        [
+            "[professor] is the advisor for [numberofsections] sections of independent study.",
+            "value"
+        ]
+    ],
+    [
+        "How can I fulfill GE requirement [ge]",
+        [
+            "[courselist] fulfills GE requirement [ge].",
+            "list"
+        ]
+    ],
+    [
+        "How busy is [professor]",
+        [
+            "[professor] is busy [dayandtime].",
+            "value"
+        ]
+    ],
+    [
+        "What is [professor]'s email address",
+        [
+            "You can reach [professor] at [alias]@calpoly.edu.",
+            "value"
+        ]
+    ],
+    [
+        "Which professors teach [course]",
+        [
+            "[course] is taught by [teachernamelist]",
+            "value"
+        ]
+    ],
+    [
+        "Who teaches section [course] of [course]",
+        [
+            "[professor] teaches [course] of [course].",
+            "value"
+        ]
+    ],
+    [
+        "Who are the [department] professors",
+        [
+            "The [department] professors are [teachernamelist].",
+            "value"
+        ]
+    ],
+    [
+        "What are the courses offered by [department]",
+        [
+            "[department] offers [courselist].",
+            "value"
+        ]
+    ],
+    [
+        "Is [course] being offered",
+        [
+            "[[bool][bool]]",
+            "value"
+        ]
+    ],
+    [
+        "Will [course] be offered",
+        [
+            "[[bool][bool]]",
+            "value"
+        ]
+    ],
+    [
+        "How many courses is [professor] teaching",
+        [
+            "[professor] is teaching [num-courses] in Fall 2021",
+            "value"
+        ]
+    ],
+    [
+        "How many classes is [professor] teaching",
+        [
+            "[professor] is teaching [num-courses] in Fall 2021",
+            "value"
+        ]
+    ],
+    [
+        "Which professors are teaching [course]",
+        [
+            "[faculty-list] will be teaching [course]",
+            "list"
+        ]
+    ],
+    [
+        "Who is teaching [course]",
+        [
+            "[faculty-list] will be teaching [course]",
+            "list"
+        ]
+    ],
+    [
+        "Who will be teaching [course]",
+        [
+            "[faculty-list] will be teaching [course]",
+            "list"
+        ]
+    ],
+    [
+        "Which professors are teaching [course]",
+        [
+            "[professor] will be teaching [course]",
+            "value"
+        ]
+    ],
+    [
+        "Who is teaching [course]",
+        [
+            "[professor] will be teaching [course]",
+            "value"
+        ]
+    ],
+    [
+        "Who will be teaching [course]",
+        [
+            "[professor] will be teaching [course]",
+            "value"
+        ]
+    ],
+    [
+        "Which [major] classes are being offered",
+        [
+            "[course]",
+            "value"
+        ]
+    ],
+    [
+        "What [major] classes are being offered",
+        [
+            "[course]",
+            "value"
+        ]
+    ],
+    [
+        "Which classes will [professor] be teaching",
+        [
+            "[professor] will be teaching [class-sect-list]",
+            "value"
+        ]
+    ],
+    [
+        "When will [course] be offered",
+        [
+            "[course] will be offered during [time-list]",
+            "value"
+        ]
+    ],
+    [
+        "When will [course] be offered",
+        [
+            "[course] will be offered during [time]",
+            "value"
+        ]
+    ],
+    [
+        "What days is [course] on",
+        [
+            "[course] will be taught on [day]",
+            "value"
+        ]
+    ],
+    [
+        "Where will [course] be located",
+        [
+            "[course] will be taught at [location]",
+            "value"
+        ]
+    ],
+    [
+        "Where is [course] going to be",
+        [
+            "[course] will be taught at [location]",
+            "value"
+        ]
+    ],
+    [
+        "Where will [course] be",
+        [
+            "[course] will be taught at [location]",
+            "value"
+        ]
+    ],
+    [
+        "Where will [course] be taught",
+        [
+            "[course] will be taught at [location]",
+            "value"
+        ]
+    ],
+    [
+        "What days will [course] be taught",
+        [
+            "[course] will be taught on [day]",
+            "value"
+        ]
+    ],
+    [
+        "Which days will [course] be taught",
+        [
+            "[course] will be taught on [day]",
+            "value"
+        ]
+    ],
+    [
+        "How many professors are teaching [course]",
+        [
+            "[course] will be taught by [num-faculty]",
+            "value"
+        ]
+    ],
+    [
+        "Where is [professor]\u2019s office",
+        [
+            "[professor] is located in [location]",
+            "value"
+        ]
+    ],
+    [
+        "Where is [professor] located",
+        [
+            "[professor] is located in [location]",
+            "value"
+        ]
+    ],
+    [
+        "Where is [professor]\u2019s office hours",
+        [
+            "[professor] is located in [location]",
+            "value"
+        ]
+    ],
+    [
+        "What is [professor]\u2019s contact",
+        [
+            "[professor] can be reached at [phone_number] or [cp-email]",
+            "value"
+        ]
+    ],
+    [
+        "What is [professor]\u2019s phone number",
+        [
+            "[professor] can be reached at [phone_number]",
+            "value"
+        ]
+    ],
+    [
+        "How do I contact [professor]",
+        [
+            "[professor] can be reached at [phone_number] or [cp-email]",
+            "value"
+        ]
+    ],
+    [
+        "What is the name for class [course]",
+        [
+            "The name for [course] is [class-name]",
+            "value"
+        ]
+    ],
+    [
+        "What is [course]",
+        [
+            "The name for [course] is [class-name]",
+            "value"
+        ]
+    ],
+    [
+        "Which classes fall under GE [ge]",
+        [
+            "Classes [course] fall under [ge]",
+            "value"
+        ]
+    ],
+    [
+        "Which classes count for GE [ge]",
+        [
+            "Classes [course] fall under [ge]",
+            "value"
+        ]
+    ],
+    [
+        "How many sections of [course] will be offered",
+        [
+            "[num-sections] of [course] will be offered",
+            "count"
+        ]
+    ],
+    [
+        "Which sections of [course] will be offered",
+        [
+            "[class-sect-list] are offered for [course]",
+            "list"
+        ]
+    ],
+    [
+        "What is the enrollment capacity for [course]",
+        [
+            "The enrollment capacity for [course] is [ecap]",
+            "value"
+        ]
+    ],
+    [
+        "How many people have enrolled in [course]",
+        [
+            "[enrolled] have enrolled in [course]",
+            "value"
+        ]
+    ],
+    [
+        "How many people are there in [course]",
+        [
+            "[enrolled] have enrolled in [course]",
+            "value"
+        ]
+    ],
+    [
+        "How many people have waitlisted in [course]",
+        [
+            "[waitlisted] have waitlisted for [course]",
+            "value"
+        ]
+    ],
+    [
+        "How many people are on the waitlist for [course]",
+        [
+            "[waitlisted] have waitlisted for [course]",
+            "value"
+        ]
+    ],
+    [
+        "Which [major] [course_level] level classes are being offered",
+        [
+            "[course] are being offered",
+            "value"
+        ]
+    ],
+    [
+        "What [course_level] level [major] classes are being offered",
+        [
+            "[course] are being offered",
+            "value"
+        ]
+    ],
+    [
+        "Which [course_level] level classes are being offered by [professor]",
+        [
+            "[professor] is offering [course]",
+            "value"
+        ]
+    ],
+    [
+        "Can you search for class [course]",
+        [
+            "The results are [course]",
+            "value"
+        ]
+    ],
+    [
+        "Is there a lab for [course]",
+        [
+            "[[bool][bool]]",
+            "value"
+        ]
+    ],
+    [
+        "Does [course] have a lab",
+        [
+            "[[bool][bool]]",
+            "value"
+        ]
+    ],
+    [
+        "Is there a lab for [course]",
+        [
+            "[[bool][bool]]",
+            "value"
+        ]
+    ],
+    [
+        "Does [course] have a lab",
+        [
+            "[[bool][bool]]",
+            "value"
+        ]
+    ],
+    [
+        "What pre-reqs does [course] have",
+        [
+            "The prerequisites for [course] are [prereqs]",
+            "value"
+        ]
+    ],
+    [
+        "How many pre-reqs does [course] have",
+        [
+            "The prerequisites for [course] are [prereqs]",
+            "value"
+        ]
+    ],
+    [
+        "Does [course] have any pre-reqs",
+        [
+            "The prerequisites for [course] are [prereqs]",
+            "value"
+        ]
+    ],
+    [
+        "What do I need to take before [course]",
+        [
+            "The prerequisites for [course] are [prereqs]",
+            "value"
+        ]
+    ],
+    [
+        "What is the class number for [course]",
+        [
+            "The class number for [course] is [class-num]",
+            "value"
+        ]
+    ],
+    [
+        "What is the class code for [course]",
+        [
+            "The class number for [course] is [class-num]",
+            "value"
+        ]
+    ],
+    [
+        "What is [course]\u2019s class number",
+        [
+            "The class number for [course] is [class-num]",
+            "value"
+        ]
+    ],
+    [
+        "What is [course]\u2019s class code",
+        [
+            "The class number for [course] is [class-num]",
+            "value"
+        ]
+    ],
+    [
+        "Which class has the most sections",
+        [
+            "[course] has the most number of sections",
+            "value"
+        ]
+    ],
+    [
+        "Which [major] class has the most sections",
+        [
+            "[course] has the most number of sections for [major]",
+            "value"
+        ]
+    ],
+    [
+        "Which classes are offered on [day]",
+        [
+            "[course] are offered on [day]",
+            "value"
+        ]
+    ],
+    [
+        "Which [major] classes are offered on [day]",
+        [
+            "[course] are offered on [day] for [major]",
+            "value"
+        ]
+    ],
+    [
+        "Which classes are offered between [time] and [time]",
+        [
+            "[course] are offered between [time] and [time]",
+            "value"
+        ]
+    ],
+    [
+        "Which [major] classes are offered between [time] and [time]",
+        [
+            "[course] are offered between [time] and [time] for [major]",
+            "value"
+        ]
+    ],
+    [
+        "Which sections for [course] are offered between [time] and [time]",
+        [
+            "[class-sect-list] are offered between [time] and [time] for [course]",
+            "list"
+        ]
+    ],
+    [
+        "What is [professor]\u2019s alias",
+        [
+            "[professor]\u2019s Cal Poly username is [cp-username]",
+            "value"
+        ]
+    ],
+    [
+        "What is [professor]\u2019s Cal Poly username",
+        [
+            "[professor]\u2019s Cal Poly username is [cp-username]",
+            "value"
+        ]
+    ],
+    [
+        "What is [professor]\u2019s email",
+        [
+            "[professor]\u2019s Cal Poly email is [cp-email]",
+            "value"
+        ]
+    ],
+    [
+        "What is the email for [professor]",
+        [
+            "[professor]\u2019s Cal Poly email is [cp-email]",
+            "value"
+        ]
+    ],
+    [
+        "Can I take [course] with [course]",
+        [
+            "[[bool][bool]]",
+            "value"
+        ]
+    ],
+    [
+        "Can I take both [course] and [course] at the same time",
+        [
+            "[[bool][bool]]",
+            "value"
+        ]
+    ],
+    [
+        "Can I attend [professor]\u2019s office hours and [professor]\u2019s office hours",
+        [
+            "[[bool][bool]]",
+            "value"
+        ]
+    ],
+    [
+        "Can I take [course] without having classes on [day]",
+        [
+            "[[bool][bool]]",
+            "value"
+        ]
+    ],
+    [
+        "Can I take [course] without any classes on [day]",
+        [
+            "[[bool][bool]]",
+            "value"
+        ]
+    ],
+    [
+        "Can I take [course] with only classes on [day]",
+        [
+            "[[bool][bool]]",
+            "value"
+        ]
+    ],
+    [
+        "What is the total number of seats available for [course]",
+        [
+            "[num-sections] * [ecap]",
+            "count"
+        ]
+    ],
+    [
+        "What is the total number of seats available for [professor]\u2019s [course]",
+        [
+            "[num-sections-professor] * [ecap]",
+            "count"
+        ]
+    ],
+    [
+        "How many seats does [course] have",
+        [
+            "[num-sections] * [ecap]",
+            "count"
+        ]
+    ],
+    [
+        "How many seats of [course] are taught by [professor]",
+        [
+            "[num-sections-professor] * [ecap]",
+            "count"
+        ]
+    ],
+    [
+        "How many students is [professor] teaching",
+        [
+            "[num-courses]* [ecap]",
+            "count"
+        ]
+    ],
+    [
+        "How many seats does [professor] have available",
+        [
+            "[num-courses]* [ecap]",
+            "count"
+        ]
+    ],
+    [
+        "Will [professor] have office hours at [time]",
+        [
+            "[[bool][bool]]",
+            "value"
+        ]
+    ],
+    [
+        "Will [professor] have class at [time]",
+        [
+            "[[bool][bool]]",
+            "value"
+        ]
+    ],
+    [
+        "Does [professor] have office hours on [day]",
+        [
+            "[[bool][bool]]",
+            "value"
+        ]
+    ],
+    [
+        "Does [professor] have class on [day]",
+        [
+            "[[bool][bool]]",
+            "value"
+        ]
+    ],
+    [
+        "Can I take a class with [professor] with less than [ecap] people",
+        [
+            "[[bool][bool]]",
+            "value"
+        ]
+    ],
+    [
+        "Can I take [course] with less than [ecap] people",
+        [
+            "[[bool][bool]]",
+            "value"
+        ]
+    ],
+    [
+        "Is there a class taught by [professor] that has less than [ecap] students",
+        [
+            "[[bool][bool]]",
+            "value"
+        ]
+    ],
+    [
+        "Is there a section of [course] that has less than [ecap] students",
+        [
+            "[[bool][bool]]",
+            "value"
+        ]
+    ],
+    [
+        "Does [professor] teach [major] classes",
+        [
+            "[[bool][bool]]",
+            "value"
+        ]
+    ],
+    [
+        "Does [professor] teach any [bool]n-[major] classes",
+        [
+            "[[bool][bool]]",
+            "value"
+        ]
+    ],
+    [
+        "How many [major] classes does [professor] teach",
+        [
+            "[num-courses-major]",
+            "count"
+        ]
+    ],
+    [
+        "How many [bool]n-[major] classes does [professor] teach",
+        [
+            "[num-courses-major]",
+            "count"
+        ]
+    ],
+    [
+        "Is [professor] teaching [course]",
+        [
+            "[[bool][bool]]",
+            "value"
+        ]
+    ],
+    [
+        "Can I take [course] and attend [professor]\u2019s office hours",
+        [
+            "[[bool][bool]]",
+            "value"
+        ]
+    ],
+    [
+        "Can I take a class taught by [professor] and [professor]",
+        [
+            "[[bool][bool]]",
+            "value"
+        ]
+    ],
+    [
+        "Can I take a [major] class taught by [professor] and a [major] class taught by [professor]",
+        [
+            "[[bool][bool]]",
+            "value"
+        ]
+    ],
+    [
+        "What [course_level] classes is [professor] teaching",
+        [
+            "[course]",
+            "value"
+        ]
+    ],
+    [
+        "What [course_level] classes are offered [day]",
+        [
+            "[course]",
+            "value"
+        ]
+    ],
+    [
+        "How many [course_level] classes are being offered",
+        [
+            "[num-classes]",
+            "count"
+        ]
+    ],
+    [
+        "How many [major] [course_level] courses are offered",
+        [
+            "[num-classes]",
+            "count"
+        ]
+    ],
+    [
+        "How many [ecap] classe are being offered",
+        [
+            "[num-classes]",
+            "count"
+        ]
+    ],
+    [
+        "How many instructors are in the [department]",
+        [
+            "There are [number_of_instructors] in [department]",
+            "count"
+        ]
+    ],
+    [
+        "How many lecturers are in the [department]",
+        [
+            "There are [number of lecturers] in [department]",
+            "count"
+        ]
+    ],
+    [
+        "What is [professor]'s email",
+        [
+            "[professor]'s email is [email]",
+            "value"
+        ]
+    ],
+    [
+        "How many sections does [professor] teach",
+        [
+            "[professor] teaches [number of classes] sections.",
+            "value"
+        ]
+    ],
+    [
+        "How many different classes are offered this term",
+        [
+            "There are [number of courses] offered this term.",
+            "count"
+        ]
+    ],
+    [
+        "Which professors teach [course]",
+        [
+            "[professors...] teach [course]",
+            "list"
+        ]
+    ],
+    [
+        "What room is [course]-[course] taught in",
+        [
+            "[course]-[course] is taught in [location]",
+            "value"
+        ]
+    ],
+    [
+        "How many students can enroll in [course]",
+        [
+            "[total_number_of_students] can enroll in [course]",
+            "value"
+        ]
+    ],
+    [
+        "Who teaches class number [course_number]",
+        [
+            "[professor] teaches class number [course_number]",
+            "value"
+        ]
+    ],
+    [
+        "What days is [course_number] scheduled for",
+        [
+            "[course_number] is scheduled for [days of week]",
+            "value"
+        ]
+    ],
+    [
+        "What time does [course_number] start",
+        [
+            "[course_number] starts at [time]",
+            "value"
+        ]
+    ],
+    [
+        "What section of [course] starts the latest",
+        [
+            "[course] starts the latest, at [time]",
+            "value"
+        ]
+    ],
+    [
+        "What section of [course] starts the earliest",
+        [
+            "[course] starts the earliest, at [time]",
+            "value"
+        ]
+    ],
+    [
+        "Do all classes have a lab component",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "What is the ratio of students to faculty in [department]",
+        [
+            "The ratio of students to faculty in [department] is [ratio]",
+            "value"
+        ]
+    ],
+    [
+        "What is the most popular building for [department] classes",
+        [
+            "The most popular building for [department] classes is [building_number]",
+            "value"
+        ]
+    ],
+    [
+        "What is the most popular classroom for [department] classes",
+        [
+            "The most popular classroom for [department] classes is [building_number]",
+            "value"
+        ]
+    ],
+    [
+        "Where am I most likely to spend time as a [department] major",
+        [
+            "The most popular building for [department] classes is [building_number]",
+            "value"
+        ]
+    ],
+    [
+        "Where is the lab for [course_number] located",
+        [
+            "The lab for [course_number] is in [location]",
+            "value"
+        ]
+    ],
+    [
+        "When is [professor] free at the end of the day",
+        [
+            "[professor] is scheduled for classes until [time]",
+            "value"
+        ]
+    ],
+    [
+        "How many sections of [course] are offered next quarter",
+        [
+            "There are [number_sections] for [course] next quarter",
+            "count"
+        ]
+    ],
+    [
+        "What is the most popular class in [department]",
+        [
+            "[course]-[course] has the most students enrolled and waiting.",
+            "value"
+        ]
+    ],
+    [
+        "What class is [course_number]",
+        [
+            "[course_number] is [course]",
+            "value"
+        ]
+    ],
+    [
+        "Can I take both [course]-[course] and [course]-[course]",
+        [
+            "There [is [bool]t|is] a conflict between [course]-[course] and [course]-[course]",
+            "value"
+        ]
+    ],
+    [
+        "Which sections of [course] are still open",
+        [
+            "Sections [section_number...] are still open",
+            "value"
+        ]
+    ],
+    [
+        "How long is the waitlist for [course]-[course]",
+        [
+            "The waitlist for [course]-[course] is [waitlist_length]",
+            "value"
+        ]
+    ],
+    [
+        "Is there a waitlist for [course]-[section]",
+        [
+            "The waitlist for [course]-[section] is [waitlist_length]",
+            "value"
+        ]
+    ],
+    [
+        "How many people are on the waitlist for [course]-[course]",
+        [
+            "The waitlist for [course]-[course] is [waitlist_length]",
+            "value"
+        ]
+    ],
+    [
+        "What [course_level] classes are still open",
+        [
+            "[class..] are still open.",
+            "list"
+        ]
+    ],
+    [
+        "How many professors teach [course]",
+        [
+            "[number_of_professors] teach [course].",
+            "count"
+        ]
+    ],
+    [
+        "Which professors still have open sections of [course]",
+        [
+            "[professor...] are teaching open sections of [course]",
+            "list"
+        ]
+    ],
+    [
+        "Is [course] offered next quarter",
+        [
+            "[course] [is|is [bool]t] offered next quarter.",
+            "value"
+        ]
+    ],
+    [
+        "Is [professor] a lecturer",
+        [
+            "[professor] [is|is [bool]t] a lecturer.",
+            "value"
+        ]
+    ],
+    [
+        "What type of teacher is [professor]",
+        [
+            "[professor] is a [teacher_type].",
+            "value"
+        ]
+    ],
+    [
+        "Who is teaching the most [department] classes next quarter",
+        [
+            "[professor] is teaching the most classes next quarter.",
+            "value"
+        ]
+    ],
+    [
+        "What is the least popular class in [department]",
+        [
+            "[course]-[course] has the fewest students enrolled and waiting.",
+            "value"
+        ]
+    ],
+    [
+        "Which professor is teaching the fewest hours of class",
+        [
+            "[professor] is teaching the fewest hours of class.",
+            "value"
+        ]
+    ],
+    [
+        "What [course_level] classes can I take to have [bool] class on [day]s",
+        [
+            "[class...] have sections without class on [day]s.",
+            "list"
+        ]
+    ],
+    [
+        "How many hours of class does [professor] teach",
+        [
+            "[professor] teaches [hours] total.",
+            "value"
+        ]
+    ],
+    [
+        "Are there any sections of [course] open",
+        [
+            "[class_section...] have open seats",
+            "list"
+        ]
+    ],
+    [
+        "Which professor teaches [course]-[course]",
+        [
+            "professor] teaches [course]-[section]",
+            "value"
+        ]
+    ],
+    [
+        "Will [professor] teach [course] next quarter",
+        [
+            "[professor] [will|will [bool]t] teach [course] next quarter.",
+            "value"
+        ]
+    ],
+    [
+        "Which section of [course] is the most popular",
+        [
+            "[course] is the most popular.",
+            "value"
+        ]
+    ],
+    [
+        "What times can I take [course] next quarter",
+        [
+            "[course] is offered at [time...]",
+            "value"
+        ]
+    ],
+    [
+        "How many 500 level classes does [professor] teach",
+        [
+            "[professor] teaches [number_500_level_classes].",
+            "value"
+        ]
+    ],
+    [
+        "What days can I take [course] on",
+        [
+            "[course] is offered [class_days...]",
+            "value"
+        ]
+    ],
+    [
+        "What [course_level] classes can I take to have [bool] class on [day]s",
+        [
+            "[class...] have sections without class on [day]s.",
+            "list"
+        ]
+    ],
+    [
+        "Where are most [department] classes held",
+        [
+            "building has the most [department] classess.",
+            "value"
+        ]
+    ],
+    [
+        "How many students are enrolled so far in [department] classes",
+        [
+            "[total_number_of_students_enrolled] are currently enrolled in classes.",
+            "value"
+        ]
+    ],
+    [
+        "Is statistics or computer science a more popular department",
+        [
+            "Computer science has more students enrolled in classes.",
+            null
+        ]
+    ],
+    [
+        "What is the name of class number [course_number]",
+        [
+            "[course_number] is named [course].",
+            "value"
+        ]
+    ],
+    [
+        "Is class [course] a GE",
+        [
+            "Class [course] [ge_status] a GE.",
+            "value"
+        ]
+    ],
+    [
+        "Is class [course]-[course] a lecture or lab",
+        [
+            "Class [course]-[course] a [lab_lecture_status].",
+            "value"
+        ]
+    ],
+    [
+        "Is [course_number] a lecture or lab",
+        [
+            "Class [course_number] a [lab_lecture_status].",
+            "value"
+        ]
+    ],
+    [
+        "How many students have dropped [course]-[course]",
+        [
+            "[total_number_of_students_dropped] have dropped [course]-[course].",
+            "value"
+        ]
+    ],
+    [
+        "How many students have dropped [course_number]",
+        [
+            "[total_number_of_students_dropped] have dropped [course_number].",
+            "value"
+        ]
+    ],
+    [
+        "How many students have withdrawn from [course]-[course]",
+        [
+            "[total_number_of_students_withdrawn] have withdrawn from [course]-[course].",
+            "value"
+        ]
+    ],
+    [
+        "How many students have withdrawn from [course_number]",
+        [
+            "[total_number_of_students_withdrawn] have withdrawn from [course_number].",
+            "value"
+        ]
+    ],
+    [
+        "How many classes does [professor] teach",
+        [
+            "[professor] teaches [number_classes_taught].",
+            "value"
+        ]
+    ],
+    [
+        "How many sections of [course] does [professor] teach",
+        [
+            "[professor] teaches [number_sections_taught].",
+            "value"
+        ]
+    ],
+    [
+        "Where is [course]-[course] located",
+        [
+            "[course]-[course] is in [location].",
+            "value"
+        ]
+    ],
+    [
+        "Where is [course_number] located",
+        [
+            "[course_number] is in [location].",
+            "value"
+        ]
+    ],
+    [
+        "What type of class is [course]-[course]",
+        [
+            "[course]-[course] is [class_type].",
+            "value"
+        ]
+    ],
+    [
+        "What type of class is [course_number]",
+        [
+            "[course_number] is [class_type].",
+            "value"
+        ]
+    ],
+    [
+        "How many labs are in [department]",
+        [
+            "[department] has [number_labs].",
+            "value"
+        ]
+    ],
+    [
+        "How many lectures are in [department]",
+        [
+            "[department] has [number_lectures].",
+            "value"
+        ]
+    ],
+    [
+        "How many 400 level classes are in [department]",
+        [
+            "[department] has [number_400_level_classes].",
+            "value"
+        ]
+    ],
+    [
+        "How many 300 level classes are in [department]",
+        [
+            "[department] has [number_300_level_classes].",
+            "value"
+        ]
+    ],
+    [
+        "How many 200 level classes are in [department]",
+        [
+            "[department] has [number_200_level_classes].",
+            "value"
+        ]
+    ],
+    [
+        "How many 100 level classes are in [department]",
+        [
+            "[department] has [number_100_level_classes].",
+            "value"
+        ]
+    ],
+    [
+        "How many 400 level classes does [professor] teach",
+        [
+            "[professor] teaches [number_400_level_classes].",
+            "value"
+        ]
+    ],
+    [
+        "How many 300 level classes does [professor] teach",
+        [
+            "[professor] teaches [number_300_level_classes].",
+            "value"
+        ]
+    ],
+    [
+        "How many 200 level classes does [professor] teach",
+        [
+            "[professor] teaches [number_200_level_classes].",
+            "value"
+        ]
+    ],
+    [
+        "How many 100 level classes does [professor] teach",
+        [
+            "[professor] teaches [number_100_level_classes].",
+            "value"
+        ]
+    ],
+    [
+        "How many open seats does [course] have",
+        [
+            "[course] has [num_open_seats] open seats.",
+            "value"
+        ]
+    ],
+    [
+        "How many open seats does [course]-[course] have",
+        [
+            "[course]-[course] has [num_open_seats] open seats.",
+            "value"
+        ]
+    ],
+    [
+        "How many open seats does [course_number] have",
+        [
+            "[course_number] has [num_open_seats] open seats.",
+            "value"
+        ]
+    ],
+    [
+        "How many GEs are in [department]",
+        [
+            "[num_ges] are in [department].",
+            "count"
+        ]
+    ],
+    [
+        "Is there a class that satisfies [ge] GE in [department]",
+        [
+            "There [ge_status] a class for [ge].",
+            "value"
+        ]
+    ],
+    [
+        "What classes satisfy GE [ge] in [department]",
+        [
+            "[class ...] satisfy [ge].",
+            "list"
+        ]
+    ],
+    [
+        "Does class satisfy GE [ge]",
+        [
+            "[course] [ge_status] an option for [ge].",
+            "value"
+        ]
+    ],
+    [
+        "Is [course] offered in [quarter]",
+        [
+            "[course] [class_status] offered in [quarter].",
+            "value"
+        ]
+    ],
+    [
+        "How many sections of [course] is offered in [quarter]",
+        [
+            "[course] has [course] sections offered in [quarter].",
+            "value"
+        ]
+    ],
+    [
+        "Is professor [professor] teaching in [quarter]",
+        [
+            "[professor] [professor_status] teaching in [quarter].",
+            "value"
+        ]
+    ],
+    [
+        "What is the date range for [quarter]",
+        [
+            "Term starts on [start_date] and ends on [end_date].",
+            "value"
+        ]
+    ],
+    [
+        "When does [quarter] start and end",
+        [
+            "Term starts on [start_date] and ends on [end_date].",
+            "value"
+        ]
+    ],
+    [
+        "What dates does [course]-[course] start and end",
+        [
+            "[course]-[course] starts on [start_date] and ends on [end_date].",
+            "value"
+        ]
+    ],
+    [
+        "What dates does [course_number] start and end",
+        [
+            "[course_number] starts on [start_date] and ends on [end_date].",
+            "value"
+        ]
+    ],
+    [
+        "How long is [course]-[course]",
+        [
+            "[course]-[course] is [class_duration] hours long.",
+            "value"
+        ]
+    ],
+    [
+        "How long is [course_number]",
+        [
+            "[course_number] is [class_duration] hours long.",
+            "value"
+        ]
+    ],
+    [
+        "How many classes are offered in [quarter]",
+        [
+            "[number_lectures_in_term] are taught in [quarter].",
+            "count"
+        ]
+    ],
+    [
+        "How many lecturers are offered in [quarter]",
+        [
+            "[number_labs_in_term] are taught in [quarter].",
+            "count"
+        ]
+    ],
+    [
+        "What are the prereqs for [course]",
+        [
+            "[prereqs] are the prereqs for [course].",
+            "value"
+        ]
+    ],
+    [
+        "What are the prereqs for [course_number]",
+        [
+            "[prereqs] are the prereqs for [course_number].",
+            "value"
+        ]
+    ],
+    [
+        "How many classes does [professor] teach",
+        [
+            "[professor] teaches [number_lectures_taught_by_professor].",
+            "value"
+        ]
+    ],
+    [
+        "How many labs does [professor] teach",
+        [
+            "[professor] teaches [number_lab_taught_by_professor].",
+            "value"
+        ]
+    ],
+    [
+        "Which professor teaches the most classes",
+        [
+            "[professor] teaches the most classes.",
+            "value"
+        ]
+    ],
+    [
+        "Which professor teaches the most sections of [course]",
+        [
+            "[professor] teaches the most sections of [course].",
+            "value"
+        ]
+    ],
+    [
+        "Which professor has the most open seats in [course]",
+        [
+            "[professor] has the most open seats in [course].",
+            "value"
+        ]
+    ],
+    [
+        "Which professor has the most drops",
+        [
+            "[professor] has the most drops.",
+            "value"
+        ]
+    ],
+    [
+        "Which professor has the longest waitlist",
+        [
+            "[professor] has the longest waitlist.",
+            "value"
+        ]
+    ],
+    [
+        "What is [professor]\u2019s Cal Poly alias",
+        [
+            "[professor]\u2019s Cal Poly alias is [alias]",
+            "value"
+        ]
+    ],
+    [
+        "What is [professor]\u2019s job title",
+        [
+            "[professor]\u2019s job title is [job title]",
+            "value"
+        ]
+    ],
+    [
+        "What is [professor]\u2019s phone number",
+        [
+            "[professor]\u2019s phone number is [phone num]",
+            "value"
+        ]
+    ],
+    [
+        "Where is [professor]\u2019s office",
+        [
+            "[professor]\u2019s office is in [location]",
+            "value"
+        ]
+    ],
+    [
+        "When are [professor]\u2019s office hours",
+        [
+            "[professor]\u2019s office hours are [time slot]",
+            "value"
+        ]
+    ],
+    [
+        "Does [alias] teach [course] in [quarter]",
+        [
+            "[[bool]/[bool]]",
+            "value"
+        ]
+    ],
+    [
+        "What is [alias]\u2019s full name",
+        [
+            "[alias]\u2019s full name is [professor]",
+            "value"
+        ]
+    ],
+    [
+        "What is [alias]\u2019s job title",
+        [
+            "[alias]\u2019s job title is [job title]",
+            "value"
+        ]
+    ],
+    [
+        "What is [alias]\u2019s phone number",
+        [
+            "[alias]\u2019s phone number is [phone num]",
+            "value"
+        ]
+    ],
+    [
+        "Where is [alias]\u2019s office",
+        [
+            "[alias]\u2019s office is in room [location]",
+            "value"
+        ]
+    ],
+    [
+        "When are [alias]\u2019s office hours",
+        [
+            "[alias]\u2019s office hours are [time slot]",
+            "value"
+        ]
+    ],
+    [
+        "Who is the department chair of [department]",
+        [
+            "[professor] is the chair of the [department] department",
+            "value"
+        ]
+    ],
+    [
+        "How many sections of [course] are being offered in [term]",
+        [
+            "There are [integer] sections available of [course] in [term]",
+            "value"
+        ]
+    ],
+    [
+        "Is [course] being offered in [term]",
+        [
+            "[[bool]/[bool]]",
+            "value"
+        ]
+    ],
+    [
+        "How many sections of [course] are being taught by [professor] in [term]",
+        [
+            "[integer] sections of [course] are being taught by [professor] in [term]",
+            "value"
+        ]
+    ],
+    [
+        "When is [course] [section num]",
+        [
+            "[course] [section num] is [day] [time slot]",
+            "value"
+        ]
+    ],
+    [
+        "Does [course] have a lab section",
+        [
+            "[[bool]/[bool]]",
+            "value"
+        ]
+    ],
+    [
+        "Where is [course] [section num]",
+        [
+            "[course] [section num] is in room [location]",
+            "value"
+        ]
+    ],
+    [
+        "What class is [course]",
+        [
+            "[course] is [course]",
+            "value"
+        ]
+    ],
+    [
+        "What class type is [course]",
+        [
+            "[course] is a [course type] class",
+            "value"
+        ]
+    ],
+    [
+        "Are there any prerequisites for [course]",
+        [
+            "[[bool]/[bool]]",
+            "value"
+        ]
+    ],
+    [
+        "What are the prerequisites for [course]",
+        [
+            "[course] requires [requisite]",
+            "value"
+        ]
+    ],
+    [
+        "What\u2019s the enrollment limit of [course]",
+        [
+            "The enrollment capacity of [course] is [enroll cap]",
+            "value"
+        ]
+    ],
+    [
+        "How many students are enrolled in [course]",
+        [
+            "[enroll count] students are enrolled in [course]",
+            "value"
+        ]
+    ],
+    [
+        "How many students are waitlisted for [course]",
+        [
+            "[waitlist total] students are waitlisted for [course]",
+            "value"
+        ]
+    ],
+    [
+        "How many distinct students are waitlisted for [course]",
+        [
+            "[waitlist distinct] students are distinctly waitlisted for [course]",
+            "value"
+        ]
+    ],
+    [
+        "How many waitlisted students are unaccommodated for [course]",
+        [
+            "[waitlist unaccom] waitlisted students are unaccomodated for [course]",
+            "value"
+        ]
+    ],
+    [
+        "How many students have dropped [course]",
+        [
+            "[drop count] students have dropped [course]",
+            "value"
+        ]
+    ],
+    [
+        "How many students have withdrawn from [course]",
+        [
+            "[withdraw count] students have withdrawn from [course]",
+            "value"
+        ]
+    ],
+    [
+        "What class number is [course]",
+        [
+            "[course] is [course]",
+            "value"
+        ]
+    ],
+    [
+        "What class type is [course]",
+        [
+            "[course] is a [course type] class",
+            "value"
+        ]
+    ],
+    [
+        "Are there any prerequisites for [course]",
+        [
+            "[[bool]/[bool]]",
+            "value"
+        ]
+    ],
+    [
+        "What are the prerequisites for [course]",
+        [
+            "[course] requires [requisite]",
+            "value"
+        ]
+    ],
+    [
+        "What\u2019s the enrollment limit of [course]",
+        [
+            "The enrollment capacity of [course] is [enroll cap]",
+            "value"
+        ]
+    ],
+    [
+        "How many students are enrolled in [course]",
+        [
+            "[enroll count] students are enrolled in [course]",
+            "value"
+        ]
+    ],
+    [
+        "How many students are waitlisted for [course]",
+        [
+            "[waitlist total] students are waitlisted for [course]",
+            "value"
+        ]
+    ],
+    [
+        "How many distinct students are waitlisted for [course]",
+        [
+            "[waitlist distinct] students are distinctly waitlisted for [course]",
+            "value"
+        ]
+    ],
+    [
+        "How many waitlisted students are unaccommodated for [course]",
+        [
+            "[waitlist unaccom] waitlisted students are unaccomodated for [course]",
+            "value"
+        ]
+    ],
+    [
+        "How many students have dropped [course]",
+        [
+            "[drop count] students have dropped [course]",
+            "value"
+        ]
+    ],
+    [
+        "How many students have withdrawn from [course]",
+        [
+            "[withdraw count] students have withdrawn from [course]",
+            "value"
+        ]
+    ],
+    [
+        "Where are [professor] office hours",
+        [
+            "[professor] office hours are located in [location] on [days and times].",
+            "value"
+        ]
+    ],
+    [
+        "Where is [professor] office",
+        [
+            "[location]",
+            "value"
+        ]
+    ],
+    [
+        "Where is [professor] at [time]",
+        [
+            "[professor] is in [location] on [days and times].",
+            "value"
+        ]
+    ],
+    [
+        "When are [professor] office hours",
+        [
+            "[professor] office hours are located in [location] on [days and times].",
+            "value"
+        ]
+    ],
+    [
+        "What class is [professor] teaching at [time]",
+        [
+            "[course]",
+            "value"
+        ]
+    ],
+    [
+        "What is [professor] schedule",
+        [
+            "[list_of(COURSE CODE)] at [days and times]",
+            "list"
+        ]
+    ],
+    [
+        "When is [professor] instructing [course]",
+        [
+            "[days and times]",
+            "list"
+        ]
+    ],
+    [
+        "Does [professor] have office hours on [day]",
+        [
+            "[[bool]/[bool]]. [professor] has office hours in [location] on [days and times].",
+            "value"
+        ]
+    ],
+    [
+        "Does [professor] teach [course]",
+        [
+            "[professor] instructs [list_of(COURSE CODE)]",
+            "value"
+        ]
+    ],
+    [
+        "Does [professor] instruct [course]",
+        [
+            "[professor] instructs [list_of(COURSE CODE)]",
+            "value"
+        ]
+    ],
+    [
+        "Does [course] interfere with [course]",
+        [
+            "[[bool]/[bool]], [days and times]",
+            "value"
+        ]
+    ],
+    [
+        "Does [course] have a scheduling conflict with [course]",
+        [
+            "[[bool]/[bool]], [days and times]",
+            "value"
+        ]
+    ],
+    [
+        "Does [course] interfere with [course] or [course]",
+        [
+            "[[bool]/[bool]], [days and times]",
+            "value"
+        ]
+    ],
+    [
+        "Are there office hours for [course]",
+        [
+            "[[bool]/[bool]]. [professor] has office hours for [course] in [location] on [days and times].",
+            "value"
+        ]
+    ],
+    [
+        "Who has office hours in [location]",
+        [
+            "[list_of(PROF NAME)].",
+            null
+        ]
+    ],
+    [
+        "Who has office hours in [location] at [time]",
+        [
+            "[list_of(PROF NAME)].",
+            null
+        ]
+    ],
+    [
+        "Who has office hours in [location] on [day] at [time]",
+        [
+            "[list_of(PROF NAME)].",
+            null
+        ]
+    ],
+    [
+        "Who has office hours on [day] at [time]",
+        [
+            "[list_of(PROF NAME)].",
+            null
+        ]
+    ],
+    [
+        "Which office hours are in [location]",
+        [
+            "[list_of(COURSE CODE)]",
+            null
+        ]
+    ],
+    [
+        "What is the alias for [professor]",
+        [
+            "[alias]",
+            "value"
+        ]
+    ],
+    [
+        "What is the username for [professor]",
+        [
+            "[alias]",
+            "value"
+        ]
+    ],
+    [
+        "What is the email for [professor]",
+        [
+            "[alias]@calpoly.edu",
+            "value"
+        ]
+    ],
+    [
+        "What is [professor] email",
+        [
+            "[alias]@calpoly.edu",
+            "value"
+        ]
+    ],
+    [
+        "Which professor has email [alias]",
+        [
+            "[professor]",
+            "value"
+        ]
+    ],
+    [
+        "Give me [professor] email.",
+        [
+            "[alias]@calpoly.edu",
+            "value"
+        ]
+    ],
+    [
+        "Give me [professor] phone number.",
+        [
+            "[phone_number]",
+            "value"
+        ]
+    ],
+    [
+        "Which classes are in [location]",
+        [
+            "[list_of(COURSE CODE)]",
+            null
+        ]
+    ],
+    [
+        "Which classes are located in [location]",
+        [
+            "[list_of(COURSE CODE)]",
+            null
+        ]
+    ],
+    [
+        "Which classes are in [location] at [time] on [day]",
+        [
+            "[list_of(COURSE CODE)]",
+            null
+        ]
+    ],
+    [
+        "Which classes are in [location] at [time]",
+        [
+            "[list_of(COURSE CODE)]",
+            null
+        ]
+    ],
+    [
+        "Where are the office hours for [course]",
+        [
+            "[professor] has office hours in [location] on [days and times].",
+            "value"
+        ]
+    ],
+    [
+        "Where are the office hours for [professor]",
+        [
+            "[professor] has office hours in [location] on [days and times].",
+            "value"
+        ]
+    ],
+    [
+        "Where is [course] located",
+        [
+            "[course] is located in [location] on [days and times].",
+            "value"
+        ]
+    ],
+    [
+        "Where is [course] located on [day]",
+        [
+            "[course] is located in [location] on [days and times].",
+            "value"
+        ]
+    ],
+    [
+        "When are the office hours for [course]",
+        [
+            "[professor] has office hours in [location] on [days and times].",
+            "value"
+        ]
+    ],
+    [
+        "When does [course] start",
+        [
+            "[days and times]",
+            "list"
+        ]
+    ],
+    [
+        "When does [course] end",
+        [
+            "[days and times]",
+            "list"
+        ]
+    ],
+    [
+        "Is [course] lecture or lab",
+        [
+            "[course] is a [course type] section.",
+            "value"
+        ]
+    ],
+    [
+        "Is [course] a lecture",
+        [
+            "[[bool]/[bool]]",
+            "value"
+        ]
+    ],
+    [
+        "Is [course] a lab",
+        [
+            "[[bool]/[bool]]",
+            "value"
+        ]
+    ],
+    [
+        "Does [course] have a lab section",
+        [
+            "[[bool]/[bool]]",
+            "value"
+        ]
+    ],
+    [
+        "What is the lab section for [course]",
+        [
+            "[course]",
+            "value"
+        ]
+    ],
+    [
+        "What is the lab for [course]",
+        [
+            "[course]",
+            "value"
+        ]
+    ],
+    [
+        "What is the activity section for [course]",
+        [
+            "[course]",
+            "value"
+        ]
+    ],
+    [
+        "What is the lecture section for [course]",
+        [
+            "[course]",
+            "value"
+        ]
+    ],
+    [
+        "What is the lecture for [course]",
+        [
+            "[course]",
+            "value"
+        ]
+    ],
+    [
+        "What type is [course]",
+        [
+            "[course type]",
+            "value"
+        ]
+    ],
+    [
+        "What term is [course] offered",
+        [
+            "[list_of(SCHOOL TERM)]",
+            null
+        ]
+    ],
+    [
+        "What quarter is [course] offered",
+        [
+            "[list_of(SCHOOL TERM)]",
+            null
+        ]
+    ],
+    [
+        "Is [course] offered [term]",
+        [
+            "[[bool]/[bool]]",
+            "value"
+        ]
+    ],
+    [
+        "How many classes is [professor] teaching [term] quarter",
+        [
+            "[number_of(COURSE CODE)].",
+            null
+        ]
+    ],
+    [
+        "Which classes are [professor] instructing this quarter",
+        [
+            "[list_of(COURSE CODE)].",
+            null
+        ]
+    ],
+    [
+        "Which professors are teaching [course]",
+        [
+            "[list_of(PROF NAME)]",
+            null
+        ]
+    ],
+    [
+        "Who is teaching [course]",
+        [
+            "[list_of(PROF NAME)]",
+            null
+        ]
+    ],
+    [
+        "Which professor is instructing [course]",
+        [
+            "[list_of(PROF NAME)]",
+            null
+        ]
+    ],
+    [
+        "What are the sections of [course]",
+        [
+            "[list_of(COURSE CODE)]",
+            null
+        ]
+    ],
+    [
+        "Which sections of [course] are on [day]",
+        [
+            "[list_of(COURSE CODE)]",
+            null
+        ]
+    ],
+    [
+        "Which sections of [course] are on [day] at [time]",
+        [
+            "[list_of(classes)]",
+            "list"
+        ]
+    ],
+    [
+        "Which sections of [course] are between [time] and [time]",
+        [
+            "[list_of(COURSE CODE)]",
+            null
+        ]
+    ],
+    [
+        "Which sections of [course] are between [time] and [time] on [day]",
+        [
+            "[list_of(COURSE CODE)]",
+            null
+        ]
+    ],
+    [
+        "How many people are in [course]",
+        [
+            "[integer]",
+            "value"
+        ]
+    ],
+    [
+        "How many people are enrolled in [course]",
+        [
+            "[integer]",
+            "value"
+        ]
+    ],
+    [
+        "How many students are enrolled in [course]",
+        [
+            "[integer]",
+            "value"
+        ]
+    ],
+    [
+        "How many students have dropped [course]",
+        [
+            "[integer]",
+            "value"
+        ]
+    ],
+    [
+        "How many students dropped [course]",
+        [
+            "[integer]",
+            "value"
+        ]
+    ],
+    [
+        "How many seats are left in [course]",
+        [
+            "[integer]",
+            "value"
+        ]
+    ],
+    [
+        "How many seats are remaining in [course]",
+        [
+            "[integer]",
+            "value"
+        ]
+    ],
+    [
+        "How many open seats are there in [course]",
+        [
+            "[integer]",
+            "value"
+        ]
+    ],
+    [
+        "What is the remaining capacity of [course]",
+        [
+            "[integer]",
+            "value"
+        ]
+    ],
+    [
+        "What is the capacity of [course]",
+        [
+            "[integer]",
+            "value"
+        ]
+    ],
+    [
+        "What is the enrollment cap of [course]",
+        [
+            "[integer]",
+            "value"
+        ]
+    ],
+    [
+        "What is the location cap of [course]",
+        [
+            "[integer]",
+            "value"
+        ]
+    ],
+    [
+        "What is the class number for [course]",
+        [
+            "[course_number]",
+            "value"
+        ]
+    ],
+    [
+        "What is the class number of [course]",
+        [
+            "[course_number]",
+            "value"
+        ]
+    ],
+    [
+        "Which class has number [course_number]",
+        [
+            "[course]",
+            "value"
+        ]
+    ],
+    [
+        "Which class is [course_number]",
+        [
+            "[course]",
+            "value"
+        ]
+    ],
+    [
+        "Which class is [course]",
+        [
+            "[course_number]",
+            "value"
+        ]
+    ],
+    [
+        "Which classes have fewer than [integer] students",
+        [
+            "[list_of(COURSE CODE)]",
+            null
+        ]
+    ],
+    [
+        "Which classes have fewer than [integer] [enrollment_status]",
+        [
+            "[list_of(COURSE CODE)]",
+            null
+        ]
+    ],
+    [
+        "Which classes have [bool] students [enrollment_status]",
+        [
+            "[list_of(COURSE CODE)]",
+            null
+        ]
+    ],
+    [
+        "Which classes satisfy [ge]",
+        [
+            "[list_of(COURSE CODE)]",
+            null
+        ]
+    ],
+    [
+        "Which classes taught by [professor] satisfy [ge]",
+        [
+            "[list_of(COURSE CODE)]",
+            null
+        ]
+    ],
+    [
+        "Which classes start before [time] and satisfy[ge]",
+        [
+            "[list_of(COURSE CODE)]",
+            null
+        ]
+    ],
+    [
+        "Which professors instruct classes that satisfy [ge]",
+        [
+            "[list_of(COURSE CODE)]",
+            null
+        ]
+    ],
+    [
+        "Which classes on [day] start before [time]",
+        [
+            "[list_of(COURSE CODE)]",
+            null
+        ]
+    ],
+    [
+        "Which classes satisfy [ge] and end before [time]",
+        [
+            "[list_of(COURSE CODE)]",
+            null
+        ]
+    ],
+    [
+        "Which classes in [location] start before [time] on [day]",
+        [
+            "[list_of(COURSE CODE)]",
+            null
+        ]
+    ],
+    [
+        "Which rooms have a class that starts after [time]",
+        [
+            "[list_of(ROOM CODE)]",
+            null
+        ]
+    ],
+    [
+        "Does [course] satisfy [ge]",
+        [
+            "[[bool]/[bool]], [course] satisfies [ge]",
+            "value"
+        ]
+    ],
+    [
+        "What are the requirements for [course]",
+        [
+            "[requisite]",
+            "value"
+        ]
+    ],
+    [
+        "What is [professor]\u2019s number",
+        [
+            "[phone_number]",
+            "value"
+        ]
+    ],
+    [
+        "What is the number of [professor]",
+        [
+            "[phone_number]",
+            "value"
+        ]
+    ],
+    [
+        "How can I call [professor]",
+        [
+            "[phone_number]",
+            "value"
+        ]
+    ],
+    [
+        "How can I talk to [professor]",
+        [
+            "[phone_number]",
+            "value"
+        ]
+    ],
+    [
+        "What is [professor]\u2019s email",
+        [
+            "[email]",
+            "value"
+        ]
+    ],
+    [
+        "What is the email of [professor]",
+        [
+            "[email]",
+            "value"
+        ]
+    ],
+    [
+        "How can I email [professor]",
+        [
+            "You can email [professor] at [email]",
+            "value"
+        ]
+    ],
+    [
+        "How can I message [professor]",
+        [
+            "You can email [professor] at [email]",
+            "value"
+        ]
+    ],
+    [
+        "How do I contact [professor]",
+        [
+            "You can call [professor] at [phone_number] or email them at [email]",
+            "value"
+        ]
+    ],
+    [
+        "How can I reach [professor]",
+        [
+            "You can call [professor] at [phone_number] or email them at [email]",
+            "value"
+        ]
+    ],
+    [
+        "How can I get in touch [professor]",
+        [
+            "You can call [professor] at [phone_number] or email them at [email]",
+            "value"
+        ]
+    ],
+    [
+        "What is the best way to reach [professor]",
+        [
+            "You can call [professor] at [phone_number] or email them at [email]",
+            "value"
+        ]
+    ],
+    [
+        "What is the alias of [professor]",
+        [
+            "[alias]",
+            "value"
+        ]
+    ],
+    [
+        "What is [professor]\u2019s alias",
+        [
+            "[alias]",
+            "value"
+        ]
+    ],
+    [
+        "Is [alias] [professor]",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "What courses does [professor] teach",
+        [
+            "[professor] is teaching [courses]",
+            "value"
+        ]
+    ],
+    [
+        "What is [professor] teaching this [quarter]",
+        [
+            "[professor] is teaching [courses]",
+            "value"
+        ]
+    ],
+    [
+        "What courses are [professor] teaching in [quarter]",
+        [
+            "[professor] is teaching [courses] in [quarter]",
+            "value"
+        ]
+    ],
+    [
+        "Did [professor] teach [course] in [quarter]",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Is [professor] teaching [course] in [quarter]",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Is [professor] teaching in the [quarter]",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Is [professor] teaching this [quarter]",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Would [professor] be teaching [course] in [quarter]",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Who is the instructor for [course]",
+        [
+            "[professor] teaches [course]",
+            "value"
+        ]
+    ],
+    [
+        "Who is the professor for [course]",
+        [
+            "[professor] teaches [course]",
+            "value"
+        ]
+    ],
+    [
+        "Who is the teacher for [course]",
+        [
+            "[professor] teaches [course]",
+            "value"
+        ]
+    ],
+    [
+        "Who is teaching [course]",
+        [
+            "[professor] teaches [course]",
+            "value"
+        ]
+    ],
+    [
+        "Who teaches [course]",
+        [
+            "[professor] teaches [course]",
+            "value"
+        ]
+    ],
+    [
+        "Who might teach [course]",
+        [
+            "Professor [professor] teaches [course]",
+            "value"
+        ]
+    ],
+    [
+        "Which professor teaches [course]",
+        [
+            "[professor] teaches [course]",
+            "value"
+        ]
+    ],
+    [
+        "Which person teaches [course]",
+        [
+            "[professor] teaches [course]",
+            "value"
+        ]
+    ],
+    [
+        "When is [course] offered",
+        [
+            "[course] are offered during the [quarter]",
+            "value"
+        ]
+    ],
+    [
+        "When can I take [course]",
+        [
+            "[course] are offered during the [quarter]",
+            "value"
+        ]
+    ],
+    [
+        "What quarters can I take [course]",
+        [
+            "[course] are offered during the [quarter]",
+            "value"
+        ]
+    ],
+    [
+        "What courses are offered in [quarter]",
+        [
+            "[courses] are offered during the [quarter]",
+            "list"
+        ]
+    ],
+    [
+        "Is [course] offered in [quarter]",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Can I take [course] in [quarter]",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Is [course] available in [quarter]",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "What are the section numbers of [course] in [quarter]",
+        [
+            "The section numbers of [course] are [sections]",
+            "value"
+        ]
+    ],
+    [
+        "How many sections of [course] are available in [quarter]",
+        [
+            "NUM([sections]) of [course] are available in [quarter]",
+            "list"
+        ]
+    ],
+    [
+        "What part of the day are the lectures offered for [course] in [quarter] by [professor]",
+        [
+            "The lecture times for [course] in [quarter] by [professor] are [times]",
+            "value"
+        ]
+    ],
+    [
+        "What time are the lectures for [course] in [quarter] by [professor]",
+        [
+            "The lecture times for [course] in [quarter] by [professor] are [times]",
+            "value"
+        ]
+    ],
+    [
+        "What are the lecture times for [course] in [quarter] by [professor]",
+        [
+            "The lecture times for [course] in [quarter] by [professor] are [times]",
+            "value"
+        ]
+    ],
+    [
+        "What part of the day are the labs offered for [course] in [quarter] by [professor]",
+        [
+            "The lab times for [course] in [quarter] by [professor] are [times]",
+            "value"
+        ]
+    ],
+    [
+        "What time are the labs for [course] in [quarter] by [professor]",
+        [
+            "The lab times for [course] in [quarter] by [professor] are [times]",
+            "value"
+        ]
+    ],
+    [
+        "What are the lab times for [course] in [quarter] by [professor]",
+        [
+            "The lab times for [course] in [quarter] by [professor] are [times]",
+            "value"
+        ]
+    ],
+    [
+        "Where is [course] [section]located",
+        [
+            "[location]",
+            "value"
+        ]
+    ],
+    [
+        "Where can I find [course] [section]",
+        [
+            "[location]",
+            "value"
+        ]
+    ],
+    [
+        "Where is [course] [section] classroom",
+        [
+            "[location]",
+            "value"
+        ]
+    ],
+    [
+        "What building is [course] in",
+        [
+            "[location]",
+            "value"
+        ]
+    ],
+    [
+        "Is [integer] the largest enrollment cap for [course]",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Where can I see [professor]",
+        [
+            "[location]",
+            "value"
+        ]
+    ],
+    [
+        "Where is [professor]\u2019s office",
+        [
+            "[location]",
+            "value"
+        ]
+    ],
+    [
+        "Where is [professor]\u2019s office located",
+        [
+            "[location]",
+            "value"
+        ]
+    ],
+    [
+        "Where are [professor]\u2019s office hours",
+        [
+            "[location]",
+            "value"
+        ]
+    ],
+    [
+        "Where can I find [professor] on campus for office hours",
+        [
+            "[location]",
+            "value"
+        ]
+    ],
+    [
+        "Is [location] [professor]\u2019s office",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Is [location] [professor]\u2019s office hours",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Will I find [professor] at [location]",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "How many sections are there for [course]",
+        [
+            "[sectioncount]",
+            "count"
+        ]
+    ],
+    [
+        "What is the capacity for [location]",
+        [
+            "[lcap]",
+            "value"
+        ]
+    ],
+    [
+        "What is the size of [location]",
+        [
+            "[lcap]",
+            "value"
+        ]
+    ],
+    [
+        "What is the class number for [course] [section]",
+        [
+            "[course]",
+            "value"
+        ]
+    ],
+    [
+        "Who is the department chair of [department]",
+        [
+            "[professor]",
+            "value"
+        ]
+    ],
+    [
+        "On what days is [professor] in office",
+        [
+            "[day]",
+            null
+        ]
+    ],
+    [
+        "On what days is [professor] out of the office",
+        [
+            "[day]",
+            null
+        ]
+    ],
+    [
+        "When are [professor] office hours",
+        [
+            "[day] [times]",
+            "list"
+        ]
+    ],
+    [
+        "When can I meet with [professor]",
+        [
+            "[day] [times]",
+            "list"
+        ]
+    ],
+    [
+        "When is the best time to meet with [professor]",
+        [
+            "[day] [times]",
+            "list"
+        ]
+    ],
+    [
+        "How can I see [professor]",
+        [
+            "[day] [times]",
+            "list"
+        ]
+    ],
+    [
+        "Does [professor] have office hours on [day]",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Is [professor] available on [day]",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Is [professor] in the office on [day]",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Is [professor] out of the office on [day]",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Is [professor] out on [day]",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "What is the largest enrollment cap for [course]",
+        [
+            "[ecap]",
+            "value"
+        ]
+    ],
+    [
+        "What is the maximum amount of students allowed for [course]",
+        [
+            "[ecap]",
+            "value"
+        ]
+    ],
+    [
+        "How many students can be enrolled in [course]",
+        [
+            "[ecap]",
+            "value"
+        ]
+    ],
+    [
+        "What is the enrollment cap for [course] that [professor] teaches",
+        [
+            "[ecap]",
+            "value"
+        ]
+    ],
+    [
+        "What is the enrollment cap for [course]",
+        [
+            "[ecap]",
+            "value"
+        ]
+    ],
+    [
+        "What is the cap for [course] that [professor] teaches",
+        [
+            "[ecap]",
+            "value"
+        ]
+    ],
+    [
+        "What is the max enrollment for [course] that [professor] teaches",
+        [
+            "[ecap]",
+            "value"
+        ]
+    ],
+    [
+        "What is the enrollment cap for [course] [section]",
+        [
+            "[ecap]",
+            "value"
+        ]
+    ],
+    [
+        "How many students can be enrolled in [course] [section]",
+        [
+            "[ecap]",
+            "value"
+        ]
+    ],
+    [
+        "What is [professor]\u2019s department",
+        [
+            "[department]",
+            "value"
+        ]
+    ],
+    [
+        "Which department does [professor] work under",
+        [
+            "[department]",
+            "value"
+        ]
+    ],
+    [
+        "Is [professor] in [department]",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Tell me the professors from [department]",
+        [
+            "[professor]",
+            "value"
+        ]
+    ],
+    [
+        "Does [course] have labs",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Are there labs for [course]",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Do I need to take a lab for [course]",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "What days is [course] [section] on",
+        [
+            "[day]",
+            null
+        ]
+    ],
+    [
+        "What type of class is [course] [section]",
+        [
+            "[type]",
+            "value"
+        ]
+    ],
+    [
+        "Is [course] a [type]",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "What is the title of [professor]",
+        [
+            "[title]",
+            "value"
+        ]
+    ],
+    [
+        "Who is [professor]",
+        [
+            "[title]",
+            "value"
+        ]
+    ],
+    [
+        "What does [professor] do",
+        [
+            "[title]",
+            "value"
+        ]
+    ],
+    [
+        "Who is using [location] in [quarter]",
+        [
+            "[professor]",
+            "value"
+        ]
+    ],
+    [
+        "Is [location] used in [quarter]",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Who is the current Computer Science department chair",
+        [
+            "[professor]",
+            "value"
+        ]
+    ],
+    [
+        "Who is the current Administrative Support Coordinator for the Computer Science department",
+        [
+            "[csc- administrative-support-coordinator]",
+            null
+        ]
+    ],
+    [
+        "Does Cal Poly offer a Blended Bachelors and Masters program in Computer Science",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Are there prerequisites for CSC123",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "What is the total number of units required for a Bachelors in Computer Science",
+        [
+            "180 units",
+            null
+        ]
+    ],
+    [
+        "What is the total number of units required for a Masters in Computer Science",
+        [
+            "45 units",
+            null
+        ]
+    ],
+    [
+        "What are the prerequisites for [course]",
+        [
+            "[prereqs-csse-course]",
+            "value"
+        ]
+    ],
+    [
+        "How many concentrations does the Computer Science department offer",
+        [
+            "1",
+            null
+        ]
+    ],
+    [
+        "What concentrations does the Computer Science department offer",
+        [
+            "Concentration in Interactive Entertainment",
+            null
+        ]
+    ],
+    [
+        "Does Cal Poly offer a Cross Disciplinary Studies Mi[bool]r in Data Science",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "What mi[bool]rs does the Computer Science department offer",
+        [
+            "[CSSE-Mi[bool]rs]",
+            "value"
+        ]
+    ],
+    [
+        "What requirements does a student need to meet to be qualified for the Computer Science Blended Program",
+        [
+            "Complete 20 units of CSC courses past CPE 203 and have a minimum GPA of 3.0",
+            null
+        ]
+    ],
+    [
+        "How many total students are currently in the Computer Science program",
+        [
+            "550 students",
+            null
+        ]
+    ],
+    [
+        "Approximately how many undergrad students are in the Computer Science program",
+        [
+            "450 undergrad students",
+            null
+        ]
+    ],
+    [
+        "Approximately how many graduate students are in the Computer Science program",
+        [
+            "More than 75 graduate students",
+            null
+        ]
+    ],
+    [
+        "What is the Computer Science department\u2019s email",
+        [
+            "computer-science@calpoly.edu",
+            null
+        ]
+    ],
+    [
+        "What is the Computer Science department\u2019s phone number",
+        [
+            "(805)756-282",
+            null
+        ]
+    ],
+    [
+        "How many faculty members are in the Computer Science department",
+        [
+            "49",
+            null
+        ]
+    ],
+    [
+        "How many affiliate faculty members are in the Computer Science department",
+        [
+            "2",
+            null
+        ]
+    ],
+    [
+        "How many active emeriti members are in the Computer Science department",
+        [
+            "2",
+            null
+        ]
+    ],
+    [
+        "How many staff members are in the Computer Science department",
+        [
+            "4",
+            null
+        ]
+    ],
+    [
+        "Is [professor] teaching [course] this quarter",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "What classes is [professor] teaching [quarter]",
+        [
+            "[faculty-csse-courses]",
+            "list"
+        ]
+    ],
+    [
+        "What is the building number for the Computer Science building",
+        [
+            "14",
+            null
+        ]
+    ],
+    [
+        "What are the two series options to complete the Physical Science Support Electives",
+        [
+            "Physics and Chemistry",
+            null
+        ]
+    ],
+    [
+        "How many units of free electives are allowed in the Computer Science curriculum",
+        [
+            "0 units",
+            null
+        ]
+    ],
+    [
+        "What is the Computer Science department\u2019s Instagram page",
+        [
+            "@cpcscandse",
+            null
+        ]
+    ],
+    [
+        "What are the hours for the Computer Science Department",
+        [
+            "9:00am-12:00pm and 1:00pm-4:00pm, [day] to [day]",
+            null
+        ]
+    ],
+    [
+        "Is [course] being offered in [quarter]",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "What courses in the Computer Science curriculum don\u2019t require any prerequisites ",
+        [
+            "[csse-courses]",
+            "list"
+        ]
+    ],
+    [
+        "Is the Computer Science office currently open",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Is [course] an approved technical elective",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Is double-counting allowed between Science Support Electives",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "How do I contact [professor] ",
+        [
+            "[csse-faculty-phonenumber]",
+            "value"
+        ]
+    ],
+    [
+        "What is [professor] \u2018s phone number",
+        [
+            "[csse-faculty-phonenumber]",
+            "value"
+        ]
+    ],
+    [
+        "Where is [professor]\u2019s office",
+        [
+            "[location]",
+            "value"
+        ]
+    ],
+    [
+        "Who is teaching STAT 302 this quarter",
+        [
+            "Walker, J; McGaughey, K",
+            null
+        ]
+    ],
+    [
+        "Do you offer the STAT 302 course on [day] and [day] this quarter",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "How many sections do you offer the STAT 302 course this quarter",
+        [
+            "3",
+            null
+        ]
+    ],
+    [
+        "What is [professor] \u2018s title",
+        [
+            "[csse-faculty-title]",
+            "value"
+        ]
+    ],
+    [
+        "Does [course] have a lab",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "What classes are [professor] teaching this quarter",
+        [
+            "[course] [course]",
+            "value"
+        ]
+    ],
+    [
+        "Who is in [location]",
+        [
+            "[professor]",
+            "value"
+        ]
+    ],
+    [
+        "Who is the current Statistics department chair",
+        [
+            "[stats-department-chair]",
+            "value"
+        ]
+    ],
+    [
+        "What are the prerequisites for [course]",
+        [
+            "[prereqs-stats-course]",
+            "value"
+        ]
+    ],
+    [
+        "What is the building number for the Math and Statistics building ",
+        [
+            "25",
+            null
+        ]
+    ],
+    [
+        "Where do I look for [quarter] schedule",
+        [
+            "https://schedules.calpoly.edu/",
+            null
+        ]
+    ],
+    [
+        "How many units is [course] ",
+        [
+            "[stats-course-unit]",
+            "value"
+        ]
+    ],
+    [
+        "Is [course] 4 units",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Is [professor] the current Computer Science department chair",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Where can I find [professor]\u2019s office",
+        [
+            "[location]",
+            "value"
+        ]
+    ],
+    [
+        "What time does [course][section] start on [day]",
+        [
+            "[csse-course-time-start] or There is [bool] class on [day]",
+            "value"
+        ]
+    ],
+    [
+        "I am looking for [course] on [day] ",
+        [
+            "[course][course] or There is [bool] class that is offered on [day]",
+            "value"
+        ]
+    ],
+    [
+        "I am looking for [course] on [day] after [time]",
+        [
+            "[course][course] or There is [bool] class that is offered on [day] after [time]",
+            "value"
+        ]
+    ],
+    [
+        "Where can I find the Computer Science building",
+        [
+            "Cal Poly campus building 14",
+            null
+        ]
+    ],
+    [
+        "Where can I find the Math and Statistics building",
+        [
+            "Cal Poly campus building 25",
+            null
+        ]
+    ],
+    [
+        "How many people drop [course][course] in [quarter]",
+        [
+            "[stats-course-drops]",
+            "value"
+        ]
+    ],
+    [
+        "Are there a lot of people dropping [course][section] in [quarter]",
+        [
+            "There are [stats-course-drops] people dropping this class in [quarter]",
+            "value"
+        ]
+    ],
+    [
+        "Do you offer [course] this quarter",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Where do I look for the Statistic class schedule this quarter",
+        [
+            "https://schedules.calpoly.edu/depts_76-CSM_curr.htm",
+            null
+        ]
+    ],
+    [
+        "Where do I look for the CSSE class schedule this quarter",
+        [
+            "https://schedules.calpoly.edu/depts_52-CENG_curr.htm",
+            null
+        ]
+    ],
+    [
+        "Does the Computer Science department offer classes on the weekend",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Is [professor] teaching [course] this quarter",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Is [professor] teaching [course] this quarter",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "How do I contact [professor]",
+        [
+            "Call [stats-faculty-phonenumber] or visit [location]",
+            "value"
+        ]
+    ],
+    [
+        "Is [professor]\u2019s office [location]",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Is [course] offered in Fall 2021",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Can I take [course] this quarter",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Do I need to take [course] after [course]",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Can I take [course] as a tech elective",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Does [course] count as a technical elective for Computer Science major",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Does [course] have a lab",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Whose office is in [location]",
+        [
+            "[professor]",
+            "value"
+        ]
+    ],
+    [
+        "What stats classes are offered in [quarter]",
+        [
+            "[stats-courses]",
+            "list"
+        ]
+    ],
+    [
+        "Can you tell me all stats classes offered in [quarter]",
+        [
+            "[stats-courses]",
+            "list"
+        ]
+    ],
+    [
+        "Is [course] waitlisted",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "is [professor] teaching [course]",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Who is teaching [course]",
+        [
+            "[professor]",
+            "value"
+        ]
+    ],
+    [
+        "What do I need to get into Computer Science blended program",
+        [
+            "Complete 20 units of CSC courses past CPE 203 and have a minimum GPA of 3.0",
+            null
+        ]
+    ],
+    [
+        "How many units do I need to take to get my Bachelors degree in CS",
+        [
+            "180 units",
+            null
+        ]
+    ],
+    [
+        "Does the computer science department have an instagram page",
+        [
+            "[bool], it\u2019s @cpcscandse",
+            "value"
+        ]
+    ],
+    [
+        "Can I take any free electives as a computer science major",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Can a computer science major have any free electives",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "How many units do I need to get a Master degree in computer science",
+        [
+            "45 units",
+            null
+        ]
+    ],
+    [
+        "Can I take [course] as a pre-req to [course]",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Is [course] a pre-req to [course]",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Is [course] required for [course]",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "Is the computer science department open during the weekend",
+        [
+            "[bool], they are available 9:00am-12:00pm and 1:00pm-4:00pm, [day] to [day]",
+            "value"
+        ]
+    ],
+    [
+        "Is [professor] still the department chair of Computer Science",
+        [
+            "[bool]",
+            "value"
+        ]
+    ],
+    [
+        "What time does [course] section [course] starts",
+        [
+            "[stat-course-time-start]",
+            "value"
+        ]
+    ],
+    [
+        "What\u2019s the earliest section for [course]",
+        [
+            "The earliest section is [section] taught by CSSE-Faculty] that starts at [csse-course-time-start]",
+            null
+        ]
+    ],
+    [
+        "What\u2019s the latest section for [course]",
+        [
+            "The latest section is [section] taught by CSSE-Faculty] that starts at [csse-course-time-start]",
+            null
+        ]
+    ],
+    [
+        "Are there any CSC courses offered before [time]",
+        [
+            "[csse-courses]",
+            "list"
+        ]
+    ],
+    [
+        "Are there any CSC courses offered after [time]",
+        [
+            "[csse-courses]",
+            "list"
+        ]
+    ],
+    [
+        "Are there any CSC courses offered after [time] but before [time] ",
+        [
+            "[csse-courses]",
+            "list"
+        ]
+    ],
+    [
+        "What time does [course] section [section] starts",
+        [
+            "[csse-course-time-start]",
+            "value"
+        ]
+    ],
+    [
+        "What time does [course] section [section] ends",
+        [
+            "[csse-course-time-end]",
+            "value"
+        ]
+    ],
+    [
+        "Where is the computer science building",
+        [
+            "Building 14",
+            null
+        ]
+    ],
+    [
+        "Where is the statistics building",
+        [
+            "Building 25",
+            null
+        ]
+    ]
+]
