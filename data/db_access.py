@@ -46,25 +46,30 @@ calpass_professor_properties = ClosedNamespace(
 )
 
 property_templates = {
-    calpass_professor_properties.classes_href: ('?prof', '?classes_href'),
-    calpass_professor_properties.personAlias: ('?prof', '?personAlias'),
-    calpass_professor_properties.personLocation: ('?prof', '?personLocation'),
-    calpass_professor_properties.personName: ('?prof', '?personName'),
-    calpass_professor_properties.personOfficeHours: ('?prof', '?personOfficeHours'),
-    calpass_professor_properties.personPhone: ('?prof', '?personPhone'),
-    calpass_professor_properties.personTitle: ('?prof', '?personTitle'),
-    calpass_professor_properties.teaches: ('?prof', '?course'),
+    calpass_professor_properties.classes_href: ('prof', 'classes_href'),
+    calpass_professor_properties.personAlias: ('prof', 'personAlias'),
+    calpass_professor_properties.personLocation: ('prof', 'personLocation'),
+    calpass_professor_properties.personName: ('prof', 'personName'),
+    calpass_professor_properties.personOfficeHours: ('prof', 'personOfficeHours'),
+    calpass_professor_properties.personPhone: ('prof', 'personPhone'),
+    calpass_professor_properties.personTitle: ('prof', 'personTitle'),
+    calpass_professor_properties.teaches: ('prof', 'course'),
 
-    calpass_course_properties.course_class : ('?course', '?course_class'),
-    calpass_course_properties.course_days : ('?course', '?course_days'),
-    calpass_course_properties.course_name : ('?course', '?course_name'),
-    calpass_course_properties.course_req : ('?course', '?course_req'),
-    calpass_course_properties.course_section : ('?course', '?course_section'),
-    calpass_course_properties.course_type : ('?course', '?course_type'),
-    calpass_course_properties.dropped : ('?course', '?dropped'),
-    calpass_course_properties.course_class : ('?course', '?course_class'),
-    calpass_course_properties.course_class : ('?course', '?course_class')
-
+    calpass_course_properties.course_class : ('course', 'course_class'),
+    calpass_course_properties.course_days : ('course', 'course_days'),
+    calpass_course_properties.course_name : ('course', 'course_name'),
+    calpass_course_properties.course_req : ('course', 'course_req'),
+    calpass_course_properties.course_section : ('course', 'course_section'),
+    calpass_course_properties.course_type : ('course', 'course_type'),
+    calpass_course_properties.dropped : ('course', 'dropped'),
+    calpass_course_properties.ecap : ('course', 'ecap'),
+    calpass_course_properties.end_time : ('course', 'end_time'),
+    calpass_course_properties.enrolled : ('course', 'enrolled'),
+    calpass_course_properties.location : ('course', 'location'),
+    calpass_course_properties.start_time : ('course', 'start_time'),
+    calpass_course_properties.waitlisted : ('course', 'waitlisted'),
+    calpass_course_properties.professor : ('course', 'prof'),
+    calpass_course_properties.section_of : ('course', 'course_node')
 }
 
 parse_map = {
@@ -120,6 +125,21 @@ def load_db(dbpath):
         assert rt == VALID_STORE, "The underlying store is corrupt"
 
     return g
+
+def query_prof_names(g):
+    result = g.query("""SELECT DISTINCT ?pname
+       WHERE {
+            ?prof ns:type ns:Person .
+            ?prof pns:personName ?pname .
+       }""", initNs={
+           'ns' : calpass_namespace,
+           'pns' : calpass_professor_properties,
+           'cns' : calpass_course_properties
+           })
+    results = []
+    for r in result:
+        results.append(r[0].toPython())
+    return results
 
 def literal_parser(text, prop):
     """parse a value for graph db based on its property type"""
