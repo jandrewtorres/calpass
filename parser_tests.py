@@ -11,9 +11,9 @@ import data
 g = dba.load_db('course_database')
 
 names = dba.query_prof_names(g)
-print(names)
+# print(names)
 
-parser = QuestionParser()
+parser = QuestionParser(names=names)
 
 # parser.entity_extraction_tokenizer('Where is the lab for CSC 456 located?')
 # parser.entity_extraction_tokenizer('Will Foaad teach csc-456 next quarter?')
@@ -30,9 +30,9 @@ parser = QuestionParser()
 # print(get_associated_properties(parser.entity_extraction_tokenizer('Who is teaching CSC-456 next quarter?')))
 # print(get_associated_properties(parser.entity_extraction_tokenizer('How many 500 level classes does Foaad teach?')))
 # print(get_associated_properties(parser.entity_extraction_tokenizer('What time does CSC 456 start on Monday?')))
-# print(get_associated_properties(parser.entity_extraction_tokenizer('Will Foaad teach csc-456 next quarter?')))
+print(get_associated_properties(parser.entity_extraction_tokenizer('Will Foaad teach csc-456 next quarter?')))
 
-parser.parse_question('Will Foaad teach csc-456 next quarter?')
+# parser.parse_question('Will Foaad teach csc-456 next quarter?')
 
 # rows = g.query(build_query_for(get_associated_properties(parser.entity_extraction_tokenizer('Will Foaad teach csc-456 next quarter?'))))
 

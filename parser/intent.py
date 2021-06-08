@@ -20,10 +20,14 @@ def build_query_for(properties):
     builder = query_builder.QueryBuilder()
     for prop in properties:
         print(prop)
-        if isinstance(prop, tuple):
+        if isinstance(prop, tuple): # property and value pairs, can be multiple properties
             template = db_access.property_templates[prop[0]]
             builder.add_property((template[0], prop[0], template[1]))
-        elif isinstance(prop, list):
+            #  TODO add all alternate properties as optional parts or query
+            # for p in prop[0]:
+            #     template = db_access.property_templates[p]
+            #     builder.add_property((template[0], prop[0], template[1]))
+        elif isinstance(prop, list): # list of db props without values
             for p in prop:
                 template = db_access.property_templates[p]
                 builder.add_property((template[0], p, template[1]))

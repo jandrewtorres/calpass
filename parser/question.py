@@ -16,6 +16,17 @@ class QuestionParser:
         self.number_pattern = re.compile(r'(\d+)')
         self.names = set([name.lower() for name in names])
 
+    def detect_name(self, word):
+        if len(word) > 2:
+            for n in self.names:
+                try:
+                    nin = re.search(r'({word})'.format(word=word), n, re.IGNORECASE)
+                    if nin:
+                        return n
+                except Exception as e:
+                    continue
+        return False
+
     def entity_extraction_tokenizer(self, text):
         tokens = []
         text = self.class_pattern.sub(r' \1-\2-\3 ', text)
@@ -25,7 +36,7 @@ class QuestionParser:
             word = word.lower()
             match = self.class_pattern.match(word)
             if match:
-                tokens.append((dba.calpass_course_properties.course_name, list(match.groups())))
+                tokens.append(([dba.calpass_course_properties.course_name], list(match.groups())))
                 continue
             match = self.time_pattern.match(word)
             if match:
@@ -35,8 +46,9 @@ class QuestionParser:
             if match:
                 tokens.append(('day', list(match.groups())))
                 continue
-            if word in self.names:
-                tokens.append((dba.calpass_professor_properties.personName, word))
+            name = self.detect_name(word)
+            if name:
+                tokens.append(([dba.calpass_professor_properties.personName], name))
                 continue
             match = self.number_pattern.match(word)
             if match:

@@ -2,9 +2,15 @@ import data.db_access as dba
 import rdflib
 from rdflib import Graph, Literal, URIRef, BNode
 
+class QueryFilter:
+    def __init__(self, varname):
+        pass
+
+
 class QueryBuilder:
     def __init__(self, distinct=False, vars=None):
         self.proplist = []
+        self.filterlist = []
         self.distinct = distinct
         self.varlist = set()
         if vars is not None:

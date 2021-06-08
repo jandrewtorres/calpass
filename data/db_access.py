@@ -162,23 +162,42 @@ def build_db(courses, profs, dbpath):
         node = BNode(alias)
         g.set((node, calpass_namespace.type, calpass_namespace.Person))
         for p, v in properties.items():
-            exval = literal_parser(v.strip(), calpass_professor_properties.term(p)) if v is not None else None
+            exval = literal_parser(v.strip().lower(), calpass_professor_properties.term(p)) if v is not None else None
             g.set((node, calpass_professor_properties.term(p), Literal(exval)))
 
     for course in courses:
-        course_node = BNode(course['course_name'])
-        section = BNode(course['course_name'] + '-' + course['course_section'])
+        course_name = re.sub(r'\s+', '-', course['course_name'].strip())
+        course_node = BNode(course_name)
+        section = BNode(course_name + '-' + course['course_section'].strip())
         g.set((course_node, calpass_namespace.type, calpass_namespace.Course))
         g.set((section, calpass_namespace.type, calpass_namespace.Section))
         g.set((section, calpass_course_properties.section_of, course_node))
         for p, v in course.items():
-            if p not in ['personName', 'prof_alias']:
+            if p not in ['personName', 'prof_alias', 'course_name', 'course_days']:
                 exval = literal_parser(v.strip(), calpass_course_properties.term(p)) if v is not None else None
                 g.set((section, calpass_course_properties.term(p), Literal(exval)))
             elif p == 'prof_alias':
                 prof = BNode(v) # professor node
                 g.set((section, calpass_course_properties.professor, prof))
                 g.add((prof, calpass_professor_properties.teaches, section))
+            elif p == 'course_name':
+                g.set((section, calpass_course_properties.term(p), Literal(course_name)))
+            elif p == 'course_days':
+                for d in v.lower():
+                    if d == 'm':
+                        g.add((section, calpass_course_properties.course_days, Literal('monday')))
+                    elif d == 't':
+                        g.add((section, calpass_course_properties.course_days, Literal('tuesday')))
+                    elif d == 'w':
+                        g.add((section, calpass_course_properties.course_days, Literal('wednesday')))
+                    elif d == 'r':
+                        g.add((section, calpass_course_properties.course_days, Literal('thursday')))
+                    elif d == 'f':
+                        g.add((section, calpass_course_properties.course_days, Literal('friday')))
+                    else:
+                        g.add((section, calpass_course_properties.course_days, Literal(None)))
+
+
 
     print(g.serialize(format='nt').decode("utf-8"))
     print(len(g))
