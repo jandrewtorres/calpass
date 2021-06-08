@@ -1,7 +1,8 @@
 import re
 import nltk
 from nltk.corpus import wordnet
-from parser import synonyms, get_associated_properties
+from parser import get_associated_properties
+from parser.knowledge_model import synonyms
 from parser.question import *
 
 parser = QuestionParser()
@@ -16,12 +17,14 @@ parser = QuestionParser()
 # parser.entity_extraction_tokenizer('How many 500 level classes does Foaad teach?')
 # parser.entity_extraction_tokenizer('What time does CSC 456 start on Monday?')
 
-get_associated_properties(parser.entity_extraction_tokenizer('Can I visit Foaad at 12:00?'))
-get_associated_properties(parser.entity_extraction_tokenizer('Where are Foaad\'s office hours?'))
-get_associated_properties(parser.entity_extraction_tokenizer('Who is teaching CSC-456 next quarter?'))
-get_associated_properties(parser.entity_extraction_tokenizer('How many 500 level classes does Foaad teach?'))
-get_associated_properties(parser.entity_extraction_tokenizer('What time does CSC 456 start on Monday?'))
-get_associated_properties(parser.entity_extraction_tokenizer('Will Foaad teach csc-456 next quarter?'))
+print(get_associated_properties(parser.entity_extraction_tokenizer('Can I visit Foaad at 12:00?')))
+print(get_associated_properties(parser.entity_extraction_tokenizer('Where are Foaad\'s office hours?')))
+print(get_associated_properties(parser.entity_extraction_tokenizer('Who is teaching CSC-456 next quarter?')))
+print(get_associated_properties(parser.entity_extraction_tokenizer('How many 500 level classes does Foaad teach?')))
+print(get_associated_properties(parser.entity_extraction_tokenizer('What time does CSC 456 start on Monday?')))
+print(get_associated_properties(parser.entity_extraction_tokenizer('Will Foaad teach csc-456 next quarter?')))
+
+parser.parse_question('Will Foaad teach csc-456 next quarter?')
 
 def example_question_cleaning():
     questions = []
