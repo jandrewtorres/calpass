@@ -2,7 +2,6 @@ import data.db_access as dba
 import rdflib
 from rdflib import Graph, Literal, URIRef, BNode
 
-
 class QueryBuilder:
     def __init__(self, distinct=False, vars=None):
         self.proplist = []

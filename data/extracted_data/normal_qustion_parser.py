@@ -88,6 +88,14 @@ def parse_example_question_file(file, var_map=None, replace=None, types=None):
     return variables, questions, answers
 
 
+def load_question_file(filename):
+    infile = pathlib.Path(filename)
+    if infile.exists() and infile.is_file():
+        with infile.open(mode='r') as io:
+            data = json.load(io)
+        return data
+    return None
+
 def main():
     parser = argparse.ArgumentParser(description='question parser')
     parser.add_argument(dest='infile', metavar='I', type=str, help='input file')
