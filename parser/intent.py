@@ -5,9 +5,11 @@ from rdflib import URIRef
 def get_associated_properties(entity_extracted_token_list):
     properties = []
     for t in entity_extracted_token_list:
+        print(t)
         if not isinstance(t[0], URIRef):
             if not isinstance(t, str):
-                properties.append((object_name_associations[t[0]], t[1]))
+                for p in t[0]:
+                    properties.append((object_name_associations[p], t[1]))
             else:
                 otherprops = object_name_associations[t]
                 if len(otherprops) > 0:
@@ -18,11 +20,12 @@ def get_associated_properties(entity_extracted_token_list):
 
 def build_query_for(properties):
     builder = query_builder.QueryBuilder()
+    # print(properties)
     for prop in properties:
-        print(prop)
-        if isinstance(prop, tuple): # property and value pairs, can be multiple properties
-            template = db_access.property_templates[prop[0]]
-            builder.add_property((template[0], prop[0], template[1]))
+        if isinstance(prop, tuple): # property and value pairs
+            known_prop, value = prop
+            template = db_access.property_templates[known_prop]
+            builder.add_property((template[0], known_prop, template[1]), filter=value)
             #  TODO add all alternate properties as optional parts or query
             # for p in prop[0]:
             #     template = db_access.property_templates[p]

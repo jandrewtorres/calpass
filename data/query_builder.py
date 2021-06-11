@@ -22,11 +22,17 @@ class QueryBuilder:
     # predicate either string or reflib URIRef
     # object either string or rdflib BNode or rdflib Literal
     # if isfinalvar is true, variables will be added to select statement
-    def add_property(self, prop, isfinalvar = False):
+    # filter is value for property
+    def add_property(self, prop, isfinalvar = False, filter = None):
         self.proplist.append(prop)
         for p in prop:
             if not (isinstance(p, Literal) or isinstance(p, BNode) or isinstance(p, URIRef)) and isfinalvar:
                 self.varlist.add(p)
+        if filter is not None:
+            ff = dba.filter_from_value_for_prop[prop[1]]
+            if ff is not None:
+                self.filterlist.append(ff(filter))
+
 
     def format_var(self, varname):
         return '?' + str(varname)
@@ -69,6 +75,8 @@ class QueryBuilder:
         query += ' WHERE { \n'
         for p in self.proplist:
             query += f'{self.format_subject(p[0])} {self.format_predicate(p[1])} {self.format_object(p[2])} .\n'
+        for f in self.filterlist:
+            query += 'FILTER ' + f + '\n'
         query += '}'
 
         return query

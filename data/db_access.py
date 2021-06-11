@@ -72,6 +72,33 @@ property_templates = {
     calpass_course_properties.section_of : ('course', 'course_node')
 }
 
+filter_from_value_for_prop = {
+    calpass_professor_properties.classes_href: (lambda v : f'regex(?classes_href, "{v}", "i")'),
+    calpass_professor_properties.personAlias: (lambda v : f'regex(?personAlias, "{v}", "i")'),
+    calpass_professor_properties.personLocation: (lambda v : f'regex(?personLocation, "{v}", "i")'),
+    calpass_professor_properties.personName: (lambda v : f'regex(?personName, "{v}", "i")'),
+    calpass_professor_properties.personOfficeHours: None,
+    calpass_professor_properties.personPhone: (lambda v : f'regex(?personPhone, "{v}", "i")'),
+    calpass_professor_properties.personTitle: (lambda v : f'regex(?personTitle, "{v}", "i")'),
+    calpass_professor_properties.teaches: None,
+
+    calpass_course_properties.course_class : (lambda v : f'regex(?course_class, "{v[0]}-{v[1]}", "i")'),
+    calpass_course_properties.course_days : None,
+    calpass_course_properties.course_name : (lambda v : f'regex(?course_name, "{v[0]}-{v[1]}", "i")'),
+    calpass_course_properties.course_req : None,
+    calpass_course_properties.course_section : None,
+    calpass_course_properties.course_type : None,
+    calpass_course_properties.dropped : None,
+    calpass_course_properties.ecap : None,
+    calpass_course_properties.end_time : None,
+    calpass_course_properties.enrolled : None,
+    calpass_course_properties.location : None,
+    calpass_course_properties.start_time : None,
+    calpass_course_properties.waitlisted : None,
+    calpass_course_properties.professor : None,
+    calpass_course_properties.section_of : None
+}
+
 parse_map = {
     calpass_professor_properties.classes_href : (re.compile(r'(.*)'), lambda f : f),
     calpass_professor_properties.personLocation : (re.compile(r'([\d\w]+)-([\d\w]+)', re.IGNORECASE), lambda b, r : f'{b} {r}'),

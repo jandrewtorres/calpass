@@ -36,7 +36,7 @@ class QuestionParser:
             word = word.lower()
             match = self.class_pattern.match(word)
             if match:
-                tokens.append(([dba.calpass_course_properties.course_name], list(match.groups())))
+                tokens.append((dba.calpass_course_properties.course_name, list(match.groups())))
                 continue
             match = self.time_pattern.match(word)
             if match:
@@ -48,7 +48,7 @@ class QuestionParser:
                 continue
             name = self.detect_name(word)
             if name:
-                tokens.append(([dba.calpass_professor_properties.personName], name))
+                tokens.append((dba.calpass_professor_properties.personName, name))
                 continue
             match = self.number_pattern.match(word)
             if match:
