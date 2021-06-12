@@ -20,9 +20,10 @@ Spring 2021
     
 - Hunter Borlik
 
-## Run Cal
+## How to Run CalPass
 
-`$ calpass`
+1) Run rebuild_db.py (only need to do so once)
+2) Run calpass.py
 
 ## Dev notes
 

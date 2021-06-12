@@ -3,15 +3,39 @@ import pathlib
 import re
 import json
 
-def parse_file(file, var_map=None, replace=None):
-    question_answer_pattern = re.compile(r"^[\w\s]*\|\s*([^?|]*)(?:[?\s|.]*)\s*(.*)")
-    variable_pattern = re.compile(r"\[([^\[\]]*)\]")
+question_answer_pattern = re.compile(r"^[\w\s]*\|\s*([^?|]*)(?:[?\s|.]*)\s*(.*)")
+variable_pattern = re.compile(r"\[([^\[\]]*)\]")
 
-    day_pattern = re.compile(r"(monday|tuesday|wednesday|thursday|friday|saturday|sunday)", re.IGNORECASE)
+day_pattern = re.compile(r"(monday|tuesday|wednesday|thursday|friday|saturday|sunday)", re.IGNORECASE)
+time_pattern = re.compile(r'(\d{1,2})(?=pm|am|:)(?::(\d{2}))?(am|pm)?', re.IGNORECASE)
+words_pattern = re.compile(r'([^\s\w]|_)+', re.IGNORECASE)
 
+def type_str_from_answer(text, types):
+    match = variable_pattern.findall(text)
+    try:
+        if len(match) > 0:
+            found_type = None
+            for v in match:
+                varn = v.replace('[', '').replace(']', '')
+                if varn in types:
+                    found_type = types[varn]
+                    break
+            if found_type is None:
+                raise Exception(f'untyped variable{match}')
+            return found_type
+        else:
+            raise Exception('no match')
+    except Exception as e:
+        print(f'failed to type variable for \'{text}\': {str(e)}')
+    return None
+    
+
+def parse_example_question_file(file, var_map=None, replace=None, types=None):
     variables = set()
     questions = []
+    answers = []
     replace = {} if replace is None else replace
+    types = {} if types is None else types
 
     if file.exists() and file.is_file():
         for line in file.open().readlines():
@@ -24,8 +48,8 @@ def parse_file(file, var_map=None, replace=None):
                 answer = groups[1]
 
                 for r,s in replace.items():
-                    question = re.sub(r, s, question)
-                    answer = re.sub(r, s, answer)
+                    question = re.sub(r, s, question, flags=re.IGNORECASE)
+                    answer = re.sub(r, s, answer, flags=re.IGNORECASE)
 
                 question = re.sub(r"\s+", ' ', question)
                 answer = re.sub(r"\s+", ' ', answer)
@@ -45,12 +69,14 @@ def parse_file(file, var_map=None, replace=None):
                             string = re.sub(f'\[{v}\]', f'[{v.lower()}]', string, flags=re.IGNORECASE)
                     va = variable_pattern.findall(string)
                     return string, va
-                question, var = var_replacer(question)
-                # answer = var_replacer(answer)
+                question, var_q = var_replacer(question)
+                answer, var_a = var_replacer(answer)
+                # print(answer)
                 # print(question)
                 # print(f'{groups[0]} -> {question}')
                 questions.append(question)
-                for v in var:
+                answers.append((answer, type_str_from_answer(answer, types)))
+                for v in [y for x in (var_q, var_a) for y in x]:
                     variables.add(v.lower())
             else:
                 if len(line) > 0:
@@ -59,8 +85,16 @@ def parse_file(file, var_map=None, replace=None):
     else:
         raise Exception(f"no file {file.absolute()}")
 
-    return variables, questions
+    return variables, questions, answers
 
+
+def load_question_file(filename):
+    infile = pathlib.Path(filename)
+    if infile.exists() and infile.is_file():
+        with infile.open(mode='r') as io:
+            data = json.load(io)
+        return data
+    return None
 
 def main():
     parser = argparse.ArgumentParser(description='question parser')
@@ -68,7 +102,7 @@ def main():
 
     parser.add_argument('--dump-vars', dest='vars', action='store_true', required=False, help='output set of var strings in file')
     parser.add_argument('--var-file', type=str, required=False, help='file to load or store variable mappings', metavar='V', dest='varfile')
-    parser.add_argument('--out', type=str, required=False, help='file to store parsed questions', metavar='o', dest='outfile')
+    parser.add_argument('--out', type=str, required=False, help='file to store parsed questions (json)', metavar='o', dest='outfile')
 
     args = parser.parse_args()
     # for f in pathlib.Path(args.indir).glob('*.txt'):
@@ -91,16 +125,24 @@ def main():
                 print(f'invalid var_map file {e}')
 
 
-    var, questions = parse_file(file, var_map["map"], var_map["replace"])
+    var, questions, answers = parse_example_question_file(file, var_map["map"], var_map["replace"], var_map['types'])
 
-    if args.varfile and not varfile.exists():
+    if args.varfile:
         if var_map is None:
             var_map = {}
-            for v in var:
-                var_map.update({v : None})
-        varfile.touch(mode=0o755)
+            var_map['map'] = {}
+            var_map['replace'] = {}
+            var_map['types'] = {}
+        for v in var:
+            if v not in var_map['map']:
+                var_map['map'].update({v : None})
+            if var_map['map'][v] is None:
+                if v not in var_map['types']:
+                    var_map['types'].update({v : None})
+        if not varfile.exists():
+            varfile.touch(mode=0o755)
         with varfile.open(mode='w') as wo:
-            wo.write(json.dumps(var_map))
+            wo.write(json.dumps(var_map, indent=4))
 
     if args.vars:
         print(list(var))
@@ -113,7 +155,7 @@ def main():
         outfile.touch(mode=0o755)
         if outfile.exists() and outfile.is_file():
             with outfile.open(mode='w') as wo:
-                wo.writelines([q + '\n' for q in questions])
+                wo.write(json.dumps(list(zip(questions, answers)), indent=4))
         else:
             print(f'{outfile.absolute()} is not a valid destination')
             exit(-1)

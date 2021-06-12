@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-
-python main.py
+python rebuild_db.py
+python calpass.py
